@@ -1,0 +1,20 @@
+RewriteEngine on
+RewriteOptions inherit
+#RewriteBase /
+
+RewriteRule ^register/regular-5$ register.php?type=regular-5 [L]
+RewriteRule ^register/regular-1$ register.php?type=regular-1 [L]
+RewriteRule ^register/student$ register.php?type=student [L]
+RewriteRule ^register/exhibitor$ register.php?type=exhibitor [L]
+RewriteRule ^payment-successful$ result.php?type=success [L]
+RewriteRule ^payment-error$ result.php?type=error [L]
+RewriteRule ^about$ index.php?about=1 [L]
+
+RewriteCond %{DOCUMENT_ROOT}/$1\.php -f
+RewriteRule (.*) $1.php [L,QSA]
+#RewriteCond %{DOCUMENT_ROOT}/$1\.html -f
+#RewriteRule (.*) $1.html [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule (.*) index.php [L,QSA]

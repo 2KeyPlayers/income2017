@@ -1,0 +1,45 @@
+CREATE DATABASE IF NOT EXISTS income2017;
+ 
+USE income2017;
+
+/*SHOW ENGINE INNODB STATUS;*/
+
+DROP TABLE IF EXISTS Participant;
+DROP TABLE IF EXISTS Affiliation;
+
+CREATE TABLE IF NOT EXISTS Affiliation (
+  id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(100) NOT NULL,
+  street VARCHAR(50) NOT NULL,
+  nr VARCHAR(10) NOT NULL,
+  city VARCHAR(50) NOT NULL,
+  zipcode VARCHAR(10) NOT NULL,
+  country VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS Participant (
+  id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  gender VARCHAR(1) NOT NULL,
+  degree VARCHAR(10),
+  firstname VARCHAR(50) NOT NULL,
+  lastname VARCHAR(50) NOT NULL,
+  email VARCHAR(100) NOT NULL,
+  pwd VARCHAR(50) NOT NULL,
+  phone VARCHAR(50),
+  registration VARCHAR(10) NOT NULL,
+  registered TIMESTAMP,
+  payment_id VARCHAR(10),
+  amount INT NOT NULL,
+  payment VARCHAR(1) NOT NULL DEFAULT 'N',
+  paid TIMESTAMP NULL,
+  presentation VARCHAR(10) NOT NULL,
+  title VARCHAR(256),
+  abstract VARCHAR(1) NOT NULL DEFAULT 'N',
+  submitted TIMESTAMP NULL,
+  affiliation_id INT UNSIGNED NOT NULL,
+  INDEX aff_ind (affiliation_id),
+  FOREIGN KEY (affiliation_id)
+  REFERENCES Affiliation(id)
+  ON UPDATE NO ACTION
+  ON DELETE RESTRICT
+);
