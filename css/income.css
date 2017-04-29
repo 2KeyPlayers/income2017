@@ -420,6 +420,13 @@ ul.w3-ul li {
 .fee .border {
   border-right: 1px solid #eee;
 }
+#main a.plusminus {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+#main a.plusminus.disabled {
+  color: #d9d9d9 !important;
+}
 
 ul.w3-ul.banking, ul.w3-ul.personal, ul.w3-ul.affiliation {
   font-size: 20px;

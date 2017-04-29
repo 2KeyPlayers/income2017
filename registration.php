@@ -106,7 +106,7 @@
     </div>
     <div class="section right w3-half">
 	  <div class="fee w3-card">
-        <h3>Regular participant - 1 day</h3>
+        <h3>Regular participant - <span id="">1</span> day</h3>
         <div class="w3-row" style="padding-bottom:0">
           <div class="w3-half w3-center border">
             <h1 class="red">70 &euro;</h1><span class="red">until 30.04.2017</span>
@@ -117,6 +117,7 @@
         </div>
         <div style="padding-bottom:7px;padding-top:0">
 		      <hr />
+          <!--p><a class="plusminus disabled" href=""><i class="fa fa-minus-square"></i></a> One day access <a class="plusminus" href=""><i class="fa fa-plus-square"></i></a></p-->
           <p>One day access</p>
 		      <hr />
           <p>Limited quantity</p>
@@ -195,7 +196,7 @@
       <h1 class="empty">&nbsp;</h1>
       <h3>Credit card</h3>
       <!--p>Credit card payments will be activated on <span class="start">15.02.2017</span> in <span class="days"></span> days <span class="hours"></span> hours <span class="minutes"></span> minutes <span class="seconds"></span> seconds.</p-->
-      <p>Credit card payment is provided by <a href="https://www.vub.sk/en/personal-finance/" target="_blank">VÚB Banka</a> using <a href="https://www.vub.sk/en/companies-entrepreneurs/accounts-services/payments/ecommerce-merchants/vub-ecard/" target="_blank">VUB eCard</a> service. Following cards are accepted by eCard:</p>
+      <p>Credit card payment is provided by <a href="https://www.vub.sk/en/personal-finance/" target="_blank">VUB Banka</a> using <a href="https://www.vub.sk/en/companies-entrepreneurs/accounts-services/payments/ecommerce-merchants/vub-ecard/" target="_blank">VUB eCard</a> service. Following cards are accepted by eCard:</p>
       <h1 class="grey"><i class="fa fa-cc-mastercard"></i> <i class="fa fa-cc-visa"></i> <i class="fa fa-cc-diners-club"></i></h1>
       <div class="status-message visible">
         <p class="warning message w3-center">After clicking the Log in button you will be redirected to a secured connection. Please add and confirm an exception for &apos;income2017.saske.sk&apos; to continue.</p>
