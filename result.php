@@ -84,7 +84,7 @@ error_reporting (E_ALL ^ E_NOTICE);
 
   <div class="section full w3-container" style="text-align:center">
 <?php
-$vub = new VubEcard\VubEcard(12345678, "xxx", null, false);
+$vub = new VubEcard\VubEcard(VUB_ID, VUB_KEY, null, false);
 $result = "NOK";
 
 if ($vub->validateResponse($_POST)) {

@@ -180,7 +180,7 @@
     <p style="padding-bottom:20px">In state of finalization...</p>
     <div class="w3-row-padding">
       <div class="speaker w3-col m4 l3 w3-center">
-        <div class="w3-container"><img class="w3-circle" src="/img/speaker/speaker.png" alt="Peter Billik" /></div>
+        <div class="w3-container"><img class="w3-circle" src="/img/speaker/PeterBillik.jpg" alt="Peter Billik" /></div>
         <h3>Peter Billik</h3>
         <p class="uni">Faculty of Natural Sciences, Comenius University, Slovakia</p>
       </div>

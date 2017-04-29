@@ -1,11 +1,8 @@
  <?php
-$servername = "localhost";
-$username = "income2017";
-$password = "xxx";
-$dbname = "income2017";
+include "./inc/config.inc";
 
 // create connection
-$conn = mysqli_connect($servername, $username, $password, $dbname);
+$conn = mysqli_connect(SERVERNAME, USERNAME, PASSWORD, DBNAME);
 
 // check connection
 if (!$conn) {

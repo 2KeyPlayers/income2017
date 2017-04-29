@@ -205,7 +205,7 @@ if ($post) {
     <div class="buttons section full w3-container w3-center">
 <?php
 if ($post && !$error) {
-  $vub = new VubEcard\VubEcard(12345678, "xxx", null, false);
+  $vub = new VubEcard\VubEcard(VUB_ID, VUB_KEY, null, false);
   $vub->setCallbackUrlSuccesfull("https://income2017.saske.sk/payment-successful");
   $vub->setCallbackUrlError("https://income2017.saske.sk/payment-error");
   $vub->setOrderDetails($paymentid, $amount);

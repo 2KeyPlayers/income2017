@@ -591,7 +591,7 @@ ul.w3-ul.banking, ul.w3-ul.personal, ul.w3-ul.affiliation {
 form .buttons {
   padding-top: 0px !important;
 }
-#registration-form .register, #login-form .login, form.vub .pay {
+#registration-form .register, #login-form .login, form.vub .pay, #instructions .download {
   background-color: #0070c0;
 }
 

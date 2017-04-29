@@ -1,8 +1,11 @@
 <?php
-define ('SERVERNAME', 'localhost');
-define ('USERNAME', 'income2017');
-define ('PASSWORD', 'xxx');
-define ('DBNAME', 'income2017');
+define ('SERVERNAME', '???');
+define ('USERNAME', '???');
+define ('PASSWORD', '???');
+define ('DBNAME', '???');
+
+define ('VUB_ID', 12345678);
+define ('VUB_KEY', '???');
 
 define ('FROM', 'income2017@saske.sk');
 define ('SUBJECT', 'Registration @ INCOME2017');
