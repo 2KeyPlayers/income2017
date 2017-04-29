@@ -2,8 +2,11 @@ RewriteEngine on
 RewriteOptions inherit
 #RewriteBase /
 
-RewriteRule ^register/regular-5$ register.php?type=regular-5 [L]
 RewriteRule ^register/regular-1$ register.php?type=regular-1 [L]
+RewriteRule ^register/regular-2$ register.php?type=regular-2 [L]
+RewriteRule ^register/regular-3$ register.php?type=regular-3 [L]
+RewriteRule ^register/regular-4$ register.php?type=regular-4 [L]
+RewriteRule ^register/regular-5$ register.php?type=regular-5 [L]
 RewriteRule ^register/student$ register.php?type=student [L]
 RewriteRule ^register/exhibitor$ register.php?type=exhibitor [L]
 RewriteRule ^payment-successful$ result.php?type=success [L]

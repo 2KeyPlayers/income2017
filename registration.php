@@ -55,6 +55,41 @@
 
 <script src="/js/jquery-1.12.0.min.js" type="text/javascript"></script>
 <script src="/js/script.js" type="text/javascript"></script>
+<script type="text/javascript">
+var nrOfDays = 1;
+
+function minusOneDay() {
+  if (nrOfDays > 1) {
+    nrOfDays--;
+    $(".nr-of-days").html(nrOfDays + " day" + ((nrOfDays > 1) ? "s" : ""));
+    $(".sum-until").html(nrOfDays * 70);
+    $(".sum-after").html(nrOfDays * 100);
+    $(".regular-x").attr("href", "/register/regular-" + nrOfDays);
+    if (nrOfDays == 1) {
+      $(".minus").addClass("disabled");
+    } else {
+      $(".minus").removeClass("disabled");
+    }
+    $(".plus").removeClass("disabled");
+  }
+}
+
+function plusOneDay() {
+  if (nrOfDays < 4) {
+    nrOfDays++;
+    $(".nr-of-days").html(nrOfDays + " day" + ((nrOfDays > 1) ? "s" : ""));
+    $(".sum-until").html(nrOfDays * 70);
+    $(".sum-after").html(nrOfDays * 100);
+    $(".regular-x").attr("href", "/register/regular-" + nrOfDays);
+    if (nrOfDays == 4) {
+      $(".plus").addClass("disabled");
+    } else {
+      $(".plus").removeClass("disabled");
+    }
+    $(".minus").removeClass("disabled");
+  }
+}
+</script>
 
 <body>
 
@@ -106,23 +141,22 @@
     </div>
     <div class="section right w3-half">
 	  <div class="fee w3-card">
-        <h3>Regular participant - <span id="">1</span> day</h3>
+        <h3>Regular participant - <span class="nr-of-days">1 day</span></h3>
         <div class="w3-row" style="padding-bottom:0">
           <div class="w3-half w3-center border">
-            <h1 class="red">70 &euro;</h1><span class="red">until 30.04.2017</span>
+            <h1 class="red"><span class="sum-until">70</span> &euro;</h1><span class="red">until 30.04.2017</span>
           </div>
           <div class="w3-half w3-center">
-            <h1>100 &euro;</h1>after 30.04.2017
+            <h1><span class="sum-after">100</span> &euro;</h1>after 30.04.2017
           </div>
         </div>
         <div style="padding-bottom:7px;padding-top:0">
 		      <hr />
-          <!--p><a class="plusminus disabled" href=""><i class="fa fa-minus-square"></i></a> One day access <a class="plusminus" href=""><i class="fa fa-plus-square"></i></a></p-->
-          <p>One day access</p>
+          <p><a class="minus plusminus disabled" href="javascript:minusOneDay()"><i class="fa fa-minus-square"></i></a> Daily access <a class="plus plusminus" href="javascript:plusOneDay()"><i class="fa fa-plus-square"></i></a></p>
 		      <hr />
           <p>Limited quantity</p>
         </div>
-        <a href="/register/regular-1" class="register w3-btn-block">REGISTER&nbsp;&nbsp;❯</a>
+        <a href="/register/regular-1" class="regular-x register w3-btn-block">REGISTER&nbsp;&nbsp;❯</a>
       </div>
     </div>
     <div class="section left w3-half">

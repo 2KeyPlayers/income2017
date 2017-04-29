@@ -27,7 +27,7 @@ define ('PAYMENT_ERROR_PART_2', " was not successful!");
 define ('PAYMENT_ERROR_PART_3', "\r\n\r\nKind regards,\r\nOrganizers of INCOME2017");
 
 define ('REQUIRED', 'Please fill in all required fields.');
-define ('INVALID_TYPE', 'Invalid registration type. Only Regular-5, Regular-1 and Student are allowed.');
+define ('INVALID_TYPE', 'Invalid registration type. Only Regular-1 to Regular-5 and Student are allowed.');
 define ('INVALID_EMAIL', 'Invalid e-mail address. Please use a valid e-mail address (email@address.com).');
 define ('INVALID_PHONE', 'Invalid phone number. Please use a valid format (+42123456789).');
 define ('AGREEMENT', 'Your agreement is required.');

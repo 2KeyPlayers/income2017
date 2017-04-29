@@ -71,7 +71,7 @@ if ($post) {
   }
 
   // check type of registration
-  if (($type != "regular-5") && ($type != "regular-1") && ($type != "student") && ($type != "exhibitor")) {
+  if (($type != "regular-1") && ($type != "regular-2") && ($type != "regular-3") && ($type != "regular-4") && ($type != "regular-5") && ($type != "student") && ($type != "exhibitor")) {
     $error .= INVALID_TYPE;
   }
 
@@ -119,8 +119,9 @@ if ($post) {
     if ($type == "regular-5") {
       $amount= ($early ? 350 : 400);
     }
-    else if ($type == "regular-1") {
-      $amount= ($early ? 70 : 100);
+    else if (($type == "regular-1") || ($type == "regular-2") || ($type == "regular-3") || ($type == "regular-4")) {
+      $nrOfDays = intval(substr($type, -1));
+      $amount= $nrOfDays * ($early ? 70 : 100);
     }
     else if ($type == "student") {
       $amount= ($early ? 170 : 200);
