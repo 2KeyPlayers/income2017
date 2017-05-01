@@ -220,7 +220,7 @@
         <p class="uni">BAM Federal Institute for Materials Research and Testing, Germany</p>
       </div>
       <div class="speaker w3-col m4 l3 w3-center">
-        <div class="w3-container"><img class="w3-circle" src="/img/speaker/speaker.png" alt="Tomislav Friščić" /></div>
+        <div class="w3-container"><img class="w3-circle" src="/img/speaker/TomislavFriscic.jpg" alt="Tomislav Friščić" /></div>
         <h3>Tomislav Friščić</h3>
         <p class="uni">Department of Chemistry and FRQNT Centre for Green Chemistry and Catalysis, McGill University, Canada</p>
       </div>
