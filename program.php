@@ -177,7 +177,7 @@
 
   <div id="speakers" class="section full w3-container">
     <h1><i class="fa fa-user icon"></i> Invited / Plenary speakers</h1>
-    <p style="padding-bottom:20px">In state of finalization...</p>
+    <!--p style="padding-bottom:20px">In state of finalization...</p-->
     <div class="w3-row-padding">
       <div class="speaker w3-col m4 l3 w3-center">
         <div class="w3-container"><img class="w3-circle" src="/img/speaker/PeterBillik.jpg" alt="Peter Billik" /></div>
@@ -225,7 +225,7 @@
         <p class="uni">Department of Chemistry and FRQNT Centre for Green Chemistry and Catalysis, McGill University, Canada</p>
       </div>
       <div class="speaker w3-col m4 l3 w3-center">
-        <div class="w3-container"><img class="w3-circle" src="/img/speaker/speaker.png" alt="Antonio F. Fuentes" /></div>
+        <div class="w3-container"><img class="w3-circle" src="/img/speaker/AntonioFFuentes.jpg" alt="Antonio F. Fuentes" /></div>
         <h3>Antonio F. Fuentes</h3>
         <p class="uni">Cinvestav Unidad Saltillo, Mexico</p>
       </div>
