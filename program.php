@@ -275,7 +275,7 @@
         <p class="uni">Faculty of Science and Technology, Keio University, Japan</p>
       </div>
       <div class="speaker w3-col m4 l3 w3-center">
-        <div class="w3-container"><img class="w3-circle" src="/img/speaker/speaker.png" alt="Tatyana P. Shakhtshneyder" /></div>
+        <div class="w3-container"><img class="w3-circle" src="/img/speaker/TatyanaPShakhtshneyder.jpg" alt="Tatyana P. Shakhtshneyder" /></div>
         <h3>Tatyana P. Shakhtshneyder</h3>
         <p class="uni">Institute of Solid State Chemistry and Mechanochemistry, Siberian Branch of the Russian Academy of Sciences, Russia</p>
       </div>

@@ -15,7 +15,7 @@ define ('MESSAGE_PART_3', "\r\nYour password is: ");
 define ('MESSAGE_PART_4', "\r\nAmount to pay: ");
 define ('MESSAGE_PART_PRESENTATION_1', "\r\n\r\nThe title of your ");
 define ('MESSAGE_PART_PRESENTATION_2', " presentation is: ");
-define ('MESSAGE_PART_ABSTRACT', "\r\nPlease submit your abstract by sending it to income2017@saske.sk until 30.04.2017.");
+define ('MESSAGE_PART_ABSTRACT', "\r\nPlease submit your abstract by sending it to income2017@saske.sk until 31.05.2017.");
 define ('MESSAGE_PART_5', "\r\n\r\nWe're looking forward to meeting you in Košice.\r\n\r\nKind regards,\r\nOrganizers of INCOME2017");
 
 define ('PAYMENT_SUBJECT', 'Payment @ INCOME2017');

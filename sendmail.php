@@ -113,7 +113,7 @@ if ($post) {
   if (!$error) {
 
     // is early registration?
-    $early = ("20170516" > date("Ymd"));
+    $early = ("20170601" > date("Ymd"));
 
     $amount = 0;
     if ($type == "regular-5") {

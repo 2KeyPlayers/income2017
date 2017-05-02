@@ -136,7 +136,6 @@
           <h3><i class="fa fa-map-marker icon"></i> Bratislava (~410 km)</h3>
           <p>Train</p>
           <ul class="w3-ul w3-margin-left">
-            <li><div class="fa fa-train icon"></div> <a href="https://www.studentagency.eu/en/">RegioJet</a></li>
             <li><div class="fa fa-train icon"></div> <a href="http://www.zsr.sk/anglicky.html?page_id=124">Železnice Slovenskej republiky</a></li>
           </ul>
           <p>Bus</p>

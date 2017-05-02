@@ -105,8 +105,8 @@
       <ul class="deadlines w3-ul">
         <li><span class="deadline w3-left">Registration activation</span> <br /> 15.01.2017</li>
         <!--li><span class="deadline w3-left">Registration closes</span> <br /> 31.07.2017</li-->
-        <li><span class="deadline w3-left">Deadline for early registration</span> <br /> 30.04.2017</li>
-        <li><span class="deadline w3-left">Deadline for abstract submission</span> <br /> 30.04.2017</li>
+        <li><span class="deadline w3-left">Deadline for early registration</span> <br /> 31.05.2017</li>
+        <li><span class="deadline w3-left">Deadline for abstract submission</span> <br /> 31.05.2017</li>
       </ul>
     </div>
     <div id="contact" class="section right w3-half">
@@ -118,6 +118,8 @@
         <li itemprop="twitter"><div class="fa fa-twitter icon"></div> <a href="http://twitter.com/income2017">@income2017</a></li>
         <li itemprop="telephone"><div class="fa fa-phone icon"></div> +421 (55) 79 22 607</li>
         <li itemprop="fax"><div class="fa fa-fax icon"></div> +421 (55) 79 22 604</li>
+        <li><div class="fa fa-hashtag icon"></div> 17081009 (Reg. Number)</li>
+        <li><div class="icon"></div> 2020786779 (VAT Number)</li>
         <!--li itemscope="" itemtype="http://schema.org/Event"><div class="fa fa-clock-o icon"></div> <time itemprop="startDate" datetime="2017-09-03T06:00">06:00</time> - <time itemprop="endDate" datetime="2017-09-07T18:00">18:00</time></li-->
       </ul>
     </div>
