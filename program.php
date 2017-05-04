@@ -200,7 +200,7 @@
         <p class="uni">Indian Institute of Science, Bangalore, India</p>
       </div>
       <div class="speaker w3-col m4 l3 w3-center">
-        <div class="w3-container"><img class="w3-circle" src="/img/speaker/speaker.png" alt="Francesco Delogu" /></div>
+        <div class="w3-container"><img class="w3-circle" src="/img/speaker/FrancescoDelogu.jpg" alt="Francesco Delogu" /></div>
         <h3>Francesco Delogu</h3>
         <p class="uni">Dipartimento di Ingegneria Meccanica, Chimica, e dei Materiali, Università degli Studi di Cagliari, Italy</p>
       </div>
