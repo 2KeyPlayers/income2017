@@ -238,7 +238,7 @@ function plusOneDay() {
       <p>Credit card payment is provided by <a href="https://www.vub.sk/en/personal-finance/" target="_blank">VUB Banka</a> using <a href="https://www.vub.sk/en/companies-entrepreneurs/accounts-services/payments/ecommerce-merchants/vub-ecard/" target="_blank">VUB eCard</a> service. Following cards are accepted by eCard:</p>
       <h1 class="grey"><i class="fa fa-cc-mastercard" title="MasterCard"></i> <i class="fa fa-cc-visa" title="VISA"></i> <i class="fa fa-cc-diners-club" title="Diners Club"></i></h1>
       <div class="status-message visible">
-        <p class="warning message w3-center">After clicking the Log in button you will be redirected to a secured connection. Please add and confirm an exception for &apos;income2017.saske.sk&apos; to continue.</p>
+        <p class="warning message w3-center">After clicking the Log in button you will be redirected to a secured connection. Please add and confirm an exception for &apos;income2017.saske.sk&apos; to continue.<br/><span style="color:#ff0000">May not work correctly when using Internet Explorer.</span></p>
       </div>
       <form id="login-form">
         <label class="w3-label">Payment ID</label>
