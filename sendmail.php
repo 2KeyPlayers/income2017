@@ -131,15 +131,15 @@ if ($post) {
       // clear title in case of None
       if (!$presentation || ($presentation == "None")) {
         $presentation = "None";
-        $title = "NULL";
+        $escaped_title = "NULL";
       }
       else {
-        $title = "'" . mysqli_real_escape_string($conn, $title) . "'";
+        $escaped_title = "'" . mysqli_real_escape_string($conn, $title) . "'";
       }
 
       $affiliation_id = mysqli_insert_id($conn);
       $sql = "INSERT INTO Participant (gender, degree, firstname, lastname, email, pwd, phone, registration, registered, amount, payment, paid, presentation, title, abstract, submitted, affiliation_id)
-              VALUES ('" . $gender . "', '" . $degree . "', '" . mysqli_real_escape_string($conn, $firstname) . "', '" . mysqli_real_escape_string($conn, $lastname) . "', '" . $email . "', '" . md5($password) . "', '" . $phone . "', '" . strtoupper($type) . "', NOW(), " . $amount . ", 'N', NULL, '" . $presentation . "', " . $title . ", 'N', NULL, " . $affiliation_id . ")";
+              VALUES ('" . $gender . "', '" . $degree . "', '" . mysqli_real_escape_string($conn, $firstname) . "', '" . mysqli_real_escape_string($conn, $lastname) . "', '" . $email . "', '" . md5($password) . "', '" . $phone . "', '" . strtoupper($type) . "', NOW(), " . $amount . ", 'N', NULL, '" . $presentation . "', " . $escaped_title . ", 'N', NULL, " . $affiliation_id . ")";
       if (mysqli_query($conn, $sql)) {
         $participant_id = mysqli_insert_id($conn);
         $payment_id = date("ymd") . sprintf('%04d', $participant_id);
