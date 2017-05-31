@@ -251,7 +251,7 @@
         </select>
         <div class="wrapper" style="display:none">
           <label class="w3-label">Title <span class="blue">*</span></label>
-          <input id="title" name="title" class="w3-input w3-border" type="text" placeholder="Title" />
+          <input id="title" name="title" maxlength="256" class="w3-input w3-border" type="text" placeholder="Title" />
         </div>
 <?php endif; ?>
       </div>

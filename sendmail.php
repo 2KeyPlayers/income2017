@@ -56,15 +56,6 @@ if ($post) {
     $error .= INVALID_PHONE;
   }
 
-  // clear title in case of None
-  if (!$presentation || ($presentation == "None")) {
-    $presentation = "None";
-    $title = "NULL";
-  }
-  else {
-    $title = "'" . $title . "'";
-  }
-
   // check agreement
   if (!$error && !$agreement) {
     $error .= AGREEMENT;
@@ -134,12 +125,21 @@ if ($post) {
     $password = substr(str_shuffle($chars), 0, 8);
 
     $sql = "INSERT INTO Affiliation (name, street, nr, city, zipcode, country)
-            VALUES ('" . $affiliation . "', '" . $street . "', '" . $nr . "', '" . $city . "', '" . $zipcode . "', '" . $country . "')";
+            VALUES ('" . mysqli_real_escape_string($conn, $affiliation) . "', '" . mysqli_real_escape_string($conn, $street) . "', '" . mysqli_real_escape_string($conn, $nr) . "', '" . mysqli_real_escape_string($conn, $city) . "', '" . mysqli_real_escape_string($conn, $zipcode) . "', '" . $country . "')";
 
     if (mysqli_query($conn, $sql)) {
+      // clear title in case of None
+      if (!$presentation || ($presentation == "None")) {
+        $presentation = "None";
+        $title = "NULL";
+      }
+      else {
+        $title = "'" . mysqli_real_escape_string($conn, $title) . "'";
+      }
+
       $affiliation_id = mysqli_insert_id($conn);
       $sql = "INSERT INTO Participant (gender, degree, firstname, lastname, email, pwd, phone, registration, registered, amount, payment, paid, presentation, title, abstract, submitted, affiliation_id)
-              VALUES ('" . $gender . "', '" . $degree . "', '" . $firstname . "', '" . $lastname . "', '" . $email . "', '" . md5($password) . "', '" . $phone . "', '" . strtoupper($type) . "', NOW(), " . $amount . ", 'N', NULL, '" . $presentation . "', " . $title . ", 'N', NULL, " . $affiliation_id . ")";
+              VALUES ('" . $gender . "', '" . $degree . "', '" . mysqli_real_escape_string($conn, $firstname) . "', '" . mysqli_real_escape_string($conn, $lastname) . "', '" . $email . "', '" . md5($password) . "', '" . $phone . "', '" . strtoupper($type) . "', NOW(), " . $amount . ", 'N', NULL, '" . $presentation . "', " . $title . ", 'N', NULL, " . $affiliation_id . ")";
       if (mysqli_query($conn, $sql)) {
         $participant_id = mysqli_insert_id($conn);
         $payment_id = date("ymd") . sprintf('%04d', $participant_id);
