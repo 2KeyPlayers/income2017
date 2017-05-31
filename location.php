@@ -129,7 +129,7 @@
           <ul class="w3-ul w3-margin-left">
             <li><div class="fa fa-bus icon"></div> <a href="http://cassoviaexpres.sk/en/">Cassovia Expres</a></li>
             <li><div class="fa fa-bus icon"></div> <a href="http://www.eurobus.sk/en/">Eurobus</a></li>
-            <li><div class="fa fa-bus icon"></div> <a href="http://transferkosice.sk/">ABe SHUTTLE</a></li>
+            <li><div class="fa fa-bus icon"></div> <a href="http://www.toptransfer.sk/en">Toptransfer</a></li>
           </ul>
         </div>
          <div id="bratislava" class="location w3-col m6 l4">
