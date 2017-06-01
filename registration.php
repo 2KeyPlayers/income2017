@@ -121,19 +121,14 @@ function plusOneDay() {
   <div class="w3-row">
     <div class="section full w3-container" style="padding-top:0 !important;">
       <div>
-        <p class="warning message w3-center">Early registration and abstract submission extended until 31.05.2017.</p>
+        <p class="warning message w3-center">We still accept abstracts for poster presentations until 15. june 2017!</p>
       </div>
     </div>
     <div class="section left w3-half">
 	    <div class="fee w3-card">
         <h3>Regular participant - 5 days</h3>
-        <div class="w3-row" style="padding-bottom:0">
-          <div class="w3-half w3-center border">
-            <h1 class="red">350 &euro;</h1><span class="red">until 31.05.2017</span>
-          </div>
-          <div class="w3-half w3-center">
-            <h1>400 &euro;</h1>after 31.05.2017
-          </div>
+        <div class="w3-center" style="padding-bottom:0">
+          <h1>400 &euro;</h1>
         </div>
         <div style="padding-bottom:7px;padding-top:0">
 		      <hr />
@@ -147,13 +142,8 @@ function plusOneDay() {
     <div class="section right w3-half">
 	    <div class="fee w3-card">
         <h3>Regular participant - <span class="nr-of-days">1 day</span></h3>
-        <div class="w3-row" style="padding-bottom:0">
-          <div class="w3-half w3-center border">
-            <h1 class="red"><span class="sum-until">70</span> &euro;</h1><span class="red">until 31.05.2017</span>
-          </div>
-          <div class="w3-half w3-center">
-            <h1><span class="sum-after">100</span> &euro;</h1>after 31.05.2017
-          </div>
+        <div class="w3-center" style="padding-bottom:0">
+          <h1>100 &euro;</h1>
         </div>
         <div style="padding-bottom:7px;padding-top:0">
 		      <hr />
@@ -167,13 +157,8 @@ function plusOneDay() {
     <div class="section left w3-half">
 	    <div class="fee w3-card">
         <h3>Student - 5 days</h3>
-        <div class="w3-row" style="padding-bottom:0">
-          <div class="w3-half w3-center border">
-            <h1 class="red">170 &euro;</h1><span class="red">until 31.05.2017</span>
-          </div>
-          <div class="w3-half w3-center">
-            <h1>200 &euro;</h1>after 31.05.2017
-          </div>
+        <div class="w3-center" style="padding-bottom:0">
+          <h1>200 &euro;</h1>
         </div>
         <div style="padding-bottom:7px;padding-top:0">
 		      <hr />
@@ -188,12 +173,7 @@ function plusOneDay() {
 	    <div class="fee w3-card">
         <h3>Exhibitor</h3>
         <div class="w3-row" style="padding-bottom:0">
-          <div class="w3-half w3-center border">
-            <h1 class="red">700 &euro;</h1><span class="red">until 31.05.2017</span>
-          </div>
-          <div class="w3-half w3-center">
-            <h1>800 &euro;</h1>after 31.05.2017
-          </div>
+          <h1>800 &euro;</h1>
         </div>
         <div style="padding-bottom:7px;padding-top:0">
 		      <hr />

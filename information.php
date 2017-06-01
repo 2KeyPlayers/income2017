@@ -92,6 +92,7 @@
       </ul>
       <h3>For authors</h3>
       <ul class="w3-ul w3-margin-left">
+        <li><p class="warning message w3-center" style="margin-top:0">We still accept abstracts for poster presentations until 15. june 2017!</p></li>
         <li>The abstract (one page, English) has to be prepared according to this <a href="misc/INCOME2017_AbstractTemplate.docx">template</a>.</li>
         <li>The authors are responsible for the text of their abstracts and their appropriate graphical design. The abstract which does not meet the given <a href="misc/INCOME2017_AbstractTemplate.docx">template</a> will not be accepted and its author will be notified.</li>
         <li>All abstracts will be published in the Book of Abstracts.</li>
@@ -106,7 +107,7 @@
         <li><span class="deadline w3-left">Registration activation</span> <br /> 15.01.2017</li>
         <!--li><span class="deadline w3-left">Registration closes</span> <br /> 31.07.2017</li-->
         <li><span class="deadline w3-left">Deadline for early registration</span> <br /> 31.05.2017</li>
-        <li><span class="deadline w3-left">Deadline for abstract submission</span> <br /> 31.05.2017</li>
+        <li><span class="deadline w3-left">Deadline for abstract submission</span> <br /> 15.06.2017</li>
       </ul>
     </div>
     <div id="contact" class="section right w3-half">
