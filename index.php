@@ -200,7 +200,9 @@
         <li>K. Tkáčová – Honorary Chairperson</li>
         <li>V. V. Boldyrev – Honorary Chairman</li>
       </ul>
-      <h3 style="margin-top:32px">Local Organizing Committee</h3>
+    </div>
+    <div class="section right w3-half" style="padding-top:0!important">
+      <h3>Local Organizing Committee</h3>
       <ul class="w3-ul w3-margin-left">
         <li>M. Baláž</li>
         <li>P. Baláž</li>
@@ -211,7 +213,7 @@
         <li>J. Žaková</li>
       </ul>
     </div>
-    <div class="section right w3-half" style="padding-top:0!important">
+    <div class="section left w3-half" style="padding-top:0!important;padding-bottom:0!important">
       <h3>Scientific Advisory Committee</h3>
       <ul class="w3-ul w3-margin-left">
         <!--li>Michael Atzmon</li>
@@ -253,6 +255,11 @@
         <li>S. L. James (United Kingdom)</li>
         <li>J. Z. Jiang (China)</li>
         <li>D. G. Klissurski (Bulgaria)</li>
+      </ul>
+    </div>
+    <div class="section left w3-half" style="padding-top:0!important">
+      <h3 class="empty">&nbsp;</h3>
+      <ul class="w3-ul w3-margin-left">
         <li>Y.-S. Kwon (Korea)</li>
         <li>G. Le Caër (France)</li>
         <li>J. C. Lee (Korea)</li>
@@ -274,6 +281,21 @@
         <li>S. Yariv (Israel)</li>
         <li>A. Yermakov (Russia)</li>
       </ul>
+    </div>
+  </div>
+
+  <div id="sponsors" class="w3-row">
+    <div class="section left w3-half">
+      <h1><i class="fa fa-gift icon"></i> Sponsors</h1>
+      <p class="w3-center"><a href="http://www.nihonseiko.co.jp/english/index.html"><img src="/img/sponsor/nihon-seiko.png" alt="NIHON SEIKO CO., LTD." /></a></p>
+      <h3 class="w3-center"><a href="http://www.nihonseiko.co.jp/english/index.html">NIHON SEIKO CO., LTD.</a></h3>
+      <p class="w3-center">The Leading Supplier of Antimony Products THE BEST ANTIMONY</p>
+    </div>
+    <div class="section right w3-half">
+      <h1 class="empty">&nbsp;</h1>
+      <p class="w3-center"><a href="http://formtechscientific.com"><img src="/img/sponsor/fts.png" alt="Form-Tech Scientific" /></a></p>
+      <h3 class="w3-center"><a href="http://formtechscientific.com">Form-Tech Scientific</a></h3>
+      <p class="w3-center">Custom Scientific Apparatus</p>
     </div>
   </div>
 

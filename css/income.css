@@ -361,6 +361,13 @@ ul.w3-ul li {
   padding-left: 0px;
 }
 
+#sponsors img {
+  height: 100px;
+}
+#sponsors h3 a {
+  color: #404040 !important;
+}
+
 .deadlines {
   font-size: 20px;
   line-height: 20px;
