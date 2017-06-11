@@ -287,14 +287,14 @@
   <div id="sponsors" class="w3-row">
     <div class="section left w3-half">
       <h1><i class="fa fa-gift icon"></i> Sponsors</h1>
-      <p class="w3-center"><a href="http://www.nihonseiko.co.jp/english/index.html"><img src="/img/sponsor/nihon-seiko.png" alt="NIHON SEIKO CO., LTD." /></a></p>
-      <h3 class="w3-center"><a href="http://www.nihonseiko.co.jp/english/index.html">NIHON SEIKO CO., LTD.</a></h3>
+      <p class="w3-center"><a href="http://www.nihonseiko.co.jp/english/index.html" target="_blank"><img src="/img/sponsor/nihon-seiko.png" alt="NIHON SEIKO CO., LTD." /></a></p>
+      <h3 class="w3-center"><a href="http://www.nihonseiko.co.jp/english/index.html" target="_blank">NIHON SEIKO CO., LTD.</a></h3>
       <p class="w3-center">The Leading Supplier of Antimony Products THE BEST ANTIMONY</p>
     </div>
     <div class="section right w3-half">
       <h1 class="empty">&nbsp;</h1>
-      <p class="w3-center"><a href="http://formtechscientific.com"><img src="/img/sponsor/fts.png" alt="Form-Tech Scientific" /></a></p>
-      <h3 class="w3-center"><a href="http://formtechscientific.com">Form-Tech Scientific</a></h3>
+      <p class="w3-center"><a href="http://formtechscientific.com" target="_blank"><img src="/img/sponsor/fts.png" alt="Form-Tech Scientific" /></a></p>
+      <h3 class="w3-center"><a href="http://formtechscientific.com" target="_blank">Form-Tech Scientific</a></h3>
       <p class="w3-center">Custom Scientific Apparatus</p>
     </div>
   </div>
