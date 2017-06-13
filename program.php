@@ -290,7 +290,7 @@
         <p class="uni">Institute of Chemical Physics, Russian Academy of Sciences, Russia</p>
       </div>
       <div class="speaker w3-col m4 l3 w3-center">
-        <div class="w3-container"><img class="w3-circle" src="/img/speaker/speaker.png" alt="Laszlo Takacs" /></div>
+        <div class="w3-container"><img class="w3-circle" src="/img/speaker/LaszloTakacs.jpg" alt="Laszlo Takacs" /></div>
         <h3>Laszlo Takacs</h3>
         <p class="uni">Department of Physics, University of Maryland Baltimore County, USA</p>
       </div>
