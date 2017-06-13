@@ -245,7 +245,7 @@
         <p class="uni">School of Chemistry and Chemical Engineering, Queen’s University Belfast, United Kingdom</p>
       </div>
       <div class="speaker w3-col m4 l3 w3-center">
-        <div class="w3-container"><img class="w3-circle" src="/img/speaker/speaker.png" alt="Rakesh Kumar" /></div>
+        <div class="w3-container"><img class="w3-circle" src="/img/speaker/RakeshKumar.jpg" alt="Rakesh Kumar" /></div>
         <h3>Rakesh Kumar</h3>
         <p class="uni">CSIR-National Metallurgical Laboratory, India</p>
       </div>
