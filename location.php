@@ -233,13 +233,13 @@
     <p class="w3-center"><i class="fa fa-tag"></i> <a href="javascript:filterHotels('all')" class="filter all selected">all</a>, <i class="fa fa-tag w3-padding-left"></i> by location (<a href="javascript:filterHotels('near')" class="filter near">near</a> | <a href="javascript:filterHotels('oldtown')" class="filter oldtown">old town</a> | <a href="javascript:filterHotels('city')" class="filter city">city</a>), <i class="fa fa-tag w3-padding-left"></i> by price (<a href="javascript:filterHotels('cheap')" class="filter cheap">cheap</a> | <a href="javascript:filterHotels('affordable')" class="filter affordable">affordable</a> | <a href="javascript:filterHotels('expensive')" class="filter expensive">expensive</a>)</p>
     <div class="w3-row">
       <div class="hotel w3-col m4 l3 w3-center" tags="near,cheap">
-        <div class="img w3-container"><a href="http://www.ibn.sk/index.php/ubytovanie/pre-hosti" target="_blank"><img src="/img/hotel/bozenka.jpg" alt="Dormutory Boženy Němcovej" /></a></div>
+        <div class="img w3-container"><a href="http://www.ibn.sk/index.php/ubytovanie/pre-hosti" target="_blank"><img src="/img/hotel/bozenka.jpg" alt="Dormitory B. Němcovej" /></a></div>
         <ul class="w3-ul w3-center">
-          <li><h3>Dormitory B. Němcovej</h3> &nbsp;</li>
+          <li><h3>Dormitory B. Němcovej</h3> (<a href="https://www.booking.com/hotel/sk/internaty-bozenka.sk.html" target="_blank">Booking.com</a>)</li>
           <li><i class="fa fa-tag"></i> near | cheap</li>
-          <li><i class="fa fa-phone"></i> +421 (55) 602 58 30,<br />+421 (55) 602 58 35</li>
+          <li><i class="fa fa-phone"></i> +421 (55) 602 5838,<br />+421 (917) 911 641</li>
           <li><i class="fa fa-map-marker"></i> Boženy Němcovej 1, Košice</li>
-          <li><i class="fa fa-envelope"></i> <a href="mailto:eva.fedorova@tuke.sk">eva.fedorova@tuke.sk</a></li>
+          <li><i class="fa fa-envelope"></i> <a href="mailto:bozenka@sdaj.sk">bozenka@sdaj.sk</a></li>
         </ul>
       </div>
       <div class="hotel w3-col m4 l3 w3-center" tags="near,cheap">
