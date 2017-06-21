@@ -121,7 +121,7 @@ function plusOneDay() {
   <div class="w3-row">
     <div class="section full w3-container" style="padding-top:0 !important;">
       <div>
-        <p class="warning message w3-center">We still accept abstracts for poster presentations until 15. june 2017!</p>
+        <p class="error message w3-center">Registration is closed!</p>
       </div>
     </div>
     <div class="section left w3-half">
