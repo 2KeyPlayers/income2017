@@ -76,7 +76,7 @@ if ($post) {
         $error .= CAPTCHA_FAILED;
       }
     }
-    else {
+    else if (isset($_POST["g-recaptcha-response"])) {
       $error .= CAPTCHA_NOT_PRESENT;
     }
   }
