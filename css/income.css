@@ -361,6 +361,24 @@ ul.w3-ul li {
   padding-left: 0px;
 }
 
+.w3-third {
+  width: 36.66666%;
+  padding-right: 16px !important;
+}
+.w3-third.middle {
+  width: 26.66666%;
+}
+.w3-third.left {
+  padding-right: 16px !important;
+}
+.w3-third.right {
+  padding-left: 16px !important;
+}
+.w3-third.middle {
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+}
+
 #sponsors img {
   height: 100px;
 }
@@ -667,6 +685,15 @@ form .buttons {
   display: none !important;
 }
 
+.w3-third.left, .w3-third.middle, .w3-third.right {
+  width: 99.99999%;
+  padding-left: 10% !important;
+  padding-right: 10% !important;
+}
+.w3-third h1.empty, h3.empty { /*, i.icon {*/
+  display: none;
+}
+
 #speakers .speaker:nth-child(3n+1) {
   clear: left !important;
 }
@@ -853,7 +880,7 @@ h1.empty, h3.empty { /*, i.icon {*/
   display: none;
 }
 
-.section ,.section.left,.section.right ,.section.middle ,.section.full, .section.details, .section.map {
+.section, .section.left, .section.right, .section.middle, .section.full, .section.details, .section.map {
   padding: 32px 16px !important;
 }
 .section.no-padding-bottom {

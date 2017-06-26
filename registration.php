@@ -172,7 +172,7 @@ function plusOneDay() {
     <div class="section right w3-half">
 	    <div class="fee w3-card">
         <h3>Exhibitor</h3>
-        <div class="w3-row" style="padding-bottom:0">
+        <div class="w3-center" style="padding-bottom:0">
           <h1>800 &euro;</h1>
         </div>
         <div style="padding-bottom:7px;padding-top:0">
@@ -194,8 +194,8 @@ function plusOneDay() {
     <p>If you need an official invitation letter for the purpose of a visa application to attend the conference, please contact us via email <a href="mailto:income2017@saske.sk">income2017@saske.sk</a>. Please include your full mailing address and, if presenting, the title of your presentation.</p>
   </div>
 
-  <div class="w3-row">
-    <div class="section left w3-half">
+  <div id="payment" class="w3-row">
+    <div class="section left w3-third">
       <h1><i class="fa fa-credit-card icon"></i> Payment</h1>
       <h3>Bank transfer</h3>
       <div>
@@ -211,7 +211,7 @@ function plusOneDay() {
         <li><span class="bank w3-left">Payment note (Information for beneficiary)</span> <br /> INCOME2017, {your family name}</li>
       </ul>
     </div>
-    <div class="section right w3-half">
+    <div class="section middle w3-third">
       <h1 class="empty">&nbsp;</h1>
       <h3>Credit card</h3>
       <!--p>Credit card payments will be activated on <span class="start">15.02.2017</span> in <span class="days"></span> days <span class="hours"></span> hours <span class="minutes"></span> minutes <span class="seconds"></span> seconds.</p-->
@@ -233,6 +233,14 @@ function plusOneDay() {
         <input id="confirmed-payment-id" name="paymentid" type="hidden" />
         <input id="confirmed-pwd" name="pwd" type="hidden" />
       </form>
+    </div>
+    <div class="section right w3-third">
+      <h1 class="empty">&nbsp;</h1>
+      <h3>On-site</h3>
+      <!--div>
+        <p class="warning message w3-center">Any fees charged by remitting banks are to be paid by the conference participants.</p>
+      </div-->
+      <p>It is possible to pay the conference fee on-site at the registration desk.</p>
     </div>
   </div>
 
