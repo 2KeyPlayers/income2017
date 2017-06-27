@@ -305,6 +305,11 @@
         <p class="uni">Sobolev Institute of Geology and Mineralogy, Siberian Branch of the Russian Academy of Sciences, Russia</p>
       </div>
       <div class="speaker w3-col m4 l3 w3-center">
+        <div class="w3-container"><img class="w3-circle" src="/img/speaker/speaker.png" alt="Guan-Wu Wang" /></div>
+        <h3>Guan-Wu Wang</h3>
+        <p class="uni">Hefei National Laboratory for Physical Sciences at the Microscale, Department of Chemistry, University of Science and Technology of China, P. R. China</p>
+      </div>
+      <div class="speaker w3-col m4 l3 w3-center">
         <div class="w3-container"><img class="w3-circle" src="/img/speaker/MartinWilkening.jpg" alt="Martin Wilkening" /></div>
         <h3>Martin Wilkening</h3>
         <p class="uni">Institute for Chemistry and Technology of Materials (NAWI Graz), Christian-Doppler Laboratory for Lithium Batteries, Austria</p>

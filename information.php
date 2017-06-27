@@ -98,7 +98,7 @@
         <li>All abstracts will be published in the Book of Abstracts.</li>
         <li class="w3-center"><a href="misc/INCOME2017_AbstractTemplate.docx" class="download w3-btn"><i class="fa fa-file-word-o"></i> Template</a></li>
         <li>The abstracts have to be submitted electronically to the following e-mail address: <a href="mailto:income2017@saske.sk">income2017@saske.sk</a></li>
-        <li>After a rigorous peer review process the selected manuscripts presented at <span class="in">I</span><span class="in">N</span><span class="co">C</span><span class="co">O</span><span class="me">M</span><span class="me">E</span>2017 will be published in a special issue of <a href="https://uk.sagepub.com/en-gb/eur/nanomaterials-and-nanotechnology/journal202571" target="_blank">Nanomaterials and Nanotechnology</a> (IF 2015 = 1.109) and/or <a href="http://link.springer.com/journal/10853" target="_blank">Journal of Materials Science</a> (IF 2015 = 2.302).</li>
+        <li>After a rigorous peer review process the selected manuscripts presented at <span class="in">I</span><span class="in">N</span><span class="co">C</span><span class="co">O</span><span class="me">M</span><span class="me">E</span>2017 will be published in renowned journals.</li>
       </ul>
     </div>
     <div class="section right w3-half">
