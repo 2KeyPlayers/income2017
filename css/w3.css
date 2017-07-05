@@ -64,7 +64,9 @@ table,th,td{border:none}.w3-table-all{border:1px solid #ccc}
 ul.w3-ul{list-style-type:none;padding:0;margin:0}
 ul.w3-ul li{padding:6px 2px 6px 16px;border-bottom:1px solid #ddd}
 ul.w3-ul li:last-child{border-bottom:none}
-.w3-tooltip,.w3-display-container{position:relative}
+ol.w3-ul{padding:0;margin:0}
+ol.w3-ul li{padding:6px 2px 6px 16px;border-bottom:1px solid #ddd}
+ol.w3-ul li:last-child{border-bottom:none}.w3-tooltip,.w3-display-container{position:relative}
 .w3-fluid{max-width:100%;height:auto}
 .w3-tooltip .w3-text{display:none}
 .w3-tooltip:hover .w3-text{display:inline-block}

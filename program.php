@@ -76,108 +76,340 @@
 
 <div id="main" class="w3-container">
 
-  <div class="w3-row">
-    <div class="section left w3-half">
-      <h1><i class="fa fa-flask icon"></i> Scientific</h1>
-      <p>To be announced...</p>
-      <!--div class="w3-accordion">
-        <a href="javascript:showDetails('day1')" class="program">
-          <i class="fa fa-plus-square-o w3-padding-right"></i> Sunday, September 3<sup>rd</sup>, 2017
-        </a>
-        <div id="day1" class="w3-accordion-content w3-container w3-leftbar">
-          <ul class="w3-ul">
-            <li><span>14:00</span> Registration</li>
-          </ul>
-        </div>
+  <div id="program" class="section full w3-container">
+    <h1><i class="fa fa-list-ul icon"></i> Tentative program</h1>
+    <div class="w3-accordion">
+      <a href="javascript:showDetails('day1')" class="program">
+        <i class="fa fa-plus-square-o w3-padding-right"></i> Day 1 <span>Sunday, September 3<sup>rd</sup>, 2017</span>
+      </a>
+      <div id="day1" class="w3-accordion-content w3-container w3-leftbar">
+        <ul class="w3-ul">
+          <li><span>16:00 - 21:00</span> Registration <i class="fa fa-user-plus"></i></li>
+          <li><span>19:00 - 21:00</span> Welcome drink <i class="fa fa-glass"></i></li>
+        </ul>
       </div>
-      <div class="w3-accordion">
-        <a href="javascript:showDetails('day2')" class="program">
-          <i class="fa fa-plus-square-o w3-padding-right"></i> Monday, September 4<sup>th</sup>, 2017
-        </a>
-        <div id="day2" class="w3-accordion-content w3-container w3-leftbar">
-          <ul class="w3-ul">
-            <li><span>10:00</span> Talk 1</li>
-            <li><span>11:30</span> Talk 2</li>
-            <li><span>13:00</span> Lunch</li>
-            <li><span>14:00</span> Talk 3</li>
-            <li><span>15:00</span> Talk 4</li>
-            <li><span>16:00</span> Talk 5</li>
-          </ul>
-        </div>
-      </div>
-      <div class="w3-accordion">
-        <a href="javascript:showDetails('day3')" class="program">
-          <i class="fa fa-plus-square-o w3-padding-right"></i> Tuesday, September 5<sup>th</sup>, 2017
-        </a>
-        <div id="day3" class="w3-accordion-content w3-container w3-leftbar">
-          <ul class="w3-ul">
-            <li><span>10:00</span> Talk 6</li>
-            <li><span>11:30</span> Talk 7</li>
-            <li><span>13:00</span> Lunch</li>
-            <li><span>14:00</span> Talk 8</li>
-            <li><span>15:00</span> Talk 9</li>
-            <li><span>16:00</span> Talk 10</li>
-          </ul>
-        </div>
-      </div>
-      <div class="w3-accordion">
-        <a href="javascript:showDetails('day4')" class="program">
-          <i class="fa fa-plus-square-o w3-padding-right"></i> Wednesday, September 6<sup>th</sup>, 2017
-        </a>
-        <div id="day4" class="w3-accordion-content w3-container w3-leftbar">
-          <ul class="w3-ul">
-            <li><span>10:00</span> Talk 11</li>
-            <li><span>11:30</span> Talk 12</li>
-            <li><span>13:00</span> Lunch</li>
-            <li><span>14:00</span> Talk 13</li>
-            <li><span>15:00</span> Talk 14</li>
-            <li><span>16:00</span> Talk 15</li>
-          </ul>
-        </div>
-      </div>
-      <div class="w3-accordion">
-        <a href="javascript:showDetails('day5')" class="program">
-          <i class="fa fa-plus-square-o w3-padding-right"></i> Tursday, September 7<sup>th</sup>, 2017
-        </a>
-        <div id="day5" class="w3-accordion-content w3-container w3-leftbar">
-          <ul class="w3-ul">
-            <li><span>10:00</span> Talk 16</li>
-            <li><span>11:30</span> Talk 17</li>
-            <li><span>13:00</span> Lunch</li>
-            <li><span>16:00</span> Good bye party</li>
-          </ul>
-        </div>
-      </div-->
     </div>
-    <div class="section right w3-half">
-      <h1><i class="fa fa-glass icon"></i> Social</h1>
-      <p>To be announced...</p>
-      <!--div class="w3-accordion">
-        <a href="javascript:showDetails('event1')" class="program">
-          <i class="fa fa-plus-square-o w3-padding-right"></i> Sunday, September 3<sup>rd</sup>, 2017
-        </a>
-        <div id="event1" class="w3-accordion-content w3-container w3-leftbar">
-          <ul class="w3-ul">
-            <li><span>18:00</span> Reception</li>
-          </ul>
-        </div>
+    <div class="w3-accordion">
+      <a href="javascript:showDetails('day2')" class="program">
+        <i class="fa fa-plus-square-o w3-padding-right"></i> Day 2 <span>Monday, September 4<sup>th</sup>, 2017</span>
+      </a>
+      <div id="day2" class="w3-accordion-content w3-container w3-leftbar">
+        <ul class="w3-ul">
+          <li><span>08:00 - 8:20</span> Opening remarks</li>
+          <li class="lecture"><span>08:20 - 8:45</span> <span class="type" title="Invited lecture">I-01</span> Two important periods in the history of mechanochemistry
+            <div class="speaker"><a href="#">L. Takacs</a></div></li>
+          <li><span>13:00</span> Lunch</li>
+          <li><span>14:00</span> Talk 3</li>
+          <li><span>15:00</span> Talk 4</li>
+          <li><span>16:00</span> Talk 5</li>
+        </ul>
       </div>
-      <div class="w3-accordion">
-        <a href="javascript:showDetails('event2')" class="program">
-          <i class="fa fa-plus-square-o w3-padding-right"></i> Tursday, September 7<sup>th</sup>, 2017
-        </a>
-        <div id="event2" class="w3-accordion-content w3-container w3-leftbar">
-          <ul class="w3-ul">
-            <li><span>14:00</span> Tour de Košice</li>
-          </ul>
-        </div>
-      </div-->
+    </div>
+    <div class="w3-accordion">
+      <a href="javascript:showDetails('day3')" class="program">
+        <i class="fa fa-plus-square-o w3-padding-right"></i> Day 3 <span>Tuesday, September 5<sup>th</sup>, 2017</span>
+      </a>
+      <div id="day3" class="w3-accordion-content w3-container w3-leftbar">
+        <ul class="w3-ul">
+          <li><span>10:00</span> Talk 6</li>
+          <li><span>11:30</span> Talk 7</li>
+          <li><span>13:00</span> Lunch</li>
+          <li><span>14:00</span> Talk 8</li>
+          <li><span>15:00</span> Talk 9</li>
+          <li><span>16:00</span> Talk 10</li>
+        </ul>
+      </div>
+    </div>
+    <div class="w3-accordion">
+      <a href="javascript:showDetails('day4')" class="program">
+        <i class="fa fa-plus-square-o w3-padding-right"></i> Day 4 <span>Wednesday, September 6<sup>th</sup>, 2017</span>
+      </a>
+      <div id="day4" class="w3-accordion-content w3-container w3-leftbar">
+        <ul class="w3-ul">
+          <li><span>10:00</span> Talk 11</li>
+          <li><span>11:30</span> Talk 12</li>
+          <li><span>13:00</span> Lunch</li>
+          <li><span>14:00</span> Talk 13</li>
+          <li><span>15:00</span> Talk 14</li>
+          <li><span>16:00</span> Talk 15</li>
+        </ul>
+      </div>
+    </div>
+    <div class="w3-accordion">
+      <a href="javascript:showDetails('day5')" class="program">
+        <i class="fa fa-plus-square-o w3-padding-right"></i> Day 5 <span>Tursday, September 7<sup>th</sup>, 2017</span>
+      </a>
+      <div id="day5" class="w3-accordion-content w3-container w3-leftbar">
+        <ul class="w3-ul">
+          <li><span>10:00</span> Talk 16</li>
+          <li><span>11:30</span> Talk 17</li>
+          <li><span>13:00</span> Lunch</li>
+          <li><span>16:00</span> Good bye party</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div id="posters" class="section full w3-container">
+    <h1><i class="fa fa-list-alt icon"></i> Poster sessions</h1>
+    <div class="w3-accordion">
+      <a href="javascript:showDetails('session1')" class="program">
+        <i class="fa fa-plus-square-o w3-padding-right"></i> Poster session I <span>Monday, September 4<sup>th</sup>, 2017</span> <span>18:00-19:00</span>
+      </a>
+      <div id="session1" class="w3-accordion-content w3-container w3-leftbar">
+        <ol class="w3-ul session-1">
+          <li>The effect of Sn as the process control agent on the fabrication and structural properties of new Ti-Ta-Mo-Sn biomedical alloy synthesized by high energy ball milling
+            <span><u>G. Dercz</u>, I. Matuła, M. Zubko</span>
+          </li>
+          <li>Alloying behavior and mechanical properties of AlCoCrFeNiMn high entropy alloy (HEA) processed by mechanical alloying and microwave sintering
+            <span><u>Vikas Shivam</u>, N. K. Mukhopadhyay</span>
+          </li>
+          <li>Effect of Co content on phase structure and hydrogenation properties of La-Mg-Ni alloys
+            <span><u>M. Balcerzak</u>, M. Nowak, M. Jurczyk</span>
+          </li>
+          <li>Synthesis of calcium oxide based catalysts for biodiesel production
+            <span><u>M. Zdujić</u>, Ž. Kesić, I. Lukić, Č. Jovalekić, D. Skala</span>
+          </li>
+          <li>Characterization of phases in the V<sub>2</sub>O<sub>5</sub>–Yb<sub>2</sub>O<sub>3</sub> system obtained by high-energy ball milling and high-temperature treatment
+            <span><u>M. Piz</u>, P. Dulian, E. Filipek, K. Wieczorek-Ciurowa, P. Kochmanski</span>
+          </li>
+          <li>Dielectric behaviour of (Ba<sub>1-x</sub>Srx)(Ti<sub>1-x</sub>Sn<sub>x</sub>)O<sub>3</sub> ceramics obtained by a mechanochemical syntheses
+            <span><u>W. Bąk</u>, P. Dulian, B. Garbarz-Glos, C. Kajtoch, W. Żukowski</span>
+          </li>
+          <li>The mechanochemical synthesis for the preparation of advanced ceramics based on barium titanate
+            <span><u>B. Garbarz-Glos</u>, P. Dulian, W. Bąk, H. Noga</span>
+          </li>
+          <li>Production of nanocomposition colloidal systems for cosmetic application
+            <span>N. N. Mofa, Z. A. Mansurov, <u>A. M. Kaliyeva</u>, T. V. Chernoglazova, B. S. Sadykov</span>
+          </li>
+          <li>Effect of diluting agent on the synthesis of silver iodide nanoparticles during co-milling
+            <span><u>B. B. Tatykayev</u>, Zh. S. Shalabayev, S. B. Tugelbay, B. M. Uralbekov, M. M. Burkitbayev, F. Kh. Urakaev</span>
+          </li>
+          <li>???
+            <span>???</span>
+          </li>
+          <li>Influence of transition metals on quasicrystalline phase formation in Al-Cu-Fe mechanically alloyed powder
+            <span><u>M. Mitka</u>, A. Goral, L. Litynska-Dobrzynska</span>
+          </li>
+          <li>Determination of the activation energy of Re<sub>2</sub>C by high-energy ball milling
+            <span><u>A. Martínez-García</u>, M. G. Granados-Fitch, M. Avalos-Borja, B. Winkler, A. K. Navarro-Mtz., E. A. Juarez-Arellano</span>
+          </li>
+          <li>High-energy ball milling pre-treatment of complex organic substrate for culture media
+            <span><u>A. K. Navarro-Mtz.</u>, M. Urzua-Valenzuela, R. Martínez-García, M. Kakazey, E. A. Juarez-Arellano</span>
+          </li>
+          <li>Characterization of nanostructured materials using TEM and SEM microscopy
+            <span><u>P. Snopiński</u>, T. Tański</span>
+          </li>
+          <li>Mechanochemical plant-mediated synthesis of silver nanoparticles and their biological activity
+            <span>M. Baláž, Z. Bujňáková, N. Daneu, E. Dutková, <u>Ľ. Balážová</u>, M. Vargová, A. Salayová, Z. Bedlovičová, Ľ. Tkáčiková</span>
+          </li>
+          <li>Photocatalytic properties of N-doped ZnO prepared by mechanochemical synthesis
+            <span><u>N. G. Kostova</u>, M. Fabian, E. Dutkova, Y. Karakirova, A. Eliyas</span>
+          </li>
+          <li>Physical properties of the lead-free BaFe<sub>1/2</sub>Nb<sub>1/2</sub>O<sub>3</sub> ceramics obtained from mechanochemically synthesized powders
+            <span><u>D. Bochenek</u>, P. Niemiec, M. Adamczyk-Habrajska, I. Szafraniak-Wiza</span>
+          </li>
+          <li>Residual stress analysis and assessment of mechanical properties of dissimilar material welded joint between Alloy 617 and 12Cr steel
+            <span><u>H. Waqar Ahmad</u>, J. H. Lee, J. Ho Hwang, D. H. Bae</span>
+          </li>
+          <li>Structural studies on CuCr<sub>2</sub>S<sub>4</sub> nanospinels obtained by mechanical alloying
+            <span><u>M. Karolus</u>, J. Panek, E. Maciążek</span>
+          </li>
+          <li>Defect structure of mechanically activated MoO<sub>3</sub> and the chemical activity of Al/MoO<sub>3</sub> nanothermite
+            <span><u>М. V. Sivak</u>, A. N. Streletskii, I. V. Kolbanev</span>
+          </li>
+          <li>Synthesis of Cr<sub>3</sub>C<sub>2</sub> by a combination of mechanical alloying and annealing
+            <span><u>S. E. Aghili</u>, M. Shamanian Esfahani</span>
+          </li>
+          <li>Mineralogical transformations after mechanical activation of a lateritic nickel ore
+            <span><u>H. Basturkcu</u>, N. Acarkan</span>
+          </li>
+          <li>Synthesis of CuAlO<sub>2</sub> delafossite from mechanically activated CuO and polyaluminium chloride
+            <span><u>D. Nýblová</u></span>
+          </li>
+          <li>Thermal plasma spheroidization of high-nitrogen austenitic stainless steel powder alloys synthesized by mechanical alloying
+            <span><u>N. G. Razumov</u>, A. A. Popovich</span>
+          </li>
+          <li>Structural, microstructural and thermal characterization of Fe- doped ZnO powder nanostructures prepared by mechanical alloying
+            <span><u>O. Salah</u>, B. Rachid, A. Safia, J. J. Suñol, M. Ibrir, M. Bououdina</span>
+          </li>
+          <li>Mechanically alloyed aluminium powder consolidated by ERS
+            <span><u>E. S. Caballero</u>, F. Ternero, R. Astacio, F. G. Cuevas, J. M. Montes, J. Cintas</span>
+          </li>
+          <li>Production of compacts from Fe-Si powders amorphized by MA and consolidation by ERS-MF
+            <span><u>F. Ternero</u>, E. S. Caballero, R. Astacio, F. G. Cuevas, J. Cintas, J. M. Montes</span>
+          </li>
+          <li>Effect of particle size on the optical properties of ZnO nanopowders fabricated by wet milling
+            <span><u>T. Şimşek</u>, A. Ceylan, G. Ş. Aşkın, Ş. Özcan</span>
+          </li>
+          <li>Tuning the magnetic properties of cobalt-ferrite nanostructures by changing the inversion parameter and crystallite size with milling
+            <span><u>M. B. Kaynar</u>, Ş. Özcan</span>
+          </li>
+          <li>Mechanosynthesis of multisubstituted hydroxyapatite nanopowders
+            <span><u>B. Nasiri-Tabrizi</u>, R. Ebrahimi-Kahrizsangi, A. Fakharzadeh, W. J. Basirun</span>
+          </li>
+          <li>Cation exchange capacity of mechanically activated glauconite – fundamental aspects and relevance
+            <span><u>R. Singla</u>, T. C. Alex, R. Kumar</span>
+          </li>
+          <li>Mechanochemical preparation of titanium and hafnium carbides
+            <span><u>T. F. Grigoreva</u>, B. P. Tolochko, A. I. Ancharov, S. V. Vosmerikov, E. T. Devyatkina, Т. А. Udalova, Е. А. Pavlov, N. Z. Lyakhov</span>
+          </li>
+          <li>Effect of samarium on Fe<sub>2</sub>O<sub>3</sub> on magnetization using high energy milling
+            <span><u>P. Vera-Serna</u>, F. N. Tenorio-González, J. A. Juanico- Loran, F. Sánchez-de-Jesús, M. Silva-Fragoso, J. R. Toledo-Merediz</span>
+          </li>
+          <li>Macro-segregation Mechanism and Control for the Low Pressure Die Casting of ZL<sub>2</sub>0<sub>5</sub>A Aluminum Alloy
+            <span><u>S. Wu</u></span>
+          </li>
+          <li>Microstructure and mechanical properties of the SiC/Zr<sub>4</sub> joints brazed using the TiZrNiCu filler alloy
+            <span><u>J. Zhang</u>, Q. Qi</span>
+          </li>
+          <li>GRADE 1 titanium microstructure and properties investigation after Cr<sub>3</sub>C<sub>2</sub> powder alloying using high power diode laser
+            <span><u>M. Wiśniowski</u>, T. Tański, D. Janicki</span>
+          </li>
+          <li>Investigation of mechanical properties in dissimilar welding of shape memory alloys
+            <span><u>M. H. Sadati</u>, F. Haftani</span>
+          </li>
+          <li>Wear resistant ALD/PVD hybrid coatings deposited on sintered tool substrate
+            <span><u>M. Staszuk</u>, D. Pakuła, G. Chladek</span>
+          </li>
+          <li>Photovoltaic response of bulk heterojunctions based on nanopowders of kesterite and n-type semiconductors
+            <span><u>O. P. Dimitriev</u>, D. O. Grynko, A. M. Fedoryak, T. P. Doroshenko, M. Kratzer, C. Teichert, Yu. V. Noskov, N. A. Ogurtsov, A. A. Pud, P. Balaz, M. Balaz, M. Tesinsky, M. Hegedus</span>
+          </li>
+        </ol>
+      </div>
+    </div>
+    <div class="w3-accordion">
+      <a href="javascript:showDetails('session2')" class="program">
+        <i class="fa fa-plus-square-o w3-padding-right"></i> Poster session II <span>Tuesday, September 5<sup>th</sup>, 2017</span> <span>18:20-19:20</span>
+      </a>
+      <div id="session2" class="w3-accordion-content w3-container w3-leftbar">
+        <ol class="w3-ul session-2">
+          <li>Mechanochemical synthesis of aluminium metal-organic frameworks
+            <span><u>S. Lavery</u>, J. Casaban, S. James</span>
+          </li>
+          <li>BaF-benzenedicarboxylate: mechanochemical synthesis of a new representative of coordination polymers without organofluorine linkers
+            <span><u>S. Breitfeld</u>, G. Scholz, F. Emmerling, E. Kemnitz</span>
+          </li>
+          <li>Inadvertent liquid-assisted grinding – possible key to organic mechanochemical co-crystallisation
+            <span><u>I. A. Tumanov</u>, A. A. L. Michalchuk, A. A. Politov, E. V. Boldyreva</span>
+          </li>
+          <li>In situ monitoring and mechanism of the mechanochemical Knoevenagel reaction
+            <span><u>M. Tireli</u>, S. Lukin, T. Stolar, M. di Michieli, I. Halasz, K. Užarević</span>
+          </li>
+          <li>Mechanochemical protease-catalyzed peptide and amide bond formation
+            <span><u>K. J. Ardila-Fierro</u>, D. Crawford, S. L. James, C. Bolm, J. G. Hernández</span>
+          </li>
+          <li>Mechanochemical synthesis of colossal dielectric permittivity electroceramics for capacitors applications
+            <span><u>P. Dulian</u>, W. Bąk, B. Grabarz-Glos, M. Piz, W. Żukowski</span>
+          </li>
+          <li>Mechanoradicals, anions and cations as precursors in chemical reactions and production of composite materials
+            <span><u>B. Baytekin</u>, Özge Bayrak, Tutku Bedük</span>
+          </li>
+          <li>Soft mechanochemical synthesis of MFe<sub>2</sub>O<sub>4</sub> (M=Mn, Ni, Zn) ferrites
+            <span><u>Č. D. Jovalekić</u>, Z. Lazarević, D. Sekulić, M. Zdijić</span>
+          </li>
+          <li>Synthesis of intermetallic based nanocomposites via mechanochemical route
+            <span><u>M. H. Enayati</u></span>
+          </li>
+          <li>Mechanochemical synthesis of sulfur nanoparticles via reaction of sodium thiosulfate with crystalline acids
+            <span><u>Zh. S. Shalabayev</u>, B. B. Tatykaev, B. M. Uralbekov, M. M. Burkitbayev, F. Kh. Urakaev</span>
+          </li>
+          <li>Characterization of sintering process of high-energy milled Cu-TiB<sub>2</sub> materials
+            <span><u>H. Dębecka</u>, M. Hebda, J. Kazior</span>
+          </li>
+          <li>Mechanochemical treatment of micrometric aluminium with organic modifiers for solid-propellant rockets
+            <span><u>B. S. Sadykov</u>, N. N. Mofa, L. Galfetti, Z. A. Mansurov</span>
+          </li>
+          <li>Mechanochemical synthesis of coal based magnetic carbon for As(V) and Cd(II) removal
+            <span><u>A. Zubrik</u>, M. Matik, M. Lovás, Z. Danková, S. Hredzák, V. Šepelák</span>
+          </li>
+          <li>The influence of microwave heating on crushability and grindability of selected raw materials
+            <span><u>I. Znamenáčková</u>, M. Lovás, S. Hredzák, S. Dolinská</span>
+          </li>
+          <li>Mechanical alloying of beta titanium alloys in presence of magnesium
+            <span><u>G. Adamek</u></span>
+          </li>
+          <li>Stability of magnetite based nanoparticles dispersed in different types of polymers using ultra-fine milling approach
+            <span><u>Z. Bujňáková</u>, E. Dutková, E. Tóthová, J. Briančin, Z. Cherkezova-Zheleva, J. Kováč</span>
+          </li>
+          <li>Nanocrystalline matrix NiAl-B composites produced by consolidation of mechanically alloyed powders
+            <span><u>M. Krasnowski</u>, S. Gierlotka, T. Kulik</span>
+          </li>
+          <li>Mechanochemical synthesis of low-fluorine doped aluminium hydroxide fluorides
+            <span><u>V. Scalise</u>, G. Scholz, E. Kemnitz</span>
+          </li>
+          <li>X-ray powder diffraction usefulness in mechanical activation and alloying, looking beyond crystallinity
+            <span><u>F. Kristály</u>, G. Mucsi</span>
+          </li>
+          <li>Influence of ball milling on the structure and catalytic properties of SrFe<sub>12</sub>O<sub>19</sub> hexaferrite
+            <span><u>K. V. Koleva</u>, N. I. Velinov, I. G. Genova, T. S. Tsoncheva</span>
+          </li>
+          <li>Structural, magnetic and optical properties of mechanochemically synthesized CuFeS<sub>2</sub> nanoparticles
+            <span><u>E. Dutková</u>, Z. Bujňáková, I. Škorvánek, M. J. Sayagués, A. Zorkovská, J. Kováč, J. Kováč, Jr., P. Baláž</span>
+          </li>
+          <li>Mechanical alloying of NbC and Si in stirred media mill
+            <span><u>A. Al-Azzawi</u>, P. Baumli,F. Kristály, Á. Rácz, G. Mucsi</span>
+          </li>
+          <li>Soft magnetic Fe based alloys produced by mechanical alloying
+            <span>A. Carrillo, L. Escoda, J. Saurina, <u>J. J. Suñol</u></span>
+          </li>
+          <li>Microstructure and mechanical properties of AZ61 magnesium alloy after EX-ECAP
+            <span><u>O. Hilšer</u>, S. Rusz, L. Krejčí, F. Špalek, J. Džugan, T. Tański</span>
+          </li>
+          <li>Structural characterization, microwave properties and corrosion behavior of Fe-Si alloy prepared by wet ball milling
+            <span><u>K. Yazovskikh</u>, A. A. Shakov, S. F. Lomayeva, G. N. Konygin, O. M. Nemtsova, A. O. Shiryaev, D. A. Petrov, K. N. Rozanov</span>
+          </li>
+          <li>Synthesis and electrochemical properties of composites based on conductive polymers with mechanically activated graphite particles
+            <span>N. V. Lyalina, <u>A. V. Syugaev</u>, A. N. Maratkanova, K. Yazovskikh</span>
+          </li>
+          <li>Preparation and characterization of ultramarine pigments by XPS method
+            <span><u>M. Kanuchova</u>, I. Brezani, L. Kozakova, M. Sisol</span>
+          </li>
+          <li>A tentative description of the first stages of mechanical alloying
+            <span><u>G. Pia</u>, A. Cincotti, F. Delogu</span>
+          </li>
+          <li>Fabrication of Cu-graphite metal matrix composites
+            <span><u>B. Lasio</u>, R. Orrù, G. Cao, M. Cabibbo, F. Delogu</span>
+          </li>
+          <li>n situ measurement of luminescence emitted by coumarin 1 in ball drop experiments
+            <span><u>C. Ricci</u>, R. Corpino, A. Porcheddu, G. Ligios, F. Delogu</span>
+          </li>
+          <li>Propagation modes of self-sustaining reactions activated by mechanical processing
+            <span><u>A. Cincotti</u>, G. Pia, L. Takacs, F. Delogu</span>
+          </li>
+          <li>Water-rocks interaction during mechanical activation of olivine
+            <span><u>F. Torre</u>, F. Delogu, S. Enzo, V. Farina, G. Mulas, C. Pistidda, S. Garroni</span>
+          </li>
+          <li>Thermodynamically stable nanostructured metal alloys by mechanical alloying: The ICARUS project
+            <span><u>The ICARUS consortium</u></span>
+          </li>
+          <li>Recycling of critical metals: An innovative application of mechanochemistry
+            <span><u>Van Loy</u>, Koen Binnemans, Tom Van Gerven</span>
+          </li>
+          <li>Mechanical properties of hydrogels and automated system &quot;KERN-DP&quot;
+            <span><u>A. P. Onanko</u>, S. A. Vyzhva, Y. A. Onanko, N. P. Kulish, V. V. Kuryluk, A. V. Shabatura, R. V. Homenko, A. N. Onischenko
+          <li>Soot combustion efficiency using Fe, Cu, and Co impregnated on kaolin based ZSM-5 for diesel soot oxidation
+            <span><u>D. O. Obada</u>, M. Dauda, F. O. Anafi, A. S. Ahmed, O. A. Ajayi, D. Dodoo-Arhin, A. Y. Atta</span>
+          </li>
+          <li>Low-cost catalytic control of indoor PM emissions from solid fuel combustion
+            <span><u>M. Peter</u>, D. M Kulla, N. O. Ominsanya, A. Y. Atta, D. O. Obada, S. Umaru</span>
+          </li>
+          <li>Development of asbestos free lining material from mahogany and doum palm
+            <span><u>J. Makama</u>, D. S. Yawas, A. I. Obi, M. U. Obot, D. O. Obada</span>
+          </li>
+          <li>Analyses of plastic flow localization in bimetal electrolytically saturated with hydrogen
+            <span>S. A. Barannikova, <u>Yu. V. Li</u>, L. B. Zuev</span>
+          </li>
+          <li>Effect of mechanochemical milling on the FSDP-related XRD correlations in overstoichiometric As-Se glassy alloys
+            <span><u>Ya. Shpotyuk</u>, J. Cebulski, P. Demchenko, Z. Bujňáková, P. Baláž, O. Shpotyuk</span>
+          </li>
+        </ol>
+      </div>
     </div>
   </div>
 
   <div id="speakers" class="section full w3-container">
     <h1><i class="fa fa-user icon"></i> Invited / Plenary speakers</h1>
-    <!--p style="padding-bottom:20px">In state of finalization...</p-->
     <div class="w3-row-padding">
       <div class="speaker w3-col m4 l3 w3-center">
         <div class="w3-container"><img class="w3-circle" src="/img/speaker/PeterBillik.jpg" alt="Peter Billik" /></div>

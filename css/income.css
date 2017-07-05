@@ -357,7 +357,7 @@ a.topic, a.program {
   background-color: #ffffff;
 }
 
-ul.w3-ul li {
+ul.w3-ul li, ol.w3-ul li {
   padding-left: 0px;
 }
 
@@ -461,6 +461,98 @@ ul.w3-ul.banking, ul.w3-ul.personal, ul.w3-ul.affiliation {
 .bank, .data {
   font-size: 15px;
   line-height: 15px;
+}
+
+u {
+  text-decoration: underline;
+}
+
+.program span {
+  margin-right: 5px;
+  font-size: 80%;
+  background-color: #0070c0;
+  color: white;
+  font-weight: bold;
+  padding: 2px 8px;
+  border-radius: 3px;
+}
+.program span:first-of-type {
+  margin-left: 10px;
+}
+
+#program .w3-ul li.lecture {
+  font-style: italic;
+}
+#program .w3-ul li span {
+  margin-right: 10px;
+  font-size: 80%;
+  font-style: normal;
+  background-color: #0070c0;
+  color: white;
+  font-weight: bold;
+  padding: 2px 8px;
+  border-radius: 3px;
+}
+#program .w3-ul li span.type {
+  margin-right: 5px;
+  background-color: #ddd;
+}
+#program .w3-ul li div {
+  font-style: normal;
+  text-align: right;
+}
+#program .w3-ul li div a {
+  color: #404040 !important;
+}
+#program .w3-ul li i {
+  color: #ddd;
+  margin-left: 5px;
+}
+
+#posters .w3-ul li {
+  font-style: italic;
+}
+#posters .w3-ul li .number {
+  display: inline-block;
+  padding-left: 10px;
+  font-style: normal;
+}
+#posters .w3-ul li span {
+  display: block;
+  font-style: normal;
+  text-align: right;
+  padding-left: 60px;
+}
+
+#posters ol.w3-ul {
+  list-style-type: none;
+  counter-reset: step-counter;
+}
+#posters ol.w3-ul li {
+  counter-increment: step-counter;
+}
+ol.w3-ul li::before {
+  font-style: normal;
+  content: counter(step-counter);
+  margin-right: 10px;
+  font-size: 80%;
+  background-color: #0070c0;
+  color: white;
+  font-weight: bold;
+  padding: 2px 8px;
+  border-radius: 3px;
+}
+ol.w3-ul.session-1 li::before {
+  content: "P-I-0" counter(step-counter);
+}
+ol.w3-ul.session-1 li:nth-child(n+10):before {
+  content: "P-I-" counter(step-counter);
+}
+ol.w3-ul.session-2 li::before {
+  content: "P-II-0" counter(step-counter);
+}
+ol.w3-ul.session-2 li:nth-child(n+10):before {
+  content: "P-II-" counter(step-counter);
 }
 
 .speaker img {
