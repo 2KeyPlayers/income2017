@@ -480,9 +480,6 @@ u {
   margin-left: 10px;
 }
 
-#program .w3-ul li.lecture {
-  font-style: italic;
-}
 #program .w3-ul li span {
   margin-right: 10px;
   font-size: 80%;
@@ -495,7 +492,7 @@ u {
 }
 #program .w3-ul li span.type {
   margin-right: 5px;
-  background-color: #ddd;
+  background-color: #dddddd;
 }
 #program .w3-ul li div {
   font-style: normal;
@@ -503,20 +500,43 @@ u {
 }
 #program .w3-ul li div a {
   color: #404040 !important;
+  text-decoration: underline !important;
 }
 #program .w3-ul li i {
-  color: #ddd;
+  color: #dddddd;
   margin-left: 5px;
+}
+#program .w3-ul li.break {
+  color: #ffffff;
+  background-color: #dddddd;
+}
+#program .w3-ul li.registration span, #program  .w3-ul li.break span {
+  background-color: #dddddd;
+}
+#program .w3-ul li.registration i, #program .w3-ul li.break i {
+  color: #ffffff;
+}
+#program .w3-ul li.break a {
+  color: #ffffff !important;
+}
+/*#program .w3-ul li.break a:hover {
+  -moz-transition: none;
+  -webkit-transition: none;
+  -o-transition: color 0 ease-in;
+  transition: none;
+}*/
+#program .w3-ul li.lecture {
+  font-style: italic;
 }
 
 #posters .w3-ul li {
   font-style: italic;
 }
-#posters .w3-ul li .number {
+/*#posters .w3-ul li .number {
   display: inline-block;
   padding-left: 10px;
   font-style: normal;
-}
+}*/
 #posters .w3-ul li span {
   display: block;
   font-style: normal;
