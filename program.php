@@ -82,7 +82,7 @@
       <a href="javascript:showDetails('day1')" class="program">
         <i class="fa fa-plus-square-o w3-padding-right"></i> Day 1 <span>Sunday, September 3<sup>rd</sup>, 2017</span>
       </a>
-      <div id="day1" class="w3-accordion-content w3-container w3-leftbar">
+      <div id="day1" class="w3-accordion-content w3-container">
         <ul class="w3-ul">
           <li class="registration"><span>16:00 - 21:00</span> Registration <!--i class="fa fa-user-plus"></i--></li>
           <li class="break"><span>19:00 - 21:00</span> Welcome drink <i class="fa fa-glass"></i></li>
@@ -93,7 +93,7 @@
       <a href="javascript:showDetails('day2')" class="program">
         <i class="fa fa-plus-square-o w3-padding-right"></i> Day 2 <span>Monday, September 4<sup>th</sup>, 2017</span>
       </a>
-      <div id="day2" class="w3-accordion-content w3-container w3-leftbar">
+      <div id="day2" class="w3-accordion-content w3-container">
         <ul class="w3-ul">
           <li class="registration"><span>08:00 - 18:00</span> Registration <!--i class="fa fa-user-plus"></i--></li>
           <li><span>08:00 - 08:20</span> Opening remarks</li>
@@ -164,7 +164,7 @@
             <div class="speaker"><u>R. Eckert</u>, M. Felderhoff, F. Schüth</div>
           </li>
 
-          <li class="break"><span>18:00 - 19:00</span> <!--a href="javascript:scrollTo('poster-session-1')"-->Poster session I<!--/a--></li>
+          <li class="break"><span>18:00 - 19:00</span> <!--a href="javascript:scrollTo('poster-session-1')"-->Poster session I <!--i class="fa fa-list-alt"></i--><!--/a--></li>
         </ul>
       </div>
     </div>
@@ -172,7 +172,7 @@
       <a href="javascript:showDetails('day3')" class="program">
         <i class="fa fa-plus-square-o w3-padding-right"></i> Day 3 <span>Tuesday, September 5<sup>th</sup>, 2017</span>
       </a>
-      <div id="day3" class="w3-accordion-content w3-container w3-leftbar">
+      <div id="day3" class="w3-accordion-content w3-container">
         <ul class="w3-ul">
           <li class="registration"><span>08:00 - 18:00</span> Registration <!--i class="fa fa-user-plus"></i--></li>
           <li class="lecture"><span>08:00 - 08:25</span> <span class="type" title="Invited lecture">I-09</span> TBA
@@ -248,7 +248,7 @@
             <div class="speaker"><u>A. Barranco</u>, M. Felderhoff, F. Schüth</div>
           </li>
 
-          <li class="break"><span>18:00 - 19:00</span> <!--a href="javascript:scrollTo('poster-session-2')"-->Poster session II<!--/a--></li>
+          <li class="break"><span>18:20 - 19:20</span> <!--a href="javascript:scrollTo('poster-session-2')"-->Poster session II <!--i class="fa fa-list-alt"></i--><!--/a--></li>
           <li><span>19:20 - 21:00</span> Meeting of the International Advisory Committee of INCOME</li>
         </ul>
       </div>
@@ -257,7 +257,7 @@
       <a href="javascript:showDetails('day4')" class="program">
         <i class="fa fa-plus-square-o w3-padding-right"></i> Day 4 <span>Wednesday, September 6<sup>th</sup>, 2017</span>
       </a>
-      <div id="day4" class="w3-accordion-content w3-container w3-leftbar">
+      <div id="day4" class="w3-accordion-content w3-container">
         <ul class="w3-ul">
           <li class="registration"><span>08:00 - 18:00</span> Registration <!--i class="fa fa-user-plus"></i--></li>
           <li class="lecture"><span>08:00 - 08:25</span> <span class="type" title="Invited lecture">I-18</span> Scenarios and possible mechanisms of structural-phase transformations in alloys at intensive plastic deformation
@@ -338,7 +338,7 @@
       <a href="javascript:showDetails('day5')" class="program">
         <i class="fa fa-plus-square-o w3-padding-right"></i> Day 5 <span>Tursday, September 7<sup>th</sup>, 2017</span>
       </a>
-      <div id="day5" class="w3-accordion-content w3-container w3-leftbar">
+      <div id="day5" class="w3-accordion-content w3-container">
         <ul class="w3-ul">
           <li class="registration"><span>08:00 - 16:00</span> Registration <!--i class="fa fa-user-plus"></i--></li>
           <li class="lecture"><span>08:25 - 08:50</span> <span class="type" title="Invited lecture">I-26</span> Synthesis of Ag<sub>2</sub>O via mechanical decomposition of Ag7O8NO3
@@ -405,7 +405,7 @@
       <a id="poster-session-1" href="javascript:showDetails('session1')" class="program">
         <i class="fa fa-plus-square-o w3-padding-right"></i> Poster session I <span>Monday, September 4<sup>th</sup>, 2017</span> <span>18:00-19:00</span>
       </a>
-      <div id="session1" class="w3-accordion-content w3-container w3-leftbar">
+      <div id="session1" class="w3-accordion-content w3-container">
         <ol class="w3-ul session-1">
           <li>The effect of Sn as the process control agent on the fabrication and structural properties of new Ti-Ta-Mo-Sn biomedical alloy synthesized by high energy ball milling
             <span><u>G. Dercz</u>, I. Matuła, M. Zubko</span>
@@ -531,7 +531,7 @@
       <a id="poster-session-2" href="javascript:showDetails('session2')" class="program">
         <i class="fa fa-plus-square-o w3-padding-right"></i> Poster session II <span>Tuesday, September 5<sup>th</sup>, 2017</span> <span>18:20-19:20</span>
       </a>
-      <div id="session2" class="w3-accordion-content w3-container w3-leftbar">
+      <div id="session2" class="w3-accordion-content w3-container">
         <ol class="w3-ul session-2">
           <li>Mechanochemical synthesis of aluminium metal-organic frameworks
             <span><u>S. Lavery</u>, J. Casaban, S. James</span>
@@ -821,13 +821,18 @@ $(document).ready(function() {
     }
   });
 
-  /*showDetails("day1");
-  showDetails("day2");
-  showDetails("day3");
-  showDetails("day4");
-  showDetails("day5");
-  showDetails('event1');
-  showDetails('event2');*/
+  var date = new Date().toISOString().substring(0, 10);
+  if (date == "2017-09-03") {
+    showDetails("day1");
+  } else if (date == "2017-09-04") {
+    showDetails("day2");
+  } else if (date == "2017-09-05") {
+    showDetails("day3");
+  } else if (date == "2017-09-06") {
+    showDetails("day4");
+  } else if (date == "2017-09-07") {
+    showDetails("day5");
+  }
 
 });
 </script>

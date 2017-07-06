@@ -341,7 +341,7 @@ a.topic, a.program {
 }*/
 .w3-accordion-content {
   margin: 3px 0 3px 3px;
-  padding-left: 24px;
+  padding-left: 30px;
 }
 .w3-accordion-content.w3-leftbar {
   border-color: #d9d9d9 !important;
@@ -492,7 +492,7 @@ u {
 }
 #program .w3-ul li span.type {
   margin-right: 5px;
-  background-color: #dddddd;
+  background-color: #404040; /*#dddddd;*/
 }
 #program .w3-ul li div {
   font-style: normal;
@@ -507,17 +507,18 @@ u {
   margin-left: 5px;
 }
 #program .w3-ul li.break {
-  color: #ffffff;
+  color: #404040; /*#ffffff;*/
   background-color: #dddddd;
 }
 #program .w3-ul li.registration span, #program  .w3-ul li.break span {
+  color: #404040;
   background-color: #dddddd;
 }
 #program .w3-ul li.registration i, #program .w3-ul li.break i {
-  color: #ffffff;
+  color: #404040; /*#ffffff;*/
 }
 #program .w3-ul li.break a {
-  color: #ffffff !important;
+  color: #404040 /*#ffffff*/ !important;
 }
 /*#program .w3-ul li.break a:hover {
   -moz-transition: none;
@@ -556,7 +557,7 @@ ol.w3-ul li::before {
   content: counter(step-counter);
   margin-right: 10px;
   font-size: 80%;
-  background-color: #0070c0;
+  background-color: #404040; /*#0070c0;*/
   color: white;
   font-weight: bold;
   padding: 2px 8px;
