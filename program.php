@@ -269,7 +269,7 @@
           <li class="lecture"><span>08:50 - 09:15</span> <span class="type" title="Invited lecture">I-20</span> Spark plasma sintering of mechanically milled powders: gaining advantages from a combination of two non-equilibrium powder processing techniques
             <div class="speaker"><a href="javascript:scrollTo('Dudina')">D. V. Dudina</a>, M. A. Korchagin, B. B. Bokhonov, V. I. Mali, A. G. Anisimov</div>
           </li>
-          <li class="lecture"><span>09:15 - 09:40</span> <span class="type" title="Invited lecture">I-21</span> &qout;Week bonding&qout; oxygen atoms in transition metal oxides formed by mechanical activation
+          <li class="lecture"><span>09:15 - 09:40</span> <span class="type" title="Invited lecture">I-21</span> &quot;Week bonding&quot; oxygen atoms in transition metal oxides formed by mechanical activation
             <div class="speaker"><a href="javascript:scrollTo('Streletskii')">A. N. Streletskii</a>, O. S. Morozova, М. V. Sivak</div>
           </li>
 
@@ -341,7 +341,7 @@
       <div id="day5" class="w3-accordion-content w3-container">
         <ul class="w3-ul">
           <li class="registration"><span>08:00 - 16:00</span> Registration <!--i class="fa fa-user-plus"></i--></li>
-          <li class="lecture"><span>08:25 - 08:50</span> <span class="type" title="Invited lecture">I-26</span> Synthesis of Ag<sub>2</sub>O via mechanical decomposition of Ag7O8NO3
+          <li class="lecture"><span>08:25 - 08:50</span> <span class="type" title="Invited lecture">I-26</span> Synthesis of Ag<sub>2</sub>O via mechanical decomposition of Ag<sub>7</sub>O<sub>8</sub>NO<sub>3</sub>
             <div class="speaker"><a href="javascript:scrollTo('Billik')">P. Billik</a></div>
           </li>
           <li class="lecture"><span>08:50 - 09:15</span> <span class="type" title="Invited lecture">I-27</span> c-LLZO - towards single phase compound by mechanochemical processes
@@ -397,6 +397,9 @@
         </ul>
       </div>
     </div>
+    <!--div class="w3-margin-top-32">
+      <a href="misc/INCOME2017_Program.pdf" class="download w3-btn"><i class="fa fa-file-pdf-o"></i> Download</a>
+    </div-->
   </div>
 
   <div id="posters" class="section full w3-container">

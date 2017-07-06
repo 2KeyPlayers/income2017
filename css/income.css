@@ -340,7 +340,7 @@ a.topic, a.program {
   transform-origin: 50% 50%;
 }*/
 .w3-accordion-content {
-  margin: 3px 0 3px 3px;
+  margin: 6px 0 3px 3px;
   padding-left: 30px;
 }
 .w3-accordion-content.w3-leftbar {
@@ -510,11 +510,15 @@ u {
   color: #404040; /*#ffffff;*/
   background-color: #dddddd;
 }
-#program .w3-ul li.registration span, #program  .w3-ul li.break span {
+#program .w3-ul li.registration span {
+  color: #ffffff; /*#404040;*/
+  background-color: #26b000; /*#dddddd;*/
+}
+#program .w3-ul li.break span {
   color: #404040;
   background-color: #dddddd;
 }
-#program .w3-ul li.registration i, #program .w3-ul li.break i {
+#program .w3-ul li.break i {
   color: #404040; /*#ffffff;*/
 }
 #program .w3-ul li.break a {
@@ -736,7 +740,7 @@ ol.w3-ul.session-2 li:nth-child(n+10):before {
 form .buttons {
   padding-top: 0px !important;
 }
-#registration-form .register, #login-form .login, form.vub .pay, #instructions .download {
+#registration-form .register, #login-form .login, form.vub .pay, .download {
   background-color: #0070c0;
 }
 
