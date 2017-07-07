@@ -188,7 +188,7 @@
             <div class="speaker"><a href="javascript:scrollTo('Descamps')">M. Descamps</a>, J.-F. Willart, E. Dudognon</div>
           </li>
 
-          <li class="break"><span>09:40 - 10:00</span> Coffee break <i class="fa fa-coffee"></i><br/><span style="color:#dddddd">09:40 - 10:00</span> Conference photo <i class="fa fa-camera"></i></li>
+          <li class="break"><span>09:40 - 10:00</span> Coffee break <i class="fa fa-coffee"></i><br/><span style="background-color:#ffffff">09:40 - 10:00</span> Conference photo <i class="fa fa-camera"></i></li>
 
           <li class="lecture"><span>10:00 - 10:25</span> <span class="type" title="Invited lecture">I-13</span> Composites of drugs with inorganic and organic excipients obtained by the mechanochemical methods
             <div class="speaker"><a href="javascript:scrollTo('Shakhtshneyder')">T. P. Shakhtshneyder</a></div>

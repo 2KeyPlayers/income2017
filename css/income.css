@@ -506,17 +506,17 @@ u {
   color: #dddddd;
   margin-left: 5px;
 }
-#program .w3-ul li.break {
-  color: #404040; /*#ffffff;*/
+/*#program .w3-ul li.break {
+  color: #404040;
   background-color: #dddddd;
-}
+}*/
 #program .w3-ul li.registration span {
   color: #ffffff; /*#404040;*/
   background-color: #26b000; /*#dddddd;*/
 }
 #program .w3-ul li.break span {
-  color: #404040;
-  background-color: #dddddd;
+  /*color: #dddddd;*/
+  background-color: #404040;
 }
 #program .w3-ul li.break i {
   color: #404040; /*#ffffff;*/
