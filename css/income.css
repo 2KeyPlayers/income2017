@@ -405,11 +405,11 @@ ul.w3-ul li, ol.w3-ul li {
   margin-top: 10px;
 }
 
-#topics ul.listing {
+/*#topics ul.listing {
   list-style-type: circle;
   list-style-position: outside;
   padding-left: 16px;
-}
+}*/
 
 #history .w3-ul li, #instructions .w3-ul li, #presentation .w3-ul li, #organizedby .w3-ul li {
   border: 0;

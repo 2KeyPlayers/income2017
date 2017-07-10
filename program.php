@@ -336,7 +336,7 @@
     </div>
     <div class="w3-accordion">
       <a href="javascript:showDetails('day5')" class="program">
-        <i class="fa fa-plus-square-o w3-padding-right"></i> Day 5 <span>Tursday, September 7<sup>th</sup>, 2017</span>
+        <i class="fa fa-plus-square-o w3-padding-right"></i> Day 5 <span>Thursday, September 7<sup>th</sup>, 2017</span>
       </a>
       <div id="day5" class="w3-accordion-content w3-container">
         <ul class="w3-ul">

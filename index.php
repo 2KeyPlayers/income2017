@@ -106,8 +106,8 @@
         <a href="javascript:showDetails('topic1')" class="topic">
           <i class="fa fa-plus-square-o w3-padding-right"></i> Mechanochemical reactions and processing in solid state science and technology
         </a>
-        <div id="topic1" class="w3-accordion-content w3-container">
-          <ul class="listing">
+        <div id="topic1" class="w3-accordion-content">
+          <ul class="w3-ul">
             <li>All types of mechanochemical reactions (e.g., Mechanosynthesis, Self-sustained high-temperature synthesis (SHS) induced  by milling, Mechanochemical redox reactions, etc.)</li>
             <li>Mechanical alloying and amorphization (including hydrogen storage alloys)</li>
             <li>Mechanical activation, High-energy milling, etc.</li>
@@ -121,8 +121,8 @@
         <a href="javascript:showDetails('topic2')" class="topic">
           <i class="fa fa-plus-square-o w3-padding-right"></i> Mechanical alloying and amorphization (including hydrogen storage alloys)
         </a>
-        <div id="topic2" class="w3-accordion-content w3-container">
-          <ul class="listing">
+        <div id="topic2" class="w3-accordion-content">
+          <ul class="w3-ul">
             <li>TBD</li>
           </ul>
         </div>
@@ -131,8 +131,8 @@
         <a href="javascript:showDetails('topic3')" class="topic">
           <i class="fa fa-plus-square-o w3-padding-right"></i> Mechanisms of mechanochemical reactions, Thermodynamics and modeling
         </a>
-        <div id="topic3" class="w3-accordion-content w3-container">
-          <ul class="listing">
+        <div id="topic3" class="w3-accordion-content">
+          <ul class="w3-ul">
             <li>Fundamentals and models of mechanically stimulated processes</li>
             <li>Fundamental problems of the mechanical action on solid</li>
             <li>Computer simulations</li>
@@ -143,8 +143,8 @@
         <a href="javascript:showDetails('topic4')" class="topic">
           <i class="fa fa-plus-square-o w3-padding-right"></i> Structural characterization of reaction intermediates and products
         </a>
-        <div id="topic4" class="w3-accordion-content w3-container">
-          <ul class="listing">
+        <div id="topic4" class="w3-accordion-content">
+          <ul class="w3-ul">
             <li>Mechanically induced structural changes in solids</li>
             <li>Role of defects (point defects, dislocations, clusters, precipitates, grain boundaries), Defects at surfaces and interfaces</li>
             <li>Spectorscopic techniques (Mössbauer spectroscopy, EXAFS, NMR, Raman, XPS, etc.)</li>
@@ -155,8 +155,8 @@
         <a href="javascript:showDetails('topic5')" class="topic">
           <i class="fa fa-plus-square-o w3-padding-right"></i> Functional properties of mechanochemically prepared materials
         </a>
-        <div id="topic5" class="w3-accordion-content w3-container">
-          <ul class="listing">
+        <div id="topic5" class="w3-accordion-content">
+          <ul class="w3-ul">
             <li>Chemical, electrochemical, electrical, magnetic, electronic, optical, tribological, thermal, mechanical, etc.</li>
           </ul>
         </div>
@@ -165,8 +165,8 @@
         <a href="javascript:showDetails('topic6')" class="topic">
           <i class="fa fa-plus-square-o w3-padding-right"></i> Application and process engineering of mechanochemistry
         </a>
-        <div id="topic6" class="w3-accordion-content w3-container">
-          <ul class="listing">
+        <div id="topic6" class="w3-accordion-content">
+          <ul class="w3-ul">
             <li>Preparation and characterization of active powders: equipments and experimental procedures</li>
             <li>Catalysis and scaling up of mechanochemistry</li>
           </ul>
