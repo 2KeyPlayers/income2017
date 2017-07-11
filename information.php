@@ -83,7 +83,7 @@
       <p class="w3-margin-left">The conference language is <span class="large-font">English</span>.</p>
       <h3>Oral presentation</h3>
       <ul class="w3-ul w3-margin-left">
-        <li>Invited lecture – <span class="large-font">30</span> min.</li>
+        <li>Invited lecture – <span class="large-font"><span style="text-decoration:line-through">30</span> 25</span> min.</li>
         <li>Regular lecture – <span class="large-font">20</span> min.</li>
       </ul>
       <h3>Poster presentation</h3>

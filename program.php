@@ -181,7 +181,7 @@
           <li class="lecture"><span>08:25 - 08:50</span> <span class="type" title="Invited lecture">I-10</span> New insights in formation pathways: in situ investigations of mechanochemical reactions
             <div class="speaker"><a href="javascript:scrollTo('Emmerling')">F. Emmerling</a>, H. Kulla, S. Haferkamp, F. Fischer, M. Wilke</div>
           </li>
-          <li class="lecture"><span>08:50 - 09:15</span> <span class="type" title="Invited lecture">I-11</span> TBA
+          <li class="lecture"><span>08:50 - 09:15</span> <span class="type" title="Invited lecture">I-11</span> May the Mechanical Force Be with You:  The Case of Peptides and Organometallics
             <div class="speaker"><a href="javascript:scrollTo('Lamaty')">F. Lamaty</a></div>
           </li>
           <li class="lecture"><span>09:15 - 09:40</span> <span class="type" title="Invited lecture">I-12</span> Transformation of pharmaceuticals induced by milling
