@@ -242,7 +242,7 @@
             <div class="speaker"><u>N. Solin</u></div>
           </li>
           <li class="lecture"><span>17:40 - 18:00</span> <span class="type" title="Oral presentation">O-22</span> Solvation and surface effects on polymorph stabilities at the nanoscale
-            <div class="speaker"><u>A. Belenguer</u></div>
+            <div class="speaker"><u>A. M. Belenguer</u>, G. I. Lampronti, A. J. Cruz-Cabeza, C. A. Hunter,  J. K. M. Sanders</div>
           </li>
           <li class="lecture"><span>18:00 - 18:20</span> <span class="type" title="Oral presentation">O-23</span> Effective and selective reduction of α, β-unsaturated carbonyl compounds to the corresponding alcohol under milling conditions
             <div class="speaker"><u>A. Barranco</u>, M. Felderhoff, F. Schüth</div>
