@@ -341,7 +341,7 @@ a.topic, a.program {
 }*/
 .w3-accordion-content {
   margin: 6px 0 3px 3px;
-  padding-left: 30px;
+  padding-left: 25px;
 }
 .w3-accordion-content.w3-leftbar {
   border-color: #d9d9d9 !important;
@@ -358,7 +358,8 @@ a.topic, a.program {
 }
 
 ul.w3-ul li, ol.w3-ul li {
-  padding-left: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .w3-third {
@@ -478,6 +479,10 @@ u {
 }
 .program span:first-of-type {
   margin-left: 10px;
+}
+
+#program .w3-ul li:hover, #posters .w3-ul li:hover {
+  background-color: #dddddd;
 }
 
 #program .w3-ul li span {

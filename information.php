@@ -83,12 +83,12 @@
       <p class="w3-margin-left">The conference language is <span class="large-font">English</span>.</p>
       <h3>Oral presentation</h3>
       <ul class="w3-ul w3-margin-left">
-        <li>Invited lecture – <span class="large-font"><span style="text-decoration:line-through">30</span> 25</span> min.</li>
+        <li>Invited lecture – <span class="large-font">25</span> min. <span class="w3-tooltip" style="color:#ffc107"><i class="fa fa-warning"></i> <span class="w3-text">Previously 30 min.</span></span></li>
         <li>Regular lecture – <span class="large-font">20</span> min.</li>
       </ul>
       <h3>Poster presentation</h3>
       <ul class="w3-ul w3-margin-left">
-        <li>Poster size – max. <span class="large-font">841</span> × <span class="large-font">1189</span> cm, vertical orientation</li>
+        <li>Poster size – max. <span class="large-font">70</span> × <span class="large-font">115</span> cm, vertical orientation <span class="w3-tooltip" style="color:#ffc107"><i class="fa fa-warning"></i> <span class="w3-text">Previously 84.1 × 118.9 cm</span></span></li>
       </ul>
       <h3>For authors</h3>
       <ul class="w3-ul w3-margin-left">
