@@ -95,8 +95,8 @@
       </a>
       <div id="day2" class="w3-accordion-content w3-container">
         <ul class="w3-ul">
-          <li class="registration"><span>08:00 - 18:00</span> Registration <!--i class="fa fa-user-plus"></i--></li>
-          <li><span>08:30 - 08:55</span> Opening remarks</li>
+          <li class="registration"><span>08:30 - 18:00</span> Registration <!--i class="fa fa-user-plus"></i--></li>
+          <li class="break"><span>08:30 - 08:55</span> Opening remarks</li>
           <li class="lecture"><span>08:55 - 09:20</span> <span class="type" title="Invited lecture">I-01</span> Two important periods in the history of mechanochemistry
             <div class="speaker"><a href="javascript:scrollTo('Takacs')">L. Takacs</a></div>
           </li>
@@ -359,7 +359,7 @@
           <li class="lecture"><span>10:30 - 10:45</span> <span class="type" title="Oral presentation">O-37</span> Effect of particle density on powder mixing in a rotating drum for hydrogen generation
             <div class="speaker"><u>J. Kano</u>, S. Ishihara, M. Yamamoto</div>
           </li>
-          <li class="lecture"><span>10:45 - 11:0</span> <span class="type" title="Oral presentation">O-38</span> Thermal and mechanical properties of fluorinated ethylene and polyphenylene sulfide based composites obtained by high energy ball milling
+          <li class="lecture"><span>10:45 - 11:00</span> <span class="type" title="Oral presentation">O-38</span> Thermal and mechanical properties of fluorinated ethylene and polyphenylene sulfide based composites obtained by high energy ball milling
             <div class="speaker"><u>V. V. Tcherdyntsev</u>, L. K. Olifirov, S. D. Kaloshkin, M. Yu. Zadorozhnyy, V. D. Danilov</div>
           </li>
           <li class="lecture"><span>11:00 - 11:15</span> <span class="type" title="Oral presentation">O-39</span> Mechanical alloying and electric current assisted sintering adopt for metal matrix composite materials processing
@@ -400,9 +400,9 @@
         </ul>
       </div>
     </div>
-    <!--div class="w3-margin-top-32">
+    <div class="w3-margin-top-32">
       <a href="misc/INCOME2017_Program.pdf" class="download w3-btn"><i class="fa fa-file-pdf-o"></i> Download</a>
-    </div-->
+    </div>
   </div>
 
   <div id="posters" class="section full w3-container">
@@ -529,6 +529,9 @@
           </li>
           <li>Photovoltaic response of bulk heterojunctions based on nanopowders of kesterite and n-type semiconductors
             <span>O. P. Dimitriev, D. O. Grynko, A. M. Fedoryak, T. P. Doroshenko, M. Kratzer, C. Teichert, Yu. V. Noskov, N. A. Ogurtsov, A. A. Pud, <u>P. Balaz</u>, M. Balaz, M. Tesinsky, M. Hegedus</span>
+          </li>
+          <li>Investigation of mechanical properties in dissimilar welding of shape memory alloys
+            <span><u>M. H. Sadati</u>, F. Haftani</span>
           </li>
         </ol>
       </div>
@@ -658,6 +661,9 @@
         </ol>
       </div>
     </div>
+    <!--div class="w3-margin-top-32">
+      <a href="misc/INCOME2017_Program.pdf" class="download w3-btn"><i class="fa fa-file-pdf-o"></i> Download</a>
+    </div-->
   </div>
 
   <div id="speakers" class="section full w3-container">
@@ -666,141 +672,169 @@
       <div id="Billik" class="speaker w3-col m4 l3 w3-center">
         <div class="w3-container"><img class="w3-circle" src="/img/speaker/PeterBillik.jpg" alt="Peter Billik" /></div>
         <h3>Peter Billik</h3>
+        <span class="lecture">I-26</span>
         <p class="uni">Faculty of Natural Sciences, Comenius University, Slovakia</p>
       </div>
       <div id="Boldyreva" class="speaker w3-col m4 l3 w3-center">
         <div class="w3-container"><img class="w3-circle" src="/img/speaker/ElenaBoldyreva.jpg" alt="Elena V. Boldyreva" /></div>
         <h3>Elena V. Boldyreva</h3>
-        <p class="uni">Institute of Solid State Chemistry and Mechanochemistry, Siberian Branch of the Russian Academy of Sciences, Russia</h3>
+        <span class="lecture">I-17</span>
+        <p class="uni">Institute of Solid State Chemistry and Mechanochemistry, Siberian Branch of the Russian Academy of Sciences, Russia</p>
       </div>
       <div id="Calka" class="speaker w3-col m4 l3 w3-center">
         <div class="w3-container"><img class="w3-circle" src="/img/speaker/AndrzejCalka.jpg" alt="Andrzej Calka" /></div>
         <h3>Andrzej Calka</h3>
+        <span class="lecture">I-22</span>
         <p class="uni">Faculty of Engineering, University of Wollongong, Australia</p>
-      </div>
+    </div>
       <div id="Chattopadhyay" class="speaker w3-col m4 l3 w3-center">
         <div class="w3-container"><img class="w3-circle" src="/img/speaker/KamanioChattopadhyay.png" alt="Kamanio Chattopadhyay" /></div>
         <h3>Kamanio Chattopadhyay</h3>
+        <span class="lecture">I-23</span>
         <p class="uni">Indian Institute of Science, Bangalore, India</p>
       </div>
       <div id="Delogu" class="speaker w3-col m4 l3 w3-center">
         <div class="w3-container"><img class="w3-circle" src="/img/speaker/FrancescoDelogu.jpg" alt="Francesco Delogu" /></div>
         <h3>Francesco Delogu</h3>
+        <span class="lecture">I-02</span>
         <p class="uni">Dipartimento di Ingegneria Meccanica, Chimica, e dei Materiali, Università degli Studi di Cagliari, Italy</p>
       </div>
       <div id="Descamps" class="speaker w3-col m4 l3 w3-center">
         <div class="w3-container"><img class="w3-circle" src="/img/speaker/MarcDescamps.jpg" alt="Marc Descamps" /></div>
         <h3>Marc Descamps</h3>
+        <span class="lecture">I-11</span>
         <p class="uni">Laboratory UMET, UMR CNRS 8207, University Lille1, France</p>
       </div>
       <div id="Dudina" class="speaker w3-col m4 l3 w3-center">
         <div class="w3-container"><img class="w3-circle" src="/img/speaker/DinaVDudina.jpg" alt="Dina V. Dudina" /></div>
         <h3>Dina V. Dudina</h3>
+        <span class="lecture">I-20</span>
         <p class="uni">Institute of Solid State Chemistry and Mechanochemistry, Siberian Branch of the Russian Academy of Sciences, Russia</p>
       </div>
       <div id="Emmerling" class="speaker w3-col m4 l3 w3-center">
         <div class="w3-container"><img class="w3-circle" src="/img/speaker/FranziskaEmmerling.jpg" alt="Franziska Emmerling" /></div>
         <h3>Franziska Emmerling</h3>
+        <span class="lecture">I-09</span>
         <p class="uni">BAM Federal Institute for Materials Research and Testing, Germany</p>
       </div>
       <div id="Friscic" class="speaker w3-col m4 l3 w3-center">
         <div class="w3-container"><img class="w3-circle" src="/img/speaker/TomislavFriscic.jpg" alt="Tomislav Friščić" /></div>
         <h3>Tomislav Friščić</h3>
+        <span class="lecture">I-08</span>
         <p class="uni">Department of Chemistry and FRQNT Centre for Green Chemistry and Catalysis, McGill University, Canada</p>
       </div>
       <div id="Fuentes" class="speaker w3-col m4 l3 w3-center">
         <div class="w3-container"><img class="w3-circle" src="/img/speaker/AntonioFFuentes.jpg" alt="Antonio F. Fuentes" /></div>
         <h3>Antonio F. Fuentes</h3>
+        <span class="lecture">I-28</span>
         <p class="uni">Cinvestav Unidad Saltillo, Mexico</p>
       </div>
       <div id="Heitjans" class="speaker w3-col m4 l3 w3-center">
         <div class="w3-container"><img class="w3-circle" src="/img/speaker/PaulHeitjans.jpg" alt="Paul Heitjans" /></div>
         <h3>Paul Heitjans</h3>
+        <span class="lecture">I-04</span>
         <p class="uni">Institut für Physikalische Chemie und Elektrochemie, Leibniz Universität Hannover, Germany</p>
       </div>
       <div id="Hernandez" class="speaker w3-col m4 l3 w3-center">
         <div class="w3-container"><img class="w3-circle" src="/img/speaker/JoseGHernandez.jpg" alt="José G. Hernández" /></div>
         <h3>José G. Hernández</h3>
+        <span class="lecture">I-14</span>
         <p class="uni">Institute of Organic Chemistry, RWTH Aachen University, Germany</p>
       </div>
       <div id="James" class="speaker w3-col m4 l3 w3-center">
         <div class="w3-container"><img class="w3-circle" src="/img/speaker/StuartJames.jpg" alt="Stuart L. James" /></div>
         <h3>Stuart L. James</h3>
+        <span class="lecture">I-16</span>
         <p class="uni">School of Chemistry and Chemical Engineering, Queen’s University Belfast, United Kingdom</p>
       </div>
       <div id="Kumar" class="speaker w3-col m4 l3 w3-center">
         <div class="w3-container"><img class="w3-circle" src="/img/speaker/RakeshKumar.jpg" alt="Rakesh Kumar" /></div>
         <h3>Rakesh Kumar</h3>
+        <span class="lecture">I-24</span>
         <p class="uni">CSIR-National Metallurgical Laboratory, India</p>
       </div>
       <div id="Lamaty" class="speaker w3-col m4 l3 w3-center">
         <div class="w3-container"><img class="w3-circle" src="/img/speaker/FredericLamaty.png" alt="Frédéric Lamaty" /></div>
         <h3>Frédéric Lamaty</h3>
+        <span class="lecture">I-10</span>
         <p class="uni">Institut des Biomolécules Max Mousseron (IBMM), UMR 5247, Université de Montpellier, CNRS, ENSCM, France</p>
       </div>
       <div id="Maini" class="speaker w3-col m4 l3 w3-center">
         <div class="w3-container"><img class="w3-circle" src="/img/speaker/LuciaMaini.jpg" alt="Lucia Maini" /></div>
         <h3>Lucia Maini</h3>
+        <span class="lecture">I-15</span>
         <p class="uni">Dipartimento di Chimica &apos;G. Ciamician&apos;, Università di Bologna, Italy</p>
       </div>
       <div id="Mukhopadhyay" class="speaker w3-col m4 l3 w3-center">
         <div class="w3-container"><img class="w3-circle" src="/img/speaker/NilayKMukhopadhyay.jpg" alt="Nilay Krishna Mukhopadhyay" /></div>
         <h3>Nilay Krishna Mukhopadhyay</h3>
+        <span class="lecture">I-19</span>
         <p class="uni">Department of Metallurgical Engineering, Indian Institute of Technology, India</p>
       </div>
       <div id="Oleszak" class="speaker w3-col m4 l3 w3-center">
         <div class="w3-container"><img class="w3-circle" src="/img/speaker/DariuszOleszak.jpg" alt="Dariusz Oleszak" /></div>
         <h3>Dariusz Oleszak</h3>
+        <span class="lecture">I-27</span>
         <p class="uni">Faculty of Materials Science and Engineering, Warsaw University of Technology, Poland</p>
       </div>
       <div id="Scholz" class="speaker w3-col m4 l3 w3-center">
         <div class="w3-container"><img class="w3-circle" src="/img/speaker/GudrunScholz.jpg" alt="Gudrun Scholz" /></div>
         <h3>Gudrun Scholz</h3>
+        <span class="lecture">I-06</span>
         <p class="uni">Department of Chemistry, Humboldt-Universitat zu Berlin, Germany</p>
       </div>
       <div id="Senna" class="speaker w3-col m4 l3 w3-center">
         <div class="w3-container"><img class="w3-circle" src="/img/speaker/MamoruSenna.jpg" alt="Mamoru Senna" /></div>
         <h3>Mamoru Senna</h3>
+        <span class="lecture">I-05</span>
         <p class="uni">Faculty of Science and Technology, Keio University, Japan</p>
       </div>
       <div id="Shakhtshneyder" class="speaker w3-col m4 l3 w3-center">
         <div class="w3-container"><img class="w3-circle" src="/img/speaker/TatyanaPShakhtshneyder.jpg" alt="Tatyana P. Shakhtshneyder" /></div>
         <h3>Tatyana P. Shakhtshneyder</h3>
+        <span class="lecture">I-12</span>
         <p class="uni">Institute of Solid State Chemistry and Mechanochemistry, Siberian Branch of the Russian Academy of Sciences, Russia</p>
       </div>
       <div id="Streletskii" class="speaker w3-col m4 l3 w3-center">
         <div class="w3-container"><img class="w3-circle" src="/img/speaker/AndreyStreletskii.jpg" alt="Andrey N. Streletskii" /></div>
         <h3>Andrey N. Streletskii</h3>
+        <span class="lecture">I-21</span>
         <p class="uni">Institute of Chemical Physics, Russian Academy of Sciences, Russia</p>
       </div>
       <div id="Takacs" class="speaker w3-col m4 l3 w3-center">
         <div class="w3-container"><img class="w3-circle" src="/img/speaker/LaszloTakacs.jpg" alt="Laszlo Takacs" /></div>
         <h3>Laszlo Takacs</h3>
+        <span class="lecture">I-01</span>
         <p class="uni">Department of Physics, University of Maryland Baltimore County, USA</p>
       </div>
       <div id="Tysoe" class="speaker w3-col m4 l3 w3-center">
         <div class="w3-container"><img class="w3-circle" src="/img/speaker/WilfredTTysoe.jpg" alt="Wilfred T. Tysoe" /></div>
         <h3>Wilfred T. Tysoe</h3>
+        <span class="lecture">I-03</span>
         <p class="uni">Department of Chemistry and Biochemistry and Laboratory for Surface Studies, University of Wisconsin-Milwaukee, USA</p>
       </div>
       <div id="Urakaev" class="speaker w3-col m4 l3 w3-center">
         <div class="w3-container"><img class="w3-circle" src="/img/speaker/FaritKhUrakaev.jpg" alt="Farit Kh. Urakaev" /></div>
         <h3>Farit Kh. Urakaev</h3>
+        <span class="lecture">I-25</span>
         <p class="uni">Sobolev Institute of Geology and Mineralogy, Siberian Branch of the Russian Academy of Sciences, Russia</p>
       </div>
       <div id="Wang" class="speaker w3-col m4 l3 w3-center">
         <div class="w3-container"><img class="w3-circle" src="/img/speaker/GuanWuWang.jpg" alt="Guan-Wu Wang" /></div>
         <h3>Guan-Wu Wang</h3>
+        <span class="lecture">I-13</span>
         <p class="uni">Hefei National Laboratory for Physical Sciences at the Microscale, Department of Chemistry, University of Science and Technology of China, P. R. China</p>
       </div>
       <div id="Wilkening" class="speaker w3-col m4 l3 w3-center">
         <div class="w3-container"><img class="w3-circle" src="/img/speaker/MartinWilkening.jpg" alt="Martin Wilkening" /></div>
         <h3>Martin Wilkening</h3>
+        <span class="lecture">I-07</span>
         <p class="uni">Institute for Chemistry and Technology of Materials (NAWI Graz), Christian-Doppler Laboratory for Lithium Batteries, Austria</p>
       </div>
       <div id="Yermakov" class="speaker w3-col m4 l3 w3-center">
         <div class="w3-container"><img class="w3-circle" src="/img/speaker/AnatolyYermakov.jpg" alt="Anatoly Yermakov" /></div>
         <h3>Anatoly Yermakov</h3>
+        <span class="lecture">I-18</span>
         <p class="uni">M. N. Miheev Institute of Metal Physics, Ural Branch of the Russian Academy of Sciences, Russia</p>
       </div>
     </div>

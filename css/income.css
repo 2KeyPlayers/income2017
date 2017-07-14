@@ -497,11 +497,12 @@ u {
 }
 #program .w3-ul li span.type {
   margin-right: 5px;
-  background-color: #404040; /*#dddddd;*/
+  background-color: #404040;
 }
 #program .w3-ul li div {
   font-style: normal;
   text-align: right;
+  padding-left: 70px;
 }
 #program .w3-ul li div a {
   color: #404040 !important;
@@ -511,23 +512,18 @@ u {
   color: #dddddd;
   margin-left: 5px;
 }
-/*#program .w3-ul li.break {
-  color: #404040;
-  background-color: #dddddd;
-}*/
 #program .w3-ul li.registration span {
-  color: #ffffff; /*#404040;*/
-  background-color: #26b000; /*#dddddd;*/
+  color: #ffffff;
+  background-color: #26b000;
 }
 #program .w3-ul li.break span {
-  /*color: #dddddd;*/
   background-color: #404040;
 }
 #program .w3-ul li.break i {
-  color: #404040; /*#ffffff;*/
+  color: #404040;
 }
 #program .w3-ul li.break a {
-  color: #404040 /*#ffffff*/ !important;
+  color: #404040 !important;
 }
 /*#program .w3-ul li.break a:hover {
   -moz-transition: none;
@@ -542,11 +538,6 @@ u {
 #posters .w3-ul li {
   font-style: italic;
 }
-/*#posters .w3-ul li .number {
-  display: inline-block;
-  padding-left: 10px;
-  font-style: normal;
-}*/
 #posters .w3-ul li span {
   display: block;
   font-style: normal;
@@ -594,6 +585,15 @@ ol.w3-ul.session-2 li:nth-child(n+10):before {
 }
 .speaker .uni {
   font-size: 14px;
+}
+.speaker .lecture {
+  font-size: 80%;
+  font-style: normal;
+  background-color: #404040;
+  color: white;
+  font-weight: bold;
+  padding: 2px 8px;
+  border-radius: 3px;
 }
 
 .hotel .img {
