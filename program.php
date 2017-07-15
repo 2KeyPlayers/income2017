@@ -538,7 +538,7 @@
     </div>
     <div class="w3-accordion">
       <a id="poster-session-2" href="javascript:showDetails('session2')" class="program">
-        <i class="fa fa-plus-square-o w3-padding-right"></i> Poster session II <span>Tuesday, September 5<sup>th</sup>, 2017</span> <span>18:05 - 19:05</span>
+        <i class="fa fa-plus-square-o w3-padding-right"></i> Poster session II <span>Tuesday, September 5<sup>th</sup>, 2017</span> <span>18:10 - 19:10</span>
       </a>
       <div id="session2" class="w3-accordion-content w3-container">
         <ol class="w3-ul session-2">
