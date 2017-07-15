@@ -247,12 +247,12 @@
           <li class="lecture"><span>17:30 - 17:45</span> <span class="type" title="Oral presentation">O-24</span> Effective and selective reduction of α, β-unsaturated carbonyl compounds to the corresponding alcohol under milling conditions
             <div class="speaker"><u>A. Barranco</u>, M. Felderhoff, F. Schüth</div>
           </li>
-          <li class="lecture"><span>17:45 - 18:05</span> <span class="type" title="Invited lecture">I-17</span> Do we always know, what we do not know? Challenges of mechanochemistry
+          <li class="lecture"><span>17:45 - 18:10</span> <span class="type" title="Invited lecture">I-17</span> Do we always know, what we do not know? Challenges of mechanochemistry
             <div class="speaker"><a href="javascript:scrollTo('Boldyreva')">E. V. Boldyreva</a></div>
           </li>
 
-          <li class="break"><span>18:05 - 19:05</span> <!--a href="javascript:scrollTo('poster-session-2')"-->Poster session II <!--i class="fa fa-list-alt"></i--><!--/a--></li>
-          <li class="break"><span>19:05 - <span style="font-size:100%;padding:0;margin:0;color:#404040">21:00</span></span> Meeting of the International Advisory Committee of INCOME</li>
+          <li class="break"><span>18:10 - 19:10</span> <!--a href="javascript:scrollTo('poster-session-2')"-->Poster session II <!--i class="fa fa-list-alt"></i--><!--/a--></li>
+          <li class="break"><span>19:10 - <span style="font-size:100%;padding:0;margin:0;color:#404040">21:00</span></span> Meeting of the International Advisory Committee of INCOME</li>
         </ul>
       </div>
     </div>
@@ -290,7 +290,7 @@
           <li class="lecture"><span>11:15 - 11:30</span> <span class="type" title="Oral presentation">O-28</span> Microstructure, porosity and wear resistance of new Ti-10Ta-8Mo (wt.%) biomedical alloy prepared by high-energy ball milling and annealed processes
             <div class="speaker">G. Dercz, <u>I. Matuła</u>, M. Zubko, J. Maszybrocka, M. Boruszewska</div>
           </li>
-          <li class="lecture"><span>11:30 - 11:45</span> <span class="type" title="Oral presentation">O-29</span> Mössbauer study of the kinetics of mechanical amorphization in Fe<sub>7</sub>0Zr<sub>3</sub>0
+          <li class="lecture"><span>11:30 - 11:45</span> <span class="type" title="Oral presentation">O-29</span> Mössbauer study of the kinetics of mechanical amorphization in Fe<sub>70</sub>Zr<sub>30</sub>
             <div class="speaker">A. F. Manchón-Gordón, J. J. Ipus, <u>J. S. Blázquez</u>, C. F. Conde, A. Conde</div>
           </li>
           <li class="lecture"><span>11:45 - 12:00</span> <span class="type" title="Oral presentation">O-30</span> Mechanochemically-driven amorphization in overstoichiometric arsenic sulfides
