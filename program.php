@@ -172,7 +172,7 @@
       <div id="day3" class="w3-accordion-content w3-container">
         <ul class="w3-ul">
           <li class="registration"><span>08:00 - 18:00</span> Registration <!--i class="fa fa-user-plus"></i--></li>
-          <li class="lecture"><span>08:00 - 08:25</span> <span class="type" title="Invited lecture">I-08</span> TBA
+          <li class="lecture"><span>08:00 - 08:25</span> <span class="type" title="Invited lecture">I-08</span> Chemistry 2.0: Developing a New, Solvent-free System of Chemical Synthesis Based on Mechanochemistry
             <div class="speaker"><a href="javascript:scrollTo('Friscic')">T. Friščić</a></div>
           </li>
           <li class="lecture"><span>08:25 - 08:50</span> <span class="type" title="Invited lecture">I-09</span> New insights in formation pathways: in situ investigations of mechanochemical reactions
