@@ -104,7 +104,7 @@
       <h1><i class="fa fa-list-ul icon"></i> Topics</h1>
       <div class="w3-accordion">
         <a href="javascript:showDetails('topic1')" class="topic">
-          <i class="fa fa-plus-square-o w3-padding-right"></i> Mechanochemical reactions and processing in solid state science and technology
+          <i class="fa fa-plus-square-o w3-padding-right"></i> Mechanochemical reactions and processing in solid state science and technology&nbsp;
         </a>
         <div id="topic1" class="w3-accordion-content">
           <ul class="w3-ul">
@@ -119,7 +119,7 @@
       </div>
       <div class="w3-accordion">
         <a href="javascript:showDetails('topic2')" class="topic">
-          <i class="fa fa-plus-square-o w3-padding-right"></i> Mechanical alloying and amorphization (including hydrogen storage alloys)
+          <i class="fa fa-plus-square-o w3-padding-right"></i> Mechanical alloying and amorphization (including hydrogen storage alloys)&nbsp;
         </a>
         <div id="topic2" class="w3-accordion-content">
           <ul class="w3-ul">
@@ -129,7 +129,7 @@
       </div>
       <div class="w3-accordion">
         <a href="javascript:showDetails('topic3')" class="topic">
-          <i class="fa fa-plus-square-o w3-padding-right"></i> Mechanisms of mechanochemical reactions, Thermodynamics and modeling
+          <i class="fa fa-plus-square-o w3-padding-right"></i> Mechanisms of mechanochemical reactions, Thermodynamics and modeling&nbsp;
         </a>
         <div id="topic3" class="w3-accordion-content">
           <ul class="w3-ul">
@@ -141,7 +141,7 @@
       </div>
       <div class="w3-accordion">
         <a href="javascript:showDetails('topic4')" class="topic">
-          <i class="fa fa-plus-square-o w3-padding-right"></i> Structural characterization of reaction intermediates and products
+          <i class="fa fa-plus-square-o w3-padding-right"></i> Structural characterization of reaction intermediates and products&nbsp;
         </a>
         <div id="topic4" class="w3-accordion-content">
           <ul class="w3-ul">
@@ -153,7 +153,7 @@
       </div>
       <div class="w3-accordion">
         <a href="javascript:showDetails('topic5')" class="topic">
-          <i class="fa fa-plus-square-o w3-padding-right"></i> Functional properties of mechanochemically prepared materials
+          <i class="fa fa-plus-square-o w3-padding-right"></i> Functional properties of mechanochemically prepared materials&nbsp;
         </a>
         <div id="topic5" class="w3-accordion-content">
           <ul class="w3-ul">
@@ -163,7 +163,7 @@
       </div>
       <div class="w3-accordion">
         <a href="javascript:showDetails('topic6')" class="topic">
-          <i class="fa fa-plus-square-o w3-padding-right"></i> Application and process engineering of mechanochemistry
+          <i class="fa fa-plus-square-o w3-padding-right"></i> Application and process engineering of mechanochemistry&nbsp;
         </a>
         <div id="topic6" class="w3-accordion-content">
           <ul class="w3-ul">
@@ -257,7 +257,7 @@
         <li>D. G. Klissurski (Bulgaria)</li>
       </ul>
     </div>
-    <div class="section left w3-half" style="padding-top:0!important">
+    <div class="section right w3-half" style="padding-top:0!important">
       <h3 class="empty">&nbsp;</h3>
       <ul class="w3-ul w3-margin-left">
         <li>Y.-S. Kwon (Korea)</li>

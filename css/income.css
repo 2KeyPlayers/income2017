@@ -43,6 +43,7 @@ a {
   text-decoration: none;
 }
 a:hover {
+  text-decoration: underline;
   /*opacity: 0.7;
   filter: alpha(opacity=70);*/
 }
@@ -232,6 +233,9 @@ textarea {
 
 #navigation ul li a:hover, #navigation ul li a.selected {
   background: #d9d9d9 !important;
+  color: #f70707 !important;
+}
+#navigation ul li a:hover .year {
   color: #f70707 !important;
 }
 
@@ -576,11 +580,13 @@ ol.w3-ul.session-2 li:nth-child(n+10):before {
   content: "P-II-" counter(step-counter);
 }
 
-#speakers .speaker:hover {
-  border-left: 1px solid #d9d9d9;
-  border-right: 1px solid #d9d9d9;
+#speakers .speaker:hover, #accomodation .hotel:hover {
+  background-color: #d9d9d9;
 }
 
+.speaker {
+  padding-top: 14px !important;
+}
 .speaker img {
   max-width: 300px;
   width: 50%;
@@ -601,16 +607,21 @@ ol.w3-ul.session-2 li:nth-child(n+10):before {
   border-radius: 3px;
 }
 
-/*#accomodation .hotel:hover {
-  border-left: 1px solid #d9d9d9;
-  border-right: 1px solid #d9d9d9;
-}*/
+#accomodation .hotel:hover ul li {
+  border-color: #ffffff;
+}
 
+.hotel {
+  padding-top: 14px !important;
+}
 .hotel .img {
   overflow: hidden;
-  max-width: 100%;
+  padding: 0 !important;
+  margin: 0 16px;
 }
 .hotel .img a img {
+  width: 100%;
+  margin: -10px;
   -moz-transition: all 0.25s;
   -webkit-transition: all 0.25s;
   transition: all 0.25s;
@@ -619,10 +630,6 @@ ol.w3-ul.session-2 li:nth-child(n+10):before {
   -moz-transform: scale(1.08);
   -webkit-transform: scale(1.08);
   transform: scale(1.08);
-}
-.hotel img {
-  /*max-width: 300px;*/
-  width: 100%;
 }
 
 #venue img {
@@ -1028,10 +1035,6 @@ h1.empty, h3.empty { /*, i.icon {*/
 
 #speakers .speaker:nth-child(n+2) {
   margin-top: 32px !important;
-}
-
-#speakers .speaker:hover, #accomodation .hotel:hover {
-  border: none;
 }
 
 .transportation .location:nth-child(n+2) {
