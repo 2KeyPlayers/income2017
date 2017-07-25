@@ -530,9 +530,6 @@
           <li>Photovoltaic response of bulk heterojunctions based on nanopowders of kesterite and n-type semiconductors
             <span>O. P. Dimitriev, D. O. Grynko, A. M. Fedoryak, T. P. Doroshenko, M. Kratzer, C. Teichert, Yu. V. Noskov, N. A. Ogurtsov, A. A. Pud, <u>P. Balaz</u>, M. Balaz, M. Tesinsky, M. Hegedus</span>
           </li>
-          <li>Investigation of mechanical properties in dissimilar welding of shape memory alloys
-            <span><u>M. H. Sadati</u>, F. Haftani</span>
-          </li>
         </ol>
       </div>
     </div>
