@@ -98,17 +98,17 @@
         <ul class="w3-ul">
           <li>Registration <span class="date">September 3<sup>rd</sup>, 2017</span></li>
           <li>Welcome drink <span class="date">September 3<sup>rd</sup>, 2017</span></li>
-          <li>Coffee breaks <span class="date">September 4<sup>th</sup>, 2017</span> - <span class="date">September 7<sup>th</sup>, 2017</span></li>
+          <li>Coffee breaks <span class="date">September 4<sup>th</sup> - 7<sup>th</sup>, 2017</span></li>
         </ul>
       </div>
       <div id="building-b" class="building w3-col l6">
         <h3><i class="fa fa-building icon"></i> Building B</h3>
         <p>(Slovak Academy of Sciences, Watsonova 47, Košice)</p>
         <ul class="w3-ul">
-          <li>Registration <span class="date">September 4<sup>th</sup>, 2017</span> - <span class="date">September 7<sup>th</sup>, 2017</span></li>
+          <li>Registration <span class="date">September 4<sup>th</sup> - 7<sup>th</sup>, 2017</span></li>
           <li>Opening remarks <span class="date">September 4<sup>th</sup>, 2017</span></li>
-          <li>Invited and oral presentations <span class="date">September 4<sup>th</sup>, 2017</span> - <span class="date">September 7<sup>th</sup>, 2017</span></li>
-          <li>Poster presentations <span class="date">September 4<sup>th</sup>, 2017</span> - <span class="date">September 5<sup>th</sup>, 2017</span></li>
+          <li>Invited and oral presentations <span class="date">September 4<sup>th</sup> - 7<sup>th</sup>, 2017</span></li>
+          <li>Poster presentations <span class="date">September 4<sup>th</sup> - 5<sup>th</sup>, 2017</span></li>
           <li>Discussion/Concluding remarks <span class="date">September 7<sup>th</sup>, 2017</span></li>
         </ul>
       </div>
@@ -116,7 +116,7 @@
         <h3><i class="fa fa-building icon"></i> Building C</h3>
         <p>(Café - Restaurant Malá Praha, Letná 40, Košice)</p>
         <ul class="w3-ul">
-          <li>Lunch <span class="date">September 4<sup>th</sup>, 2017</span> - <span class="date">September 7<sup>th</sup>, 2017</span></li>
+          <li>Lunch <span class="date">September 4<sup>th</sup> - 7<sup>th</sup>, 2017</span></li>
         </ul>
       </div>
       <div id="building-d" class="building w3-col l6">
