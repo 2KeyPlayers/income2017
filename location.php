@@ -81,10 +81,51 @@
     <h1><i class="fa fa-map-o icon"></i> Conference venue</h1>
     <div class="map-wrapper">
       <div id="map-canvas"></div>
-      <div class="address">
+      <!--div class="address">
         <p><span class="in">I</span><span class="in">N</span><span class="co">C</span><span class="co">O</span><span class="me">M</span><span class="me">E</span>2017 will take place at Watsonova 47, <a href="javascript:scrollTo('venue')">Košice</a>, Slovakia in the building of the Institute of Materials Research of SAS.</p>
       </div>
-      <div class="toggler"><a href="javascript:toggleMap()"><i class="eye fa fa-close"></i></a></div>
+      <div class="toggler"><a href="javascript:toggleMap()"><i class="eye fa fa-close"></i></a></div-->
+    </div>
+    <div class="w3-row">
+      <div class="building w3-col w3-center">
+        <img src="/img/buildings-a-b.jpg" alt="Buildings A and B" />
+        <img src="/img/building-c.jpg" alt="Building C" />
+        <img src="/img/building-d.jpg" alt="Building D" />
+      </div>
+      <div id="building-a" class="building w3-col l6">
+        <h3><i class="fa fa-building icon"></i> Building A</h3>
+        <p>(Slovak Academy of Sciences, Watsonova 47A, Košice)</p>
+        <ul class="w3-ul">
+          <li>Registration <span class="date">September 3<sup>rd</sup>, 2017</span></li>
+          <li>Welcome drink <span class="date">September 3<sup>rd</sup>, 2017</span></li>
+          <li>Coffee breaks <span class="date">September 4<sup>th</sup>, 2017</span> - <span class="date">September 7<sup>th</sup>, 2017</span></li>
+        </ul>
+      </div>
+      <div id="building-b" class="building w3-col l6">
+        <h3><i class="fa fa-building icon"></i> Building B</h3>
+        <p>(Slovak Academy of Sciences, Watsonova 47, Košice)</p>
+        <ul class="w3-ul">
+          <li>Registration <span class="date">September 4<sup>th</sup>, 2017</span> - <span class="date">September 7<sup>th</sup>, 2017</span></li>
+          <li>Opening remarks <span class="date">September 4<sup>th</sup>, 2017</span></li>
+          <li>Invited and oral presentations <span class="date">September 4<sup>th</sup>, 2017</span> - <span class="date">September 7<sup>th</sup>, 2017</span></li>
+          <li>Poster presentations <span class="date">September 4<sup>th</sup>, 2017</span> - <span class="date">September 5<sup>th</sup>, 2017</span></li>
+          <li>Discussion/Concluding remarks <span class="date">September 7<sup>th</sup>, 2017</span></li>
+        </ul>
+      </div>
+      <div id="building-c" class="building w3-col l6">
+        <h3><i class="fa fa-building icon"></i> Building C</h3>
+        <p>(Café - Restaurant Malá Praha, Letná 40, Košice)</p>
+        <ul class="w3-ul">
+          <li>Lunch <span class="date">September 4<sup>th</sup>, 2017</span> - <span class="date">September 7<sup>th</sup>, 2017</span></li>
+        </ul>
+      </div>
+      <div id="building-d" class="building w3-col l6">
+        <h3><i class="fa fa-building icon"></i> Building D</h3>
+        <p>(Slávia - Café, Hlavná 63, Košice)</p>
+        <ul class="w3-ul">
+          <li>Conference dinner <span class="date">September 6<sup>th</sup>, 2017</span></li>
+        </ul>
+      </div>
     </div>
   </div>
 
@@ -185,14 +226,17 @@
   </div>
 
   <div id="transportation2" class="transportation w3-row">
-    <div class="section left w3-half">
+    <div class="section full w3-col" style="padding-bottom:0 !important">
       <h1><i class="fa fa-subway icon"></i> Transportation in Košice</h1>
+      <p>All participants will receive a name badge after registration. This badge will also serve as a public transportation ticket @ Košice throughout the conference.</p>
+    </div>
+    <div class="section left w3-half">
       <h3>Airport <i class="fa fa-exchange w3-padding-left w3-padding-right"></i> <span class="in">I</span><span class="in">N</span><span class="co">C</span><span class="co">O</span><span class="me">M</span><span class="me">E</span><span class="year">2017</span></h3>
       <p>Košice city public transport company operates regular bus service No. 23 which connects the Košice Airport with the downtown. The ride from the train station to the airport takes about 20 minutes and you can check the timetable <a href="http://imhd.zoznam.sk/ke/cestovny-poriadok/linka/23.html" target="_blank">here</a>.</p>
       <ul class="w3-ul w3-margin-left">
-        <li><div class="fa fa-bus icon"></div> 23 <i class="fa fa-caret-right"></i> Staničné nám. <br /><div class="icon">&nbsp;</div> Airport <i class="fa fa-long-arrow-right"></i> Krajský súd</li>
-        <li><div class="fa fa-male icon"></div> Walk between platforms of the stop Krajský súd</li>
-        <li><div class="fa fa-train icon"></div> 7 <i class="fa fa-caret-right"></i> Botanická záhrada <br /><div class="icon">&nbsp;</div> Krajský súd <i class="fa fa-long-arrow-right"></i> Botanická záhrada</li>
+        <li><div class="fa fa-bus icon"></div> 23 <i class="fa fa-caret-right"></i> Staničné nám. <br /><div class="icon">&nbsp;</div> Airport <i class="fa fa-long-arrow-right"></i> Staničné nám.</li>
+        <!--li><div class="fa fa-male icon"></div> Walk between platforms of the stop Krajský súd</li-->
+        <li><div class="fa fa-train icon"></div> 19 <i class="fa fa-caret-right"></i> KVP, kláštor <br /><div class="icon">&nbsp;</div> Staničné nám. <i class="fa fa-long-arrow-right"></i> Botanická záhrada</li>
       </ul>
       <p>CTC Taxi is official provider of TAXI services at the airport. They offer a ride in air conditioned Hondas at price of 10 € (airport-downtown).</p>
       <ul class="w3-ul w3-margin-left">
@@ -201,25 +245,25 @@
       <p class="w3-right">* <a href="http://www.airportkosice.sk/en/" target="_blank">airportkosice.sk</a></p>
     </div>
     <div class="section right w3-half">
-      <h1 class="empty">&nbsp;</h1>
-      <h3>Railway / Bus Station <i class="fa fa-exchange w3-padding-left w3-padding-right"></i> <span class="in">I</span><span class="in">N</span><span class="co">C</span><span class="co">O</span><span class="me">M</span><span class="me">E</span>2017</h3>
+      <h3>Railway/Bus station <i class="fa fa-exchange w3-padding-left w3-padding-right"></i> <span class="in">I</span><span class="in">N</span><span class="co">C</span><span class="co">O</span><span class="me">M</span><span class="me">E</span>2017</h3>
       <p>Bus No. 19</p>
       <ul class="w3-ul w3-margin-left">
-        <li><div class="fa fa-bus icon"></div> 19 <i class="fa fa-caret-right"></i> KVP, kláštor <br /><div class="icon">&nbsp;</div> Staničné nám. <i class="fa fa-long-arrow-right"></i> Technická univerzita</li>
-        <li><div class="fa fa-male icon"></div> Walk between platforms of the stop Technická univerzita</li>
-        <li><div class="fa fa-bus icon"></div> 12 <i class="fa fa-caret-right"></i> Podhradová <br /><div class="icon">&nbsp;</div> Technická univerzita <i class="fa fa-long-arrow-right"></i> Botanická záhrada</li>
+        <li><div class="fa fa-bus icon"></div> 19 <i class="fa fa-caret-right"></i> KVP, kláštor <br /><div class="icon">&nbsp;</div> Staničné nám. <i class="fa fa-long-arrow-right"></i> Botanická záhrada</li>
       </ul>
-      <p>Bus No. 16</p>
+      <p>Bus No. 16 &amp; 14</p>
       <ul class="w3-ul w3-margin-left">
-        <li><div class="fa fa-bus icon"></div> 16 <i class="fa fa-caret-right"></i> Podhradová <br /><div class="icon">&nbsp;</div> Staničné nám. <i class="fa fa-long-arrow-right"></i> Technická univerzita</li>
-        <li><div class="fa fa-male icon"></div> Walk between platforms of the stop Technická univerzita</li>
-        <li><div class="fa fa-train icon"></div> 7 <i class="fa fa-caret-right"></i> Botanická záhrada <br /><div class="icon">&nbsp;</div> Technická univerzita <i class="fa fa-long-arrow-right"></i> Botanická záhrada</li>
+        <li><div class="fa fa-bus icon"></div> 16 <i class="fa fa-caret-right"></i> Podhradová <br /><div class="icon">&nbsp;</div> Staničné nám. <i class="fa fa-long-arrow-right"></i> Národné nám.</li>
+        <li><div class="fa fa-bus icon"></div> 14 <i class="fa fa-caret-right"></i> Horný Bankov <br /><div class="icon">&nbsp;</div> Národné nám. <i class="fa fa-long-arrow-right"></i> Botanická záhrada</li>
       </ul>
-      <p>Tram No. 2</p>
+      <p>Bus No. 27 &amp; 12</p>
       <ul class="w3-ul w3-margin-left">
-        <li><div class="fa fa-train icon"></div> 2 <i class="fa fa-caret-right"></i> Sever, Havlíčkova <br /><div class="icon">&nbsp;</div> Staničné nám. <i class="fa fa-long-arrow-right"></i> Krajský úrad</li>
-        <li><div class="fa fa-male icon"></div> Walk between platforms of the stop Krajský úrad</li>
-        <li><div class="fa fa-bus icon"></div> 12 <i class="fa fa-caret-right"></i> Šebastovce <br /><div class="icon">&nbsp;</div> Krajský úrad <i class="fa fa-long-arrow-right"></i> Botanická záhrada</li>
+        <li><div class="fa fa-bus icon"></div> 27 <i class="fa fa-caret-right"></i> Sídlisko Ťahanovce, Madridská <br /><div class="icon">&nbsp;</div> Staničné nám. <i class="fa fa-long-arrow-right"></i> Mier</li>
+        <li><div class="fa fa-bus icon"></div> 12 <i class="fa fa-caret-right"></i> Barca, Podnikateľská <br /><div class="icon">&nbsp;</div> Mier <i class="fa fa-long-arrow-right"></i> Botanická záhrada</li>
+      </ul>
+      <p>Tram No. 3 &amp; Bus No. 12</p>
+      <ul class="w3-ul w3-margin-left">
+        <li><div class="fa fa-train icon"></div> 3 <i class="fa fa-caret-right"></i> Juh, Ryba <br /><div class="icon">&nbsp;</div> Staničné nám. <i class="fa fa-long-arrow-right"></i> Stará nemocnica</li>
+        <li><div class="fa fa-bus icon"></div> 12 <i class="fa fa-caret-right"></i> Podhradová <br /><div class="icon">&nbsp;</div> Stará nemocnica <i class="fa fa-long-arrow-right"></i> Botanická záhrada</li>
       </ul>
       <p class="w3-right">* <a href="http://imhd.sk/ke/public-transport" target="_blank">imhd.sk</a></p>
     </div>
@@ -333,35 +377,57 @@ $(document).ready(function() {
     }
   });
 
-  var e = new google.maps.LatLng(48.733691, 21.238331), //48.7337333, 21.2384061),
-    o = {
-        zoom: 18,
-        center: new google.maps.LatLng(48.733691, 21.238331), //48.7337333, 21.2384061),
+  var ll = new google.maps.LatLng(48.7291451,21.2475137),
+    options = {
+        zoom: 15,
+        center: ll,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         mapTypeControl: !1,
         scrollwheel: !1,
         draggable: !0,
         navigationControl: !1
     },
-    n = new google.maps.Map(document.getElementById("map-canvas"), o);
+    map = new google.maps.Map(document.getElementById("map-canvas"), options);
 
   google.maps.event.addDomListener(window, "resize", function () {
-    var e = n.getCenter();
-    google.maps.event.trigger(n, "resize"), n.setCenter(e)
+    var e = map.getCenter();
+    google.maps.event.trigger(map, "resize"), map.setCenter(ll)
   });
-  var t = new google.maps.MarkerImage("img/map-pin.png", new google.maps.Size(24, 24),
-    new google.maps.Point(0, 0), new google.maps.Point(12, 12)),
-    i = new google.maps.LatLng(48.733691, 21.238331), //48.7337333, 21.2384061),
-    p = new google.maps.Marker({ position: i, map: n, icon: t, zIndex: 3 });
 
-  /*var g = "<div class='map-details'><p><span class='in'>I</span><span class='in'>N</span><span class='co'>C</span><span class='co'>O</span><span class='me'>M</span><span class='me'>E</span>2017 will take place at Watsonova 47, Košice, Slovakia in the building of the Institute of Materials Research of SAS.</p></div>", a = new google.maps.InfoWindow({ content: g }),
-    t = new google.maps.MarkerImage("img/map-pin.png", new google.maps.Size(24, 24),
-    new google.maps.Point(0, 0), new google.maps.Point(12, 12)),
-    i = new google.maps.LatLng(48.7337333, 21.2384061),
-    p = new google.maps.Marker({ position: i, map: n, icon: t, zIndex: 3 });
+  var locations = [
+    ['Building D', 48.721876, 21.257851, 4],
+    ['Building C', 48.728757, 21.243155, 3],
+    ['Building B', 48.733690, 21.238348, 2],
+    ['Building A', 48.734015, 21.238606, 1]
+  ];
 
-  google.maps.event.addListener(p, "click", function () { a.open(n, p) });
-  a.open(n, p);*/
+  var i, marker, infowindow;
+
+  for (i = 0; i < locations.length; i++) {
+    marker = new google.maps.Marker({
+      position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+      map: map
+    });
+    infowindow = new google.maps.InfoWindow();
+    infowindow.setContent(locations[i][0]);
+
+    google.maps.event.addListener(marker, 'click', (function(marker, i) {
+      return function() {
+        infowindow.open(map, marker);
+      }
+    })(marker, i));
+    if (i < 2) {
+      infowindow.open(map, marker);
+    }
+  }
+  // additional marker for buildings A & B
+  marker = new google.maps.Marker({
+    position: new google.maps.LatLng(locations[2][1], locations[2][2]),
+    map: map
+  });
+  infowindow = new google.maps.InfoWindow();
+  infowindow.setContent('Buildings A & B');
+  infowindow.open(map, marker);
 
 });
 </script>

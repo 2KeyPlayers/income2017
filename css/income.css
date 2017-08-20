@@ -480,6 +480,7 @@ u {
   font-weight: bold;
   padding: 2px 8px;
   border-radius: 3px;
+  white-space: nowrap;
 }
 .program span:first-of-type {
   margin-left: 10px;
@@ -691,7 +692,7 @@ ol.w3-ul.session-2 li:nth-child(n+10):before {
   margin: 70px 20px 0 20px;
   padding: 0 8px;
 }*/
-#conference p {
+#conference .address p {
   margin: 40px 20px 0 20px;
   padding: 0 8px;
 }
@@ -714,7 +715,7 @@ ol.w3-ul.session-2 li:nth-child(n+10):before {
 }
 #conference .map-wrapper {
   position: relative;
-  min-height: 350px;
+  min-height: 560px;
 }
 /*#conference .map-details {
   width: 50% !important;
@@ -728,6 +729,36 @@ ol.w3-ul.session-2 li:nth-child(n+10):before {
   left: 0;
   right: 0;
   z-index: 1;
+}
+
+.building {
+  margin-top: 20px;
+}
+.building span.location {
+  font-size: 15px;
+  white-space: nowrap;
+}
+.building ul.w3-ul li {
+  padding-left: 0;
+  padding-right: 0;
+  border: none;
+}
+.building span.date {
+  font-size: 80%;
+  background-color: #0070c0;
+  color: white;
+  font-weight: bold;
+  padding: 2px 8px;
+  border-radius: 3px;
+  white-space: nowrap;
+}
+.building li span.date:first-of-type {
+  margin-left: 5px;
+}
+.building img {
+  display: inline-block;;
+  height: 200px;
+  margin: 10px;
 }
 
 .w3-btn {

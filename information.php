@@ -77,18 +77,30 @@
 <div id="main" class="w3-container">
 
   <div class="w3-row">
-    <div id="instructions" class="section left w3-half">
+    <div id="informations" class="section left w3-half">
+      <h1><i class="fa fa-info-circle icon"></i> Informations</h1>
+      <h3>Presentations</h3>
+      <p class="w3-margin-left">Invited and oral will be held in <a href="/location">Building B</a> (conference hall, ground floor). Computers running the presentation will be using Microsoft based Powerpoint software. Please upload your presentation named Surname.pptx in the morning or at least two hours prior the lecture on the day of your presentation. A technician will be available to help you. Speakers are asked to keep strictly with time schedule. To overrun into the next speaker's allocated time is not allowed.</p>
+      <p class="w3-margin-left">The poster sessions will be held in <a href="/location">Building B</a> (1<sup>st</sup> floor). The delegates should pin up their posters in time. Each poster has a number (see conference program) and the delegates are asked to place them on the appropriate poster board. Everything necessary to mount the posters will be provided. The posters presenters are asked to stand by their boards during the poster session for discussion. The authors are advised to retrieve their posters immediately after the session. The abandoned posters will be discarded.</p>
+      <h3>Wi-Fi</h3>
+      <p class="w3-margin-left">Free of charge in <a href="/location">Buildings A &amp; B</a>.</p>
+      <h3>Lunch/Dinner</h3>
+      <p class="w3-margin-left">During registration, delegates will obtain lunch/dinner tickets. You are kindly asked to bring them with you to the restaurant. Lunch will be provided in <a href="/location">Building C</a> and the dinner will take place in <a href="/location">Building D</a>.</p>
+      <h3>Transportation</h3>
+      <p class="w3-margin-left">All participants will receive a name badge after registration. This badge will also serve as a public transportation ticket @ Košice throughout the conference.</p>
+    </div>
+    <div id="instructions" class="section right w3-half">
       <h1><i class="fa fa-exclamation-circle icon"></i> Instructions</h1>
       <h3>Conference language</h3>
       <p class="w3-margin-left">The conference language is <span class="large-font">English</span>.</p>
       <h3>Oral presentation</h3>
       <ul class="w3-ul w3-margin-left">
-        <li>Invited lecture – <span class="large-font">25</span> min. <!--span class="w3-tooltip" style="color:#ffc107"><i class="fa fa-warning"></i> <span class="w3-text">Previously 30 min.</span></span--></li>
-        <li>Regular lecture – <span class="large-font">15</span> min.</li>
+        <li>Invited lecture – <span class="large-font">25</span> min. (incl. 5 min. for discussion)</li>
+        <li>Regular lecture – <span class="large-font">15</span> min. (incl. 5 min. for discussion)</li>
       </ul>
       <h3>Poster presentation</h3>
       <ul class="w3-ul w3-margin-left">
-        <li>Poster size – max. <span class="large-font">70</span> × <span class="large-font">115</span> cm, vertical orientation <!--span class="w3-tooltip" style="color:#ffc107"><i class="fa fa-warning"></i> <span class="w3-text">Previously 84.1 × 118.9 cm</span></span--></li>
+        <li>Poster size – max. <span class="large-font">70</span> × <span class="large-font">115</span> cm, vertical/portrait orientation <!--span class="w3-tooltip" style="color:#ffc107"><i class="fa fa-warning"></i> <span class="w3-text">Previously 84.1 × 118.9 cm</span></span--></li>
       </ul>
       <h3>For authors</h3>
       <ul class="w3-ul w3-margin-left">
@@ -101,7 +113,7 @@
         <li>After a rigorous peer review process the selected manuscripts presented at <span class="in">I</span><span class="in">N</span><span class="co">C</span><span class="co">O</span><span class="me">M</span><span class="me">E</span>2017 will be published in renowned journals.</li>
       </ul>
     </div>
-    <div class="section right w3-half">
+    <div class="section left w3-half">
       <h1><i class="fa fa-calendar-check-o icon"></i> Important dates</h1>
       <ul class="deadlines w3-ul">
         <li><span class="deadline w3-left">Registration activation</span> <br /> 15.01.2017</li>
