@@ -85,7 +85,7 @@
       <h3>Wi-Fi</h3>
       <p class="w3-margin-left">Free of charge in <a href="/location">Buildings A &amp; B</a>.</p>
       <h3>Lunch/Dinner</h3>
-      <p class="w3-margin-left">During registration, delegates will obtain lunch/dinner tickets. You are kindly asked to bring them with you to the restaurant. Lunch will be provided in <a href="/location">Building C</a> and the dinner will take place in <a href="/location">Building D</a>.</p>
+      <p class="w3-margin-left">During registration, delegates will obtain lunch/dinner tickets. You are kindly asked to bring them with you to the restaurant. The participants will be split into 2 lunch sections, 12:00 - 13:00 and 13:00 - 14:00. Lunch will be provided in <a href="/location">Building C</a> and the dinner will take place in <a href="/location">Building D</a>. Lunch, as well as dinner, is not included for any accompanying person(s).</p>
       <h3>Transportation</h3>
       <p class="w3-margin-left">All participants will receive a name badge after registration. This badge will also serve as a public transportation ticket @ Košice throughout the conference.</p>
     </div>
@@ -113,7 +113,7 @@
         <li>After a rigorous peer review process the selected manuscripts presented at <span class="in">I</span><span class="in">N</span><span class="co">C</span><span class="co">O</span><span class="me">M</span><span class="me">E</span>2017 will be published in renowned journals.</li>
       </ul>
     </div>
-    <div class="section left w3-half">
+    <div id="important-dates" class="section left w3-half">
       <h1><i class="fa fa-calendar-check-o icon"></i> Important dates</h1>
       <ul class="deadlines w3-ul">
         <li><span class="deadline w3-left">Registration activation</span> <br /> 15.01.2017</li>

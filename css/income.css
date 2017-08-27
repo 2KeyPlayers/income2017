@@ -358,7 +358,7 @@ a.topic, a.program {
   padding: 0;
 }
 .w3-accordion-content a:hover {
-  background-color: #ffffff;
+  background-color: inherit;
 }
 
 ul.w3-ul li, ol.w3-ul li {
@@ -408,6 +408,10 @@ ul.w3-ul li, ol.w3-ul li {
 
 #topics .w3-accordion:first-of-type {
   margin-top: 10px;
+}
+
+#important-dates {
+  clear: left !important;
 }
 
 /*#topics ul.listing {
@@ -504,10 +508,13 @@ u {
   margin-right: 5px;
   background-color: #404040;
 }
-#program .w3-ul li div {
+#program .w3-ul li div.speaker {
   font-style: normal;
   text-align: right;
   padding-left: 70px;
+}
+#program .w3-ul li div.place {
+  float: right;
 }
 #program .w3-ul li div a {
   color: #404040 !important;
@@ -527,17 +534,25 @@ u {
 #program .w3-ul li.break i {
   color: #404040;
 }
-#program .w3-ul li.break a {
+/*#program .w3-ul li.break a {
   color: #404040 !important;
-}
-/*#program .w3-ul li.break a:hover {
-  -moz-transition: none;
-  -webkit-transition: none;
-  -o-transition: color 0 ease-in;
-  transition: none;
 }*/
 #program .w3-ul li.lecture {
   font-style: italic;
+}
+#program .w3-ul li.chair {
+  text-align: center;
+}
+#program .w3-ul li.chair a {
+  color: #404040 !important;
+  text-decoration: underline !important;
+}
+#program .w3-ul li span.invisible {
+  background-color: #ffffff;
+}
+#program .w3-ul li:hover span.invisible {
+  color: #dddddd;
+  background-color: #dddddd;
 }
 
 #posters .w3-ul li {

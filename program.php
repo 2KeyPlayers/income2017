@@ -77,15 +77,15 @@
 <div id="main" class="w3-container">
 
   <div id="program" class="section full w3-container">
-    <h1><i class="fa fa-list-ul icon"></i> Tentative program</h1>
+    <h1><i class="fa fa-list-ul icon"></i> Final program</h1>
     <div class="w3-accordion">
       <a href="javascript:showDetails('day1')" class="program">
         <i class="fa fa-plus-square-o w3-padding-right"></i> Day 1 <span>Sunday, September 3<sup>rd</sup>, 2017</span>
       </a>
       <div id="day1" class="w3-accordion-content w3-container">
         <ul class="w3-ul">
-          <li class="registration"><span>16:00 - 21:00</span> Registration <!--i class="fa fa-user-plus"></i--></li>
-          <li class="break"><span>19:00 - 21:00</span> Welcome drink <i class="fa fa-glass"></i></li>
+          <li class="registration"><span>16:00 - 21:00</span> Registration (<a href="/location">Building A</a>)</li>
+          <li class="break"><span>19:00 - 21:00</span> Welcome drink <i class="fa fa-glass"></i> (<a href="/location">Building A</a>)</li>
         </ul>
       </div>
     </div>
@@ -95,8 +95,12 @@
       </a>
       <div id="day2" class="w3-accordion-content w3-container">
         <ul class="w3-ul">
-          <li class="registration"><span>08:30 - 18:00</span> Registration <!--i class="fa fa-user-plus"></i--></li>
-          <li class="break"><span>08:30 - 08:55</span> Opening remarks</li>
+          <li class="registration"><span>08:30 - 16:00</span> Registration (<a href="/location">Building B</a>)</li>
+          <li class="break"><span>08:30 - 08:55</span> Opening remarks
+            <div class="speaker"><u>V. Sepelak</u></div>
+          </li>
+
+          <li class="chair">Session chair: <a href="javascript:scrollTo('James')">S. L. James</a></li>
           <li class="lecture"><span>08:55 - 09:20</span> <span class="type" title="Invited lecture">I-01</span> Two important periods in the history of mechanochemistry
             <div class="speaker"><a href="javascript:scrollTo('Takacs')">L. Takacs</a></div>
           </li>
@@ -107,15 +111,16 @@
             <div class="speaker"><a href="javascript:scrollTo('Tysoe')">W. T. Tysoe</a></div>
           </li>
 
-          <li class="break"><span>10:10 - 10:30</span> Coffee break <i class="fa fa-coffee"></i></li>
+          <li class="break"><span>10:10 - 10:30</span> Coffee break <i class="fa fa-coffee"></i> (<a href="/location">Building A</a>)</li>
 
+          <li class="chair">Session chair: <a href="javascript:scrollTo('Friscic')">T. Friščić</a></li>
           <li class="lecture"><span>10:30 - 10:45</span> <span class="type" title="Oral presentation">O-01</span> Mechanochemical preparation of ultra disperse powders of Si, Ge, Cu, Ag
             <div class="speaker"><u>N. Z. Lyakhov</u>, T. F. Grigoreva, E. N. Gorina, T. A. Udalova, S. V. Vosmerikov, E. Т. Devyatkina, I. A. Vorsina, Е. А. Pavlov</div>
           </li>
-          <li class="lecture"><span>10:45 - 11:00</span> <span class="type" title="Oral presentation">O-02</span> Mechanically induced self-sustaining reactions (MSR) in the LiNH<sub>2</sub>-xAlCl<sub>3</sub> system
+          <li class="lecture"><span>10:45 - 11:00</span> <span class="type" title="Oral presentation">O-02</span> Mechanically induced self-sustaining reactions (MSR) in the LiNH<sub>2-x</sub>AlCl<sub>3</sub> system
             <div class="speaker"><u>G. Mulas</u>, L. Pisano, S. Enzo, L. Fernández Albanesi, F. C. Gennari, S. Garroni</div>
           </li>
-          <li class="lecture"><span>11:00 - 11:15</span> <span class="type" title="Oral presentation">O-03</span> Chalcogenide quaternary nanocrystals for solar cells: mechanochemical synthesis and properties of kesterite Cu<sub>2</sub>ZnSnS<sub>4</sub>
+          <li class="lecture"><span>11:00 - 11:15</span> <span class="type" title="Oral presentation">O-03</span> Chalcogenide quaternary nanocrystals for solar cells: Mechanochemical synthesis and properties of kesterite Cu<sub>2</sub>ZnSnS<sub>4</sub>
             <div class="speaker"><u>P. Baláž</u>, M. Baláž, M. Hegeduš, M. Fabián, M. Achimovičová, E. Dutková, M. Kaňuchová, J. Briančin, M. Tešinský</div>
           </li>
           <li class="lecture"><span>11:15 - 11:30</span> <span class="type" title="Oral presentation">O-04</span> Gas-solid reactions induced by mechanochemical activation
@@ -128,9 +133,10 @@
             <div class="speaker"><u>R. Eckert</u>, M. Felderhoff, F. Schüth</div>
           </li>
 
-          <li class="break"><span>12:00 - 14:00</span> Lunch break <i class="fa fa-cutlery"></i></li>
+          <li class="break"><span>12:00 - 14:00</span> Lunch break <i class="fa fa-cutlery"></i> (<a href="/location">Building C</a>)</li>
 
-          <li class="lecture"><span>14:00 - 14:25</span> <span class="type" title="Invited lecture">I-04</span> Nanocrystalline and nanoglassy ceramics by mechanical treatment - Effect on ion dynamics
+          <li class="chair">Session chair: <a href="javascript:scrollTo('Yermakov')">A. Ye. Yermakov</a></li>
+          <li class="lecture"><span>14:00 - 14:25</span> <span class="type" title="Invited lecture">I-04</span> Nanocrystalline and nanoglassy ceramics by mechanical treatment – Effect on ion dynamics
             <div class="speaker"><a href="javascript:scrollTo('Heitjans')">P. Heitjans</a></div>
           </li>
           <li class="lecture"><span>14:25 - 14:50</span> <span class="type" title="Invited lecture">I-05</span> How does mechanical stressing rationalize solid-state synthesis of functional complex oxide nanoparticles?
@@ -143,9 +149,10 @@
             <div class="speaker"><a href="javascript:scrollTo('Wilkening')">M. Wilkening</a></div>
           </li>
 
-          <li class="break"><span>15:40 - 16:00</span> Coffee break <i class="fa fa-coffee"></i></li>
+          <li class="break"><span>15:40 - 16:00</span> Coffee break <i class="fa fa-coffee"></i> (<a href="/location">Building A</a>)</li>
 
-          <li class="lecture"><span>16:00 - 16:15</span> <span class="type" title="Oral presentation">O-07</span> IF at first you don’t succeed: fabricating low-defect materials by high-energy ball milling
+          <li class="chair">Session chair: <a href="javascript:scrollTo('Calka')">A. Calka</a></li>
+          <li class="lecture"><span>16:00 - 16:15</span> <span class="type" title="Oral presentation">O-07</span> If at first you don’t succeed: Fabricating low-defect materials by high-energy ball milling
             <div class="speaker"><u>A. Düvel</u>, L. Morgan, C. V. Chandran, P. Heitjans, D. C. Sayle</div>
           </li>
           <li class="lecture"><span>16:15 - 16:30</span> <span class="type" title="Oral presentation">O-08</span> Mechanochemical/thermal preparation of Li<sub>4</sub>Ti<sub>5</sub>O<sub>12</sub>. Structural and electrochemical properties
@@ -157,11 +164,11 @@
           <li class="lecture"><span>16:45 - 17:00</span> <span class="type" title="Oral presentation">O-10</span> Au supported catalysts for CO-oxidation by in-situ ball milling: Influences of synthesis conditions on support and catalytic activity
             <div class="speaker"><u>H. Schreyer</u>, M. Felderhoff, F. Schüth</div>
           </li>
-          <li class="lecture"><span>17:00 - 17:15</span> <span class="type" title="Oral presentation">O-11</span> New approach using a dry coating process for solid-supported catalyst synthesis: effects of support properties and operation conditions
+          <li class="lecture"><span>17:00 - 17:15</span> <span class="type" title="Oral presentation">O-11</span> New approach using a dry coating process for solid-supported catalyst synthesis: Effects of support properties and operation conditions
             <div class="speaker"><u>X. Liu</u>, N. Fatah</div>
           </li>
 
-          <li class="break"><span>17:15 - 18:15</span> <!--a href="javascript:scrollTo('poster-session-1')"-->Poster session I <!--i class="fa fa-list-alt"></i--><!--/a--></li>
+          <li class="break"><span>17:15 - 18:15</span> <!--a href="javascript:scrollTo('poster-session-1')"-->Poster session I (<a href="/location">Building A</a>)</li>
         </ul>
       </div>
     </div>
@@ -171,14 +178,16 @@
       </a>
       <div id="day3" class="w3-accordion-content w3-container">
         <ul class="w3-ul">
-          <li class="registration"><span>08:00 - 18:00</span> Registration <!--i class="fa fa-user-plus"></i--></li>
-          <li class="lecture"><span>08:00 - 08:25</span> <span class="type" title="Invited lecture">I-08</span> Chemistry 2.0: Developing a New, Solvent-free System of Chemical Synthesis Based on Mechanochemistry
+          <li class="registration"><span>08:00 - 16:00</span> Registration (<a href="/location">Building B</a>)</li>
+
+          <li class="chair">Session chair: <a href="javascript:scrollTo('Senna')">M. Senna</a></li>
+          <li class="lecture"><span>08:00 - 08:25</span> <span class="type" title="Invited lecture">I-08</span> Chemistry 2.0: Developing a new, solvent- free system of chemical synthesis based on mechanochemistry
             <div class="speaker"><a href="javascript:scrollTo('Friscic')">T. Friščić</a></div>
           </li>
-          <li class="lecture"><span>08:25 - 08:50</span> <span class="type" title="Invited lecture">I-09</span> New insights in formation pathways: in situ investigations of mechanochemical reactions
+          <li class="lecture"><span>08:25 - 08:50</span> <span class="type" title="Invited lecture">I-09</span> New insights in formation pathways: In situ investigations of mechanochemical reactions
             <div class="speaker"><a href="javascript:scrollTo('Emmerling')">F. Emmerling</a>, H. Kulla, S. Haferkamp, F. Fischer, M. Wilke</div>
           </li>
-          <li class="lecture"><span>08:50 - 09:15</span> <span class="type" title="Invited lecture">I-10</span> May the Mechanical Force Be with You:  The Case of Peptides and Organometallics
+          <li class="lecture"><span>08:50 - 09:15</span> <span class="type" title="Invited lecture">I-10</span> May the mechanical force be with you: The case of peptides and organometallics
             <div class="speaker"><a href="javascript:scrollTo('Lamaty')">F. Lamaty</a></div>
           </li>
           <li class="lecture"><span>09:15 - 09:40</span> <span class="type" title="Invited lecture">I-11</span> Transformation of pharmaceuticals induced by milling
@@ -188,8 +197,9 @@
             <div class="speaker"><a href="javascript:scrollTo('Shakhtshneyder')">T. P. Shakhtshneyder</a></div>
           </li>
 
-          <li class="break"><span>10:05 - 10:30</span> Coffee break <i class="fa fa-coffee"></i><br/><span style="background-color:#ffffff">10:05 - 10:30</span> Conference photo <i class="fa fa-camera"></i></li>
+          <li class="break"><span>10:05 - 10:30</span> Coffee break <i class="fa fa-coffee"></i> (<a href="/location">Building A</a>)<br/><span class="invisible">10:05 - 10:30</span> Conference photo <i class="fa fa-camera"></i> (entrance of <a href="/location">Building A</a>)</li>
 
+          <li class="chair">Session chair: <a href="javascript:scrollTo('Lyakhov')">N. Z. Lyakhov</a></li>
           <li class="lecture"><span>10:30 - 10:45</span> <span class="type" title="Oral presentation">O-12</span> In situ monitoring as tools to study mechanochemical reactions
             <div class="speaker"><u>I. Halasz</u>, K. Užarević, S. Lukin, T. Friščić</div>
           </li>
@@ -209,8 +219,9 @@
             <div class="speaker"><u>B. Baytekin</u>, Ö. Bayrak, T. Bedük</div>
           </li>
 
-          <li class="break"><span>12:00 - 14:00</span> Lunch break <i class="fa fa-cutlery"></i></li>
+          <li class="break"><span>12:00 - 14:00</span> Lunch break <i class="fa fa-cutlery"></i> (<a href="/location">Building C</a>)</li>
 
+          <li class="chair">Session chair: <a href="javascript:scrollTo('Takacs')">L. Takacs</a></li>
           <li class="lecture"><span>14:00 - 14:25</span> <span class="type" title="Invited lecture">I-13</span> Recent progress in mechanochemical organic reactions
             <div class="speaker">L. Li, H.-G. Li, H. Xu, <a href="javascript:scrollTo('Wang')">G.-W. Wang</a></div>
           </li>
@@ -220,12 +231,13 @@
           <li class="lecture"><span>14:50 - 15:15</span> <span class="type" title="Invited lecture">I-15</span> Mechanochemistry, an easy technique to boost the synthesis of new luminescent coordination polymers
             <div class="speaker"><a href="javascript:scrollTo('Maini')">L. Maini</a></div>
           </li>
-          <li class="lecture"><span>15:15 - 15:40</span> <span class="type" title="Invited lecture">I-16</span> Mechanochemistry - from curiosity to commercialisation
+          <li class="lecture"><span>15:15 - 15:40</span> <span class="type" title="Invited lecture">I-16</span> Solvent-free mechanochemical synthesis – fundamentals, scale-up and commercialisation
             <div class="speaker"><a href="javascript:scrollTo('James')">S. L. James</a></div>
           </li>
 
-          <li class="break"><span>15:40 - 16:00</span> Coffee break <i class="fa fa-coffee"></i></li>
+          <li class="break"><span>15:40 - 16:00</span> Coffee break <i class="fa fa-coffee"></i> (<a href="/location">Building A</a>)</li>
 
+          <li class="chair">Session chair: <a href="javascript:scrollTo('Heitjans')">P. Heitjans</a></li>
           <li class="lecture"><span>16:00 - 16:15</span> <span class="type" title="Oral presentation">O-18</span> Synthesis by twin screw extrusion (TSE)
             <div class="speaker"><u>D. E. Crawford</u>, S. L. James, C. Miskimmin, A. Albadmin, G. Walker</div>
           </li>
@@ -238,10 +250,10 @@
           <li class="lecture"><span>16:45 - 17:00</span> <span class="type" title="Oral presentation">O-21</span> Mechanosynthesis of functional metal-organic frameworks based on acylhydrazone and dicarboxylate linkers
             <div class="speaker"><u>D. Matoga</u>, K. Roztocki, M. Szufla, D. Jędrzejowski, M. Lupa, M. Hodorowicz, I. Senkovska, S. Kaskel</div>
           </li>
-          <li class="lecture"><span>17:00 - 17:15</span> <span class="type" title="Oral presentation">O-22</span> Mechanochemistry and protein self-assembly - a promising combination
+          <li class="lecture"><span>17:00 - 17:15</span> <span class="type" title="Oral presentation">O-22</span> Mechanochemistry and protein self-assembly – a promising combination
             <div class="speaker"><u>N. Solin</u></div>
           </li>
-          <li class="lecture"><span>17:15 - 17:30</span> <span class="type" title="Oral presentation">O-23</span> Solvation and surface effects on polymorph stabilities at the nanoscale
+          <li class="lecture"><span>17:15 - 17:30</span> <span class="type" title="Oral presentation">O-23</span> Solvation and surface effects on polymorph stabilities
             <div class="speaker"><u>A. M. Belenguer</u>, G. I. Lampronti, A. J. Cruz-Cabeza, C. A. Hunter,  J. K. M. Sanders</div>
           </li>
           <li class="lecture"><span>17:30 - 17:45</span> <span class="type" title="Oral presentation">O-24</span> Effective and selective reduction of α, β-unsaturated carbonyl compounds to the corresponding alcohol under milling conditions
@@ -251,7 +263,7 @@
             <div class="speaker"><a href="javascript:scrollTo('Boldyreva')">E. V. Boldyreva</a></div>
           </li>
 
-          <li class="break"><span>18:10 - 19:10</span> <!--a href="javascript:scrollTo('poster-session-2')"-->Poster session II <!--i class="fa fa-list-alt"></i--><!--/a--></li>
+          <li class="break"><span>18:10 - 19:10</span> <!--a href="javascript:scrollTo('poster-session-2')"-->Poster session II (<a href="/location">Building A</a>)</li>
           <li class="break"><span>19:10 - <span style="font-size:100%;padding:0;margin:0;color:#404040">21:00</span></span> Meeting of the International Advisory Committee of INCOME</li>
         </ul>
       </div>
@@ -262,22 +274,25 @@
       </a>
       <div id="day4" class="w3-accordion-content w3-container">
         <ul class="w3-ul">
-          <li class="registration"><span>08:30 - 18:00</span> Registration <!--i class="fa fa-user-plus"></i--></li>
+          <li class="registration"><span>08:30 - 18:00</span> Registration (<a href="/location">Building B</a>)</li>
+
+          <li class="chair">Session chair: <a href="javascript:scrollTo('Fuentes')">A. F. Fuentes</a></li>
           <li class="lecture"><span>08:30 - 08:55</span> <span class="type" title="Invited lecture">I-18</span> Scenarios and possible mechanisms of structural-phase transformations in alloys at intensive plastic deformation
             <div class="speaker"><a href="javascript:scrollTo('Yermakov')">A. Yermakov</a>, Yu. N. Gornostyrev, I. K. Razumov</div>
           </li>
-          <li class="lecture"><span>08:55 - 09:20</span> <span class="type" title="Invited lecture">I-19</span> Stability and grain size softening in mechanically milled nanostructured Al-base complex intermetallics
+          <!--li class="lecture"><span>08:55 - 09:20</span> <span class="type" title="Invited lecture">I-19</span> Stability and grain size softening in mechanically milled nanostructured Al-base complex intermetallics
             <div class="speaker"><a href="javascript:scrollTo('Mukhopadhyay')">N. K. Mukhopadhyay</a></div>
-          </li>
-          <li class="lecture"><span>09:20 - 09:45</span> <span class="type" title="Invited lecture">I-20</span> Spark plasma sintering of mechanically milled powders: gaining advantages from a combination of two non-equilibrium powder processing techniques
+          </li-->
+          <li class="lecture"><span>09:20 - 09:45</span> <span class="type" title="Invited lecture">I-19</span> Spark plasma sintering of mechanically milled powders: Gaining advantages from a combination of two non-equilibrium powder processing techniques
             <div class="speaker"><a href="javascript:scrollTo('Dudina')">D. V. Dudina</a>, M. A. Korchagin, B. B. Bokhonov, V. I. Mali, A. G. Anisimov</div>
           </li>
-          <li class="lecture"><span>09:45 - 10:10</span> <span class="type" title="Invited lecture">I-21</span> &quot;Week bonding&quot; oxygen atoms in transition metal oxides formed by mechanical activation
+          <li class="lecture"><span>09:45 - 10:10</span> <span class="type" title="Invited lecture">I-20</span> &quot;Week bonding&quot; oxygen atoms in transition metal oxides formed by mechanical activation
             <div class="speaker"><a href="javascript:scrollTo('Streletskii')">A. N. Streletskii</a>, O. S. Morozova, М. V. Sivak</div>
           </li>
 
-          <li class="break"><span>10:10 - 10:30</span> Coffee break <i class="fa fa-coffee"></i></li>
+          <li class="break"><span>10:10 - 10:30</span> Coffee break <i class="fa fa-coffee"></i> (<a href="/location">Building A</a>)</li>
 
+          <li class="chair">Session chair: <a href="javascript:scrollTo('Delogu')">F. Delogu</a></li>
           <li class="lecture"><span>10:30 - 10:45</span> <span class="type" title="Oral presentation">O-25</span> Mechanochemical redox reactions as non-conventional pathway in the synthesis of nanostructured alloys
             <div class="speaker"><u>V. F. Ruiz-Ruiz</u>, I. Zumeta-Dubé, R. González-Olvera, I. Betancourt, R. Díaz-Pardo, D. Díaz, N. Farfán, J. Arellano-Jiménez, M. José-Yacamán</div>
           </li>
@@ -285,7 +300,7 @@
             <div class="speaker"><u>B. Bergk</u>, U. Mühle, I. Povstugar, N. Koutná, D. Holec, H. Clemens, B. Kieback</div>
           </li>
           <li class="lecture"><span>11:00 - 11:15</span> <span class="type" title="Oral presentation">O-27</span> Early stages of mechanical alloying of Al-Cu and Al-Cu-Fe powder mixtures in a high-energy ball mill
-            <div class="speaker"><u>S. F. Tikhov</u>, D. V. Dudina, O. I. Lomovsky, V. A. Sadykov</div>
+            <div class="speaker">S. F. Tikhov, <u>D. V. Dudina</u>, O. I. Lomovsky, V. A. Sadykov</div>
           </li>
           <li class="lecture"><span>11:15 - 11:30</span> <span class="type" title="Oral presentation">O-28</span> Microstructure, porosity and wear resistance of new Ti-10Ta-8Mo (wt.%) biomedical alloy prepared by high-energy ball milling and annealed processes
             <div class="speaker">G. Dercz, <u>I. Matuła</u>, M. Zubko, J. Maszybrocka, M. Boruszewska</div>
@@ -297,24 +312,26 @@
             <div class="speaker"><u>O. Shpotyuk</u>, Z. Bujňáková, P. Baláž, P. Demchenko, Ya. Shpotyuk, J. Cebulski</div>
           </li>
 
-          <li class="break"><span>12:00 - 14:00</span> Lunch break <i class="fa fa-cutlery"></i></li>
+          <li class="break"><span>12:00 - 14:00</span> Lunch break <i class="fa fa-cutlery"></i> (<a href="/location">Building C</a>)</li>
 
-          <li class="lecture"><span>14:00 - 14:25</span> <span class="type" title="Invited lecture">I-22</span> Plasma assisted absorption and reversible desorption of hydrogen gas in Zr, Ti, V powders using electric discharge assisted mechanical milling method
+          <li class="chair">Session chair: <a href="javascript:scrollTo('Oleszak')">D. Oleszak</a></li>
+          <li class="lecture"><span>14:00 - 14:25</span> <span class="type" title="Invited lecture">I-21</span> Plasma assisted absorption and reversible desorption of hydrogen gas in Zr, Ti, V powders using electric discharge assisted mechanical milling method
             <div class="speaker"><a href="javascript:scrollTo('Calka')">A. Calka</a>, A. M. Aksenczuk</div>
           </li>
-          <li class="lecture"><span>14:25 - 14:50</span> <span class="type" title="Invited lecture">I-23</span> Cryomilling, nanoparticles and ink: do they represent a new possibility
+          <li class="lecture"><span>14:25 - 14:50</span> <span class="type" title="Invited lecture">I-22</span> Cryomilling, nanoparticles and ink: Do they represent a new possibility?
             <div class="speaker"><a href="javascript:scrollTo('Chattopadhyay')">K. Chattopadhyay</a>, C. S. Tiwari, K. Malaviya, H. Prabha</div>
           </li>
-          <li class="lecture"><span>14:50 - 15:15</span> <span class="type" title="Invited lecture">I-24</span> Odyssey in mechanical activation of solids - SMILE and beyond
+          <li class="lecture"><span>14:50 - 15:15</span> <span class="type" title="Invited lecture">I-23</span> Odyssey in mechanical activation of solids – SMILE and beyond
             <div class="speaker"><a href="javascript:scrollTo('Kumar')">R. Kumar</a></div>
           </li>
-          <li class="lecture"><span>15:15 - 15:40</span> <span class="type" title="Invited lecture">I-25</span> Mechanosynthesis of nanocrystals and nanocomposites
+          <li class="lecture"><span>15:15 - 15:40</span> <span class="type" title="Invited lecture">I-24</span> Mechanosynthesis of nanocrystals and nanocomposites
             <div class="speaker"><a href="javascript:scrollTo('Urakaev')">F. Kh. Urakaev</a>, M. M. Burkitbayev, B. M. Uralbekov, I. A. Massalimov</div>
           </li>
 
-          <li class="break"><span>15:40 - 16:00</span> Coffee break <i class="fa fa-coffee"></i></li>
+          <li class="break"><span>15:40 - 16:00</span> Coffee break <i class="fa fa-coffee"></i> (<a href="/location">Building A</a>)</li>
 
-          <li class="lecture"><span>16:00 - 16:15</span> <span class="type" title="Oral presentation">O-31</span> Mechanochemistry - an effective method for producing complex BiFeO<sub>3</sub>-based high-temperature piezoelectric materials
+          <li class="chair">Session chair: <a href="javascript:scrollTo('Wilkening')">M. Wilkening</a></li>
+          <li class="lecture"><span>16:00 - 16:15</span> <span class="type" title="Oral presentation">O-31</span> Mechanochemistry – an effective method for producing complex BiFeO<sub>3</sub>-based high-temperature piezoelectric materials
             <div class="speaker"><u>M. Makarovič</u>, A. Benčan Golob, B. Malič, T. Rojac</div>
           </li>
           <li class="lecture"><span>16:15 - 16:30</span> <span class="type" title="Oral presentation">O-32</span> The synthesis of niobium silicides by a mechanochemical process
@@ -333,7 +350,7 @@
             <div class="speaker"><u>S. Mertdinç</u>, D. Ağaoğulları, M. L. Öveçoğlu</div>
           </li>
 
-          <li class="break"><span>19:00 - 22:00</span> Conference dinner <i class="fa fa-cutlery"></i></li>
+          <li class="break"><span>19:00 - 22:00</span> Conference dinner <i class="fa fa-cutlery"></i> (<a href="/location">Building D</a>)</li>
         </ul>
       </div>
     </div>
@@ -343,19 +360,22 @@
       </a>
       <div id="day5" class="w3-accordion-content w3-container">
         <ul class="w3-ul">
-          <li class="registration"><span>09:00 - 12:00</span> Registration <!--i class="fa fa-user-plus"></i--></li>
-          <li class="lecture"><span>09:00 - 09:25</span> <span class="type" title="Invited lecture">I-26</span> Synthesis of Ag<sub>2</sub>O via mechanical decomposition of Ag<sub>7</sub>O<sub>8</sub>NO<sub>3</sub>
+          <li class="registration"><span>09:00 - 12:00</span> Registration (<a href="/location">Building B</a>)</li>
+
+          <li class="chair">Session chair: <a href="javascript:scrollTo('Balaz')">P. Baláž</a></li>
+          <!--li class="lecture"><span>09:00 - 09:25</span> <span class="type" title="Invited lecture">I-26</span> Synthesis of Ag<sub>2</sub>O via mechanical decomposition of Ag<sub>7</sub>O<sub>8</sub>NO<sub>3</sub>
             <div class="speaker"><a href="javascript:scrollTo('Billik')">P. Billik</a></div>
-          </li>
-          <li class="lecture"><span>09:25 - 09:50</span> <span class="type" title="Invited lecture">I-27</span> c-LLZO - towards single phase compound by mechanochemical processes
+          </li-->
+          <li class="lecture"><span>09:20 - 09:45</span> <span class="type" title="Invited lecture">I-25</span> c-LLZO – towards single phase compound by mechanochemical processes
             <div class="speaker"><a href="javascript:scrollTo('Oleszak')">D. Oleszak</a>, P. Billik, M. Pawlyta</div>
           </li>
-          <li class="lecture"><span>09:50 - 10:15</span> <span class="type" title="Invited lecture">I-28</span> Mechanical activation effect in the chemistry of a typical float glass batch
+          <li class="lecture"><span>09:45 - 10:10</span> <span class="type" title="Invited lecture">I-26</span> Mechanical activation effect in the chemistry of a typical float glass batch
             <div class="speaker"><a href="javascript:scrollTo('Fuentes')">A. F. Fuentes</a>, P. Rodríguez-Salazar, O. Burciaga-Díaz</div>
           </li>
 
-          <li class="break"><span>10:15 - 10:30</span> Coffee break <i class="fa fa-coffee"></i></li>
+          <li class="break"><span>10:10 - 10:30</span> Coffee break <i class="fa fa-coffee"></i> (<a href="/location">Building A</a>)</li>
 
+          <li class="chair">Session chair: <a href="javascript:scrollTo('Kumar')">R. Kumar</a></li>
           <li class="lecture"><span>10:30 - 10:45</span> <span class="type" title="Oral presentation">O-37</span> Effect of particle density on powder mixing in a rotating drum for hydrogen generation
             <div class="speaker"><u>J. Kano</u>, S. Ishihara, M. Yamamoto</div>
           </li>
@@ -365,8 +385,8 @@
           <li class="lecture"><span>11:00 - 11:15</span> <span class="type" title="Oral presentation">O-39</span> Mechanical alloying and electric current assisted sintering adopt for metal matrix composite materials processing
             <div class="speaker"><u>A. Miklaszewski</u></div>
           </li>
-          <li class="lecture"><span>11:15 - 11:30</span> <span class="type" title="Oral presentation">O-40</span> Magneto-abrasive mechanosynthesised composites
-            <div class="speaker"><u>T. F. Grigoreva</u>, S. A. Kovaleva, V. I. Zhornik, N. S. Khomich, T. Yu. Kiseleva, E. T. Devyatkina, S. V. Vosmerikov, S. A. Petrova, P. A. Vityaz, N. Z. Lyakhov</div>
+          <li class="lecture"><span>11:15 - 11:30</span> <span class="type" title="Oral presentation">O-40</span> Synthesis of sodium polysulfide through the mechanical  treatment
+            <div class="speaker"><u>T. Ketegenov</u>, N. Khan, O. Tyumentseva, T. Oserov</div>
           </li>
           <li class="lecture"><span>11:30 - 11:45</span> <span class="type" title="Oral presentation">O-41</span> X-ray and Mössbauer study of solid-state reactions in heat treated nanocrystalline Fe-Cr alloys, obtained by mechanical alloying
             <div class="speaker"><u>V. E. Porsev</u>, A. L. Ulyanov</div>
@@ -375,8 +395,9 @@
             <div class="speaker"><u>I. A. Vorsin</u>a, T. F. Grigoreva, T. A. Udalova, E. T. Devyatkina, S. V. Vosmerikov, N. Z. Lyakhov</div>
           </li>
 
-          <li class="break"><span>12:00 - 14:00</span> Lunch break <i class="fa fa-cutlery"></i></li>
+          <li class="break"><span>12:00 - 14:00</span> Lunch break <i class="fa fa-cutlery"></i> (<a href="/location">Building C</a>)</li>
 
+          <li class="chair">Session chair: <a href="javascript:scrollTo('Chattopadhyay')">K. Chattopadhyay</a></li>
           <li class="lecture"><span>14:00 - 14:15</span> <span class="type" title="Oral presentation">O-43</span> Acid leaching performance of mechanically activated pyrophyllite ore for Al<sub>2</sub>O<sub>3</sub> extraction
             <div class="speaker"><u>M. Erdemoğlu</u>, M. Birinci, T. Uysal, E. Porgalı, T. S. Barry</div>
           </li>
@@ -389,20 +410,21 @@
           <li class="lecture"><span>14:45 - 15:00</span> <span class="type" title="Oral presentation">O-46</span> Structural and optical properties of nanostructured copper sulfide semiconductor synthesized in an industrial mill
             <div class="speaker"><u>M. Achimovičová</u>, E. Dutková, E. Tóthová, Z. Bujňáková, J. Briančin</div>
           </li>
-          <li class="lecture"><span>15:00 - 15:15</span> <span class="type" title="Oral presentation">O-47</span> Mechanochemistry immobilization of organic and inorganic pollutants into dioctahedral and trioctahedral smectites: a suitable technology for soil remediation
+          <!--li class="lecture"><span>15:00 - 15:15</span> <span class="type" title="Oral presentation">O-47</span> Mechanochemistry immobilization of organic and inorganic pollutants into dioctahedral and trioctahedral smectites: a suitable technology for soil remediation
             <div class="speaker"><u>V. Ancona</u>, P. Di Leo, M. D. R. Pizzigallo</div>
-          </li>
-          <li class="lecture"><span>15:15 - 15:30</span> <span class="type" title="Oral presentation">O-48</span> Mechanochemical methods in the production of high purity gases
+          </li-->
+          <li class="lecture"><span>15:15 - 15:30</span> <span class="type" title="Oral presentation">O-47</span> Mechanochemical methods in the production of high purity gases
             <div class="speaker">V. L. Kozhevnikov, A. O. Ivanov, B. Verbitsky, <u>K. Chuntonov</u></div>
           </li>
 
+          <li class="chair">Session chair: <a href="javascript:scrollTo('Senna')">M. Senna</a> and <a href="javascript:scrollTo('Sepelak')">V. Šepelák</a></li>
           <li class="break"><span>15:30 - 16:00</span> Discussion / Concluding remarks <i class="fa fa-comments"></i></li>
         </ul>
       </div>
     </div>
-    <div class="w3-margin-top-32">
+    <!--div class="w3-margin-top-32">
       <a href="misc/INCOME2017_Program.pdf" class="download w3-btn"><i class="fa fa-file-pdf-o"></i> Download</a>
-    </div>
+    </div-->
   </div>
 
   <div id="posters" class="section full w3-container">
@@ -501,9 +523,9 @@
             <span><u>M. B. Kaynar</u>, Ş. Özcan</span>
           </li>
           <li>Mechanosynthesis of multisubstituted hydroxyapatite nanopowders
-            <span><u>B. Nasiri-Tabrizi</u>, R. Ebrahimi-Kahrizsangi, A. Fakharzadeh, W. J. Basirun</span>
+            <span>B. Nasiri-Tabrizi, <u>R. Ebrahimi-Kahrizsangi</u>, A. Fakharzadeh, W. J. Basirun</span>
           </li>
-          <li>Cation exchange capacity of mechanically activated glauconite - fundamental aspects and relevance
+          <li>Cation exchange capacity of mechanically activated glauconite – fundamental aspects and relevance
             <span><u>R. Singla</u>, T. C. Alex, R. Kumar</span>
           </li>
           <li>Mechanochemical preparation of titanium and hafnium carbides
@@ -512,10 +534,10 @@
           <li>Effect of samarium on Fe<sub>2</sub>O<sub>3</sub> on magnetization using high energy milling
             <span>P. Vera-Serna, F. N. Tenorio-González, <u>M. Kusý</u>, J. A. Juanico- Loran, F. Sánchez-de-Jesús, M. Silva-Fragoso, J. R. Toledo-Merediz</span>
           </li>
-          <li>Macro-segregation Mechanism and Control for the Low Pressure Die Casting of ZL<sub>2</sub>0<sub>5</sub>A Aluminum Alloy
-            <span><u>S. Wu</u></span>
+          <li>Macro-segregation mechanism and control for the low pressure die casting of ZL205A aluminum alloy
+            <span><u>S. Wu</u>, W. Chen</span>
           </li>
-          <li>Microstructure and mechanical properties of the SiC/Zr<sub>4</sub> joints brazed using the TiZrNiCu filler alloy
+          <li>Microstructure and mechanical properties of the SiC/Zr4 joints brazed using the TiZrNiCu filler alloy
             <span><u>J. Zhang</u>, Q. Qi</span>
           </li>
           <li>GRADE 1 titanium microstructure and properties investigation after Cr<sub>3</sub>C<sub>2</sub> powder alloying using high power diode laser
@@ -530,6 +552,18 @@
           <li>Photovoltaic response of bulk heterojunctions based on nanopowders of kesterite and n-type semiconductors
             <span>O. P. Dimitriev, D. O. Grynko, A. M. Fedoryak, T. P. Doroshenko, M. Kratzer, C. Teichert, Yu. V. Noskov, N. A. Ogurtsov, A. A. Pud, <u>P. Balaz</u>, M. Balaz, M. Tesinsky, M. Hegedus</span>
           </li>
+          <li>Technology and application of mechanical activated ground phosphate rock as fertilizers
+            <span><u>N. N. Fang</u>, Y. L. Shi, Y. D. Xu</span>
+          </li>
+          <li>Study residual stress measurement of oil and gas pipe welds
+            <span><u>M. H. Alhafadhi</u>, V. Mertinger</span>
+          </li>
+          <li>In situ investigation of mechanochemical Knoevenagel condensations
+            <span><u>S. Haferkamp</u>, F. Fischer, W. Kraus, F. Emmerling</span>
+          </li>
+          <li>In situ investigation of mechanochemical syntheses of manganese phosphonates
+            <span><u>I. Akhmetova</u>, M. Wilke, F. Emmerling</span>
+          </li>
         </ol>
       </div>
     </div>
@@ -542,10 +576,10 @@
           <li>Mechanochemical synthesis of aluminium metal-organic frameworks
             <span><u>S. Lavery</u>, J. Casaban, S. James</span>
           </li>
-          <li>BaF-benzenedicarboxylate: mechanochemical synthesis of a new representative of coordination polymers without organofluorine linkers
+          <li>BaF-benzenedicarboxylate: Mechanochemical synthesis of a new representative of coordination polymers without organofluorine linkers
             <span><u>S. Breitfeld</u>, G. Scholz, F. Emmerling, E. Kemnitz</span>
           </li>
-          <li>Inadvertent liquid-assisted grinding - possible key to organic mechanochemical co-crystallisation
+          <li>Inadvertent liquid-assisted grinding – possible key to organic mechanochemical co-crystallisation
             <span><u>I. A. Tumanov</u>, A. A. L. Michalchuk, A. A. Politov, E. V. Boldyreva</span>
           </li>
           <li>In situ monitoring and mechanism of the mechanochemical Knoevenagel reaction
@@ -578,7 +612,7 @@
           <li>Mechanochemical synthesis of coal based magnetic carbon for As(V) and Cd(II) removal
             <span><u>A. Zubrik</u>, M. Matik, M. Lovás, Z. Danková, S. Hredzák, V. Šepelák</span>
           </li>
-          <li>The influence of microwave heating on crushability and grindability of selected raw materials
+          <li>The influence of microwave radiation on crushability and grindability of raw materials
             <span><u>I. Znamenáčková</u>, M. Lovás, S. Hredzák, S. Dolinská</span>
           </li>
           <li>Mechanical alloying of beta titanium alloys in presence of magnesium
@@ -615,7 +649,7 @@
             <span><u>K. Yazovskikh</u>, A. A. Shakov, S. F. Lomayeva, G. N. Konygin, O. M. Nemtsova, A. O. Shiryaev, D. A. Petrov, K. N. Rozanov</span>
           </li>
           <li>Synthesis and electrochemical properties of composites based on conductive polymers with mechanically activated graphite particles
-            <span>N. V. Lyalina, <u>A. V. Syugaev</u>, A. N. Maratkanova, K. Yazovskikh</span>
+            <span>N. V. Lyalina, A. V. Syugaev, A. N. Maratkanova, <u>K. Yazovskikh</u></span>
           </li>
           <li>Effect of mechanochemical milling on the FSDP-related XRD correlations in overstoichiometric As-Se glassy alloys
             <span><u>Ya. Shpotyuk</u>, J. Cebulski, P. Demchenko, Z. Bujňáková, P. Baláž, O. Shpotyuk</span>
@@ -626,7 +660,7 @@
           <li>Fabrication of Cu-graphite metal matrix composites
             <span><u>B. Lasio</u>, R. Orrù, G. Cao, M. Cabibbo, F. Delogu</span>
           </li>
-          <li>n situ measurement of luminescence emitted by coumarin 1 in ball drop experiments
+          <li>In situ measurement of luminescence emitted by coumarin 1 in ball drop experiments
             <span><u>C. Ricci</u>, R. Corpino, A. Porcheddu, G. Ligios, F. Delogu</span>
           </li>
           <li>Propagation modes of self-sustaining reactions activated by mechanical processing
@@ -643,17 +677,27 @@
           </li>
           <li>Mechanical properties of hydrogels and automated system &quot;KERN-DP&quot;
             <span><u>A. P. Onanko</u>, S. A. Vyzhva, Y. A. Onanko, N. P. Kulish, V. V. Kuryluk, A. V. Shabatura, R. V. Homenko, A. N. Onischenko
-          <li>Soot combustion efficiency using Fe, Cu, and Co impregnated on kaolin based ZSM-5 for diesel soot oxidation
-            <span><u>D. O. Obada</u>, M. Dauda, F. O. Anafi, A. S. Ahmed, O. A. Ajayi, D. Dodoo-Arhin, A. Y. Atta</span>
           </li>
-          <li>Low-cost catalytic control of indoor PM emissions from solid fuel combustion
-            <span><u>M. Peter</u>, D. M Kulla, N. O. Ominsanya, A. Y. Atta, D. O. Obada, S. Umaru</span>
+          <li>CO2MPRISE – Excellence training in solutions for CO2 capture technology
+            <span><u>V. Farina</u>, G. Mulas, S. Garroni, S. Cuesta Lopez, C. Pistidda, I. Yakoumis, N. Vlachos, F. Gennari, F. Gracia</span>
+          </li>
+          <li>Application of mechanically activated fly ash as a filler for polymer material (PETF)
+            <span>N. Khan, <u>O. Tyumentseva</u>, T. Ketegenov, B. Tatykaev</span>
+          </li>
+          <li>Analyses of plastic flow localization in bimetal electrolytically saturated with hydrogen
+            <span>S. A. Barannikova, <u>Yu. V. Li</u>, L. B. Zuev</span>
+          </li>
+          <li>Mechanical properties of shape memory alloy in dissimilar welding in comparison with similar welding
+            <span><u>M. H. Sadati</u>, F. Haftani</span>
           </li>
           <li>Development of asbestos free lining material from mahogany and doum palm
             <span><u>J. Makama</u>, D. S. Yawas, A. I. Obi, M. U. Obot, D. O. Obada</span>
           </li>
-          <li>Analyses of plastic flow localization in bimetal electrolytically saturated with hydrogen
-            <span>S. A. Barannikova, <u>Yu. V. Li</u>, L. B. Zuev</span>
+          <li>Low-cost catalytic control of indoor PM emissions from solid fuel combustion
+            <span><u>M. Peter</u>, D. M Kulla, N. O. Ominsanya, A. Y. Atta, D. O. Obada, S. Umaru</span>
+          </li>
+          <li>Soot combustion efficiency using Fe, Cu, and Co impregnated on kaolin based ZSM-5 for diesel soot oxidation
+            <span><u>D. O. Obada</u>, M. Dauda, F. O. Anafi, A. S. Ahmed, O. A. Ajayi, D. Dodoo-Arhin, A. Y. Atta</span>
           </li>
         </ol>
       </div>
