@@ -494,6 +494,9 @@ u {
   background-color: #dddddd;
 }
 
+#program .w3-ul li a:hover {
+  text-decoration: underline !important;
+}
 #program .w3-ul li span {
   margin-right: 10px;
   font-size: 80%;
