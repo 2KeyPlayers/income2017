@@ -100,7 +100,7 @@
             <div class="speaker"><u>V. Sepelak</u></div>
           </li>
 
-          <li class="chair">Session chair: <a href="javascript:scrollTo('James')">S. L. James</a></li>
+          <li class="chair"><span class="invisible">08:55 - 10:10</span> Session chair <a href="javascript:scrollTo('James')">S. L. James</a></li>
           <li class="lecture"><span>08:55 - 09:20</span> <span class="type" title="Invited lecture">I-01</span> Two important periods in the history of mechanochemistry
             <div class="speaker"><a href="javascript:scrollTo('Takacs')">L. Takacs</a></div>
           </li>
@@ -113,7 +113,7 @@
 
           <li class="break"><span>10:10 - 10:30</span> Coffee break <i class="fa fa-coffee"></i> (<a href="/location">Building A</a>)</li>
 
-          <li class="chair">Session chair: <a href="javascript:scrollTo('Friscic')">T. Friščić</a></li>
+          <li class="chair"><span class="invisible">10:30 - 12:00</span> Session chair <a href="javascript:scrollTo('Friscic')">T. Friščić</a></li>
           <li class="lecture"><span>10:30 - 10:45</span> <span class="type" title="Oral presentation">O-01</span> Mechanochemical preparation of ultra disperse powders of Si, Ge, Cu, Ag
             <div class="speaker"><u>N. Z. Lyakhov</u>, T. F. Grigoreva, E. N. Gorina, T. A. Udalova, S. V. Vosmerikov, E. Т. Devyatkina, I. A. Vorsina, Е. А. Pavlov</div>
           </li>
@@ -135,7 +135,7 @@
 
           <li class="break"><span>12:00 - 14:00</span> Lunch break <i class="fa fa-cutlery"></i> (<a href="/location">Building C</a>)</li>
 
-          <li class="chair">Session chair: <a href="javascript:scrollTo('Yermakov')">A. Ye. Yermakov</a></li>
+          <li class="chair"><span class="invisible">14:00 - 15:40</span> Session chair <a href="javascript:scrollTo('Yermakov')">A. Ye. Yermakov</a></li>
           <li class="lecture"><span>14:00 - 14:25</span> <span class="type" title="Invited lecture">I-04</span> Nanocrystalline and nanoglassy ceramics by mechanical treatment – Effect on ion dynamics
             <div class="speaker"><a href="javascript:scrollTo('Heitjans')">P. Heitjans</a></div>
           </li>
@@ -151,7 +151,7 @@
 
           <li class="break"><span>15:40 - 16:00</span> Coffee break <i class="fa fa-coffee"></i> (<a href="/location">Building A</a>)</li>
 
-          <li class="chair">Session chair: <a href="javascript:scrollTo('Calka')">A. Calka</a></li>
+          <li class="chair"><span class="invisible">16:00 - 17:15</span> Session chair <a href="javascript:scrollTo('Calka')">A. Calka</a></li>
           <li class="lecture"><span>16:00 - 16:15</span> <span class="type" title="Oral presentation">O-07</span> If at first you don’t succeed: Fabricating low-defect materials by high-energy ball milling
             <div class="speaker"><u>A. Düvel</u>, L. Morgan, C. V. Chandran, P. Heitjans, D. C. Sayle</div>
           </li>
@@ -180,7 +180,7 @@
         <ul class="w3-ul">
           <li class="registration"><span>08:00 - 16:00</span> Registration (<a href="/location">Building B</a>)</li>
 
-          <li class="chair">Session chair: <a href="javascript:scrollTo('Senna')">M. Senna</a></li>
+          <li class="chair"><span class="invisible">08:00 - 10:05</span> Session chair <a href="javascript:scrollTo('Senna')">M. Senna</a></li>
           <li class="lecture"><span>08:00 - 08:25</span> <span class="type" title="Invited lecture">I-08</span> Chemistry 2.0: Developing a new, solvent- free system of chemical synthesis based on mechanochemistry
             <div class="speaker"><a href="javascript:scrollTo('Friscic')">T. Friščić</a></div>
           </li>
@@ -199,7 +199,7 @@
 
           <li class="break"><span>10:05 - 10:30</span> Coffee break <i class="fa fa-coffee"></i> (<a href="/location">Building A</a>)<br/><span class="invisible">10:05 - 10:30</span> Conference photo <i class="fa fa-camera"></i> (entrance of <a href="/location">Building A</a>)</li>
 
-          <li class="chair">Session chair: <a href="javascript:scrollTo('Lyakhov')">N. Z. Lyakhov</a></li>
+          <li class="chair"><span class="invisible">10:30 - 12:00</span> Session chair <u>N. Z. Lyakhov</u></li>
           <li class="lecture"><span>10:30 - 10:45</span> <span class="type" title="Oral presentation">O-12</span> In situ monitoring as tools to study mechanochemical reactions
             <div class="speaker"><u>I. Halasz</u>, K. Užarević, S. Lukin, T. Friščić</div>
           </li>
@@ -221,7 +221,7 @@
 
           <li class="break"><span>12:00 - 14:00</span> Lunch break <i class="fa fa-cutlery"></i> (<a href="/location">Building C</a>)</li>
 
-          <li class="chair">Session chair: <a href="javascript:scrollTo('Takacs')">L. Takacs</a></li>
+          <li class="chair"><span class="invisible">14:00 - 15:40</span> Session chair <a href="javascript:scrollTo('Takacs')">L. Takacs</a></li>
           <li class="lecture"><span>14:00 - 14:25</span> <span class="type" title="Invited lecture">I-13</span> Recent progress in mechanochemical organic reactions
             <div class="speaker">L. Li, H.-G. Li, H. Xu, <a href="javascript:scrollTo('Wang')">G.-W. Wang</a></div>
           </li>
@@ -237,7 +237,7 @@
 
           <li class="break"><span>15:40 - 16:00</span> Coffee break <i class="fa fa-coffee"></i> (<a href="/location">Building A</a>)</li>
 
-          <li class="chair">Session chair: <a href="javascript:scrollTo('Heitjans')">P. Heitjans</a></li>
+          <li class="chair"><span class="invisible">16:00 - 18:10</span> Session chair <a href="javascript:scrollTo('Heitjans')">P. Heitjans</a></li>
           <li class="lecture"><span>16:00 - 16:15</span> <span class="type" title="Oral presentation">O-18</span> Synthesis by twin screw extrusion (TSE)
             <div class="speaker"><u>D. E. Crawford</u>, S. L. James, C. Miskimmin, A. Albadmin, G. Walker</div>
           </li>
@@ -276,7 +276,7 @@
         <ul class="w3-ul">
           <li class="registration"><span>08:30 - 18:00</span> Registration (<a href="/location">Building B</a>)</li>
 
-          <li class="chair">Session chair: <a href="javascript:scrollTo('Fuentes')">A. F. Fuentes</a></li>
+          <li class="chair"><span class="invisible">08:30 - 10:10</span> Session chair <a href="javascript:scrollTo('Fuentes')">A. F. Fuentes</a></li>
           <li class="lecture"><span>08:30 - 08:55</span> <span class="type" title="Invited lecture">I-18</span> Scenarios and possible mechanisms of structural-phase transformations in alloys at intensive plastic deformation
             <div class="speaker"><a href="javascript:scrollTo('Yermakov')">A. Yermakov</a>, Yu. N. Gornostyrev, I. K. Razumov</div>
           </li>
@@ -292,7 +292,7 @@
 
           <li class="break"><span>10:10 - 10:30</span> Coffee break <i class="fa fa-coffee"></i> (<a href="/location">Building A</a>)</li>
 
-          <li class="chair">Session chair: <a href="javascript:scrollTo('Delogu')">F. Delogu</a></li>
+          <li class="chair"><span class="invisible">10:30 - 12:00</span> Session chair <a href="javascript:scrollTo('Delogu')">F. Delogu</a></li>
           <li class="lecture"><span>10:30 - 10:45</span> <span class="type" title="Oral presentation">O-25</span> Mechanochemical redox reactions as non-conventional pathway in the synthesis of nanostructured alloys
             <div class="speaker"><u>V. F. Ruiz-Ruiz</u>, I. Zumeta-Dubé, R. González-Olvera, I. Betancourt, R. Díaz-Pardo, D. Díaz, N. Farfán, J. Arellano-Jiménez, M. José-Yacamán</div>
           </li>
@@ -314,7 +314,7 @@
 
           <li class="break"><span>12:00 - 14:00</span> Lunch break <i class="fa fa-cutlery"></i> (<a href="/location">Building C</a>)</li>
 
-          <li class="chair">Session chair: <a href="javascript:scrollTo('Oleszak')">D. Oleszak</a></li>
+          <li class="chair"><span class="invisible">14:00 - 15:40</span> Session chair <a href="javascript:scrollTo('Oleszak')">D. Oleszak</a></li>
           <li class="lecture"><span>14:00 - 14:25</span> <span class="type" title="Invited lecture">I-21</span> Plasma assisted absorption and reversible desorption of hydrogen gas in Zr, Ti, V powders using electric discharge assisted mechanical milling method
             <div class="speaker"><a href="javascript:scrollTo('Calka')">A. Calka</a>, A. M. Aksenczuk</div>
           </li>
@@ -330,7 +330,7 @@
 
           <li class="break"><span>15:40 - 16:00</span> Coffee break <i class="fa fa-coffee"></i> (<a href="/location">Building A</a>)</li>
 
-          <li class="chair">Session chair: <a href="javascript:scrollTo('Wilkening')">M. Wilkening</a></li>
+          <li class="chair"><span class="invisible">16:00 - 17:30</span> Session chair <a href="javascript:scrollTo('Wilkening')">M. Wilkening</a></li>
           <li class="lecture"><span>16:00 - 16:15</span> <span class="type" title="Oral presentation">O-31</span> Mechanochemistry – an effective method for producing complex BiFeO<sub>3</sub>-based high-temperature piezoelectric materials
             <div class="speaker"><u>M. Makarovič</u>, A. Benčan Golob, B. Malič, T. Rojac</div>
           </li>
@@ -362,7 +362,7 @@
         <ul class="w3-ul">
           <li class="registration"><span>09:00 - 12:00</span> Registration (<a href="/location">Building B</a>)</li>
 
-          <li class="chair">Session chair: <a href="javascript:scrollTo('Balaz')">P. Baláž</a></li>
+          <li class="chair"><span class="invisible">09:00 - 10:10</span> Session chair <u>P. Baláž</u></li>
           <!--li class="lecture"><span>09:00 - 09:25</span> <span class="type" title="Invited lecture">I-26</span> Synthesis of Ag<sub>2</sub>O via mechanical decomposition of Ag<sub>7</sub>O<sub>8</sub>NO<sub>3</sub>
             <div class="speaker"><a href="javascript:scrollTo('Billik')">P. Billik</a></div>
           </li-->
@@ -375,7 +375,7 @@
 
           <li class="break"><span>10:10 - 10:30</span> Coffee break <i class="fa fa-coffee"></i> (<a href="/location">Building A</a>)</li>
 
-          <li class="chair">Session chair: <a href="javascript:scrollTo('Kumar')">R. Kumar</a></li>
+          <li class="chair"><span class="invisible">10:30 - 12:00</span> Session chair <a href="javascript:scrollTo('Kumar')">R. Kumar</a></li>
           <li class="lecture"><span>10:30 - 10:45</span> <span class="type" title="Oral presentation">O-37</span> Effect of particle density on powder mixing in a rotating drum for hydrogen generation
             <div class="speaker"><u>J. Kano</u>, S. Ishihara, M. Yamamoto</div>
           </li>
@@ -397,7 +397,7 @@
 
           <li class="break"><span>12:00 - 14:00</span> Lunch break <i class="fa fa-cutlery"></i> (<a href="/location">Building C</a>)</li>
 
-          <li class="chair">Session chair: <a href="javascript:scrollTo('Chattopadhyay')">K. Chattopadhyay</a></li>
+          <li class="chair"><span class="invisible">14:00 - 15:30</span> Session chair <a href="javascript:scrollTo('Chattopadhyay')">K. Chattopadhyay</a></li>
           <li class="lecture"><span>14:00 - 14:15</span> <span class="type" title="Oral presentation">O-43</span> Acid leaching performance of mechanically activated pyrophyllite ore for Al<sub>2</sub>O<sub>3</sub> extraction
             <div class="speaker"><u>M. Erdemoğlu</u>, M. Birinci, T. Uysal, E. Porgalı, T. S. Barry</div>
           </li>
@@ -417,7 +417,7 @@
             <div class="speaker">V. L. Kozhevnikov, A. O. Ivanov, B. Verbitsky, <u>K. Chuntonov</u></div>
           </li>
 
-          <li class="chair">Session chair: <a href="javascript:scrollTo('Senna')">M. Senna</a> and <a href="javascript:scrollTo('Sepelak')">V. Šepelák</a></li>
+          <li class="chair"><span class="invisible">15:30 - 16:00</span> Session chair <a href="javascript:scrollTo('Senna')">M. Senna</a> and <u>V. Šepelák</u></li>
           <li class="break"><span>15:30 - 16:00</span> Discussion / Concluding remarks <i class="fa fa-comments"></i></li>
         </ul>
       </div>

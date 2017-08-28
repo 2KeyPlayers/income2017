@@ -543,10 +543,11 @@ u {
 #program .w3-ul li.lecture {
   font-style: italic;
 }
-#program .w3-ul li.chair {
+/*#program .w3-ul li.chair {
   text-align: center;
-}
+}*/
 #program .w3-ul li.chair a {
+  float: right;
   color: #404040 !important;
   text-decoration: underline !important;
 }
