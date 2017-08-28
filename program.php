@@ -417,7 +417,7 @@
             <div class="speaker">V. L. Kozhevnikov, A. O. Ivanov, B. Verbitsky, <u>K. Chuntonov</u></div>
           </li>
 
-          <li class="chair"><span class="invisible">15:30 - 16:00</span> Session chair <a href="javascript:scrollTo('Senna')">M. Senna</a> and <u>V. Šepelák</u></li>
+          <li class="chair"><span class="invisible">15:30 - 16:00</span> Session chair <u>&nbsp;and V. Šepelák</u><a href="javascript:scrollTo('Senna')">M. Senna</a></li>
           <li class="break"><span>15:30 - 16:00</span> Discussion / Concluding remarks <i class="fa fa-comments"></i></li>
         </ul>
       </div>

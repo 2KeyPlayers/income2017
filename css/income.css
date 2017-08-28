@@ -546,7 +546,7 @@ u {
 /*#program .w3-ul li.chair {
   text-align: center;
 }*/
-#program .w3-ul li.chair a {
+#program .w3-ul li.chair a, #program .w3-ul li.chair u {
   float: right;
   color: #404040 !important;
   text-decoration: underline !important;
