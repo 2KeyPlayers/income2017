@@ -204,13 +204,21 @@
     <div class="section right w3-half" style="padding-top:0!important">
       <h3>Local Organizing Committee</h3>
       <ul class="w3-ul w3-margin-left">
+        <li>E. Tóthová – Scientific Secretary</li>
+        <li>J. Žaková – Economic Secretary</li>
         <li>M. Baláž</li>
         <li>P. Baláž</li>
+        <li>A. Bekényiová</li>
         <li>Z. Bujňáková</li>
+        <li>Z. Danková</li>
         <li>M. Fabián</li>
+        <li>M. Hegedüš</li>
+        <li>K. Mrážiková</li>
         <li>K. Stuchlá</li>
-        <li>E. Tóthová (Turianicová)</li>
-        <li>J. Žaková</li>
+        <li>M. Tešinský</li>
+        <li>P. Tóth</li>
+        <li>K. Žaková</li>
+        <li>V. Žaková</li>
       </ul>
     </div>
     <div class="section left w3-half" style="padding-top:0!important;padding-bottom:0!important">
