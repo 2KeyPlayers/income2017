@@ -168,7 +168,7 @@
             <div class="speaker"><u>R. Eckert</u>, M. Felderhoff, F. Schüth</div>
           </li>
 
-          <li class="break"><span>17:05 - 18:05</span> <!--a href="javascript:scrollTo('poster-session-1')"-->Poster session I (<a href="/location">Building A</a>)</li>
+          <li class="break"><span>17:05 - 18:05</span> <!--a href="javascript:scrollTo('poster-session-1')"-->Poster session I (<a href="/location">Building B</a>)</li>
         </ul>
       </div>
     </div>
@@ -263,7 +263,7 @@
             <div class="speaker"><a href="javascript:scrollTo('Boldyreva')">E. V. Boldyreva</a></div>
           </li>
 
-          <li class="break"><span>18:10 - 19:10</span> <!--a href="javascript:scrollTo('poster-session-2')"-->Poster session II (<a href="/location">Building A</a>)</li>
+          <li class="break"><span>18:10 - 19:10</span> <!--a href="javascript:scrollTo('poster-session-2')"-->Poster session II (<a href="/location">Building B</a>)</li>
           <li class="break"><span>19:30 - 22:00</span> Meeting of the International Advisory Committee of INCOME</li>
         </ul>
       </div>
@@ -893,7 +893,7 @@ $(document).ready(function() {
 
 <div id="footer" class="w3-container">
   <ul class="w3-navbar w3-tiny">
-    <li><a href="http://2keyplayers.com" target="_blank" style="display:inline-block">&copy; 2016-2017 INCOME2017, <i class="fa fa-code"></i> by Patrik Tóth</a></li>
+    <li><a href="http://2keyplayers.com" target="_blank" style="display:inline-block">&copy; 2016-2017 INCOME2017, <i class="fa fa-code"></i> Patrik Tóth</a></li>
   </ul>
 </div>
 

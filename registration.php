@@ -320,7 +320,7 @@ window.onclick = function(event) {
 
 <div id="footer" class="w3-container">
   <ul class="w3-navbar w3-tiny">
-    <li><a href="http://2keyplayers.com" target="_blank" style="display:inline-block">&copy; 2016-2017 INCOME2017, <i class="fa fa-code"></i> by Patrik Tóth</a></li>
+    <li><a href="http://2keyplayers.com" target="_blank" style="display:inline-block">&copy; 2016-2017 INCOME2017, <i class="fa fa-code"></i> Patrik Tóth</a></li>
   </ul>
 </div>
 
