@@ -136,7 +136,7 @@ function plusOneDay() {
 		      <hr />
           <p>Limited quantity</p>
         </div>
-        <a href="/register/regular-5" class="register w3-btn-block">REGISTER&nbsp;&nbsp;❯</a>
+        <a href="javascript:void(0)" class="register w3-btn-block"><i class="fa fa-ban"></i> REGISTER</a>
       </div>
     </div>
     <div class="section right w3-half">
@@ -147,11 +147,11 @@ function plusOneDay() {
         </div>
         <div style="padding-bottom:7px;padding-top:0">
 		      <hr />
-          <p><a class="minus plusminus disabled" href="javascript:minusOneDay()"><i class="fa fa-minus-square"></i></a> Daily access <a class="plus plusminus" href="javascript:plusOneDay()"><i class="fa fa-plus-square"></i></a></p>
+          <p><a class="minus plusminus disabled" href="javascript:void(0)"><i class="fa fa-minus-square"></i></a> Daily access <a class="plus plusminus disabled" href="javascript:void(0)"><i class="fa fa-plus-square"></i></a></p>
 		      <hr />
           <p>Limited quantity</p>
         </div>
-        <a href="/register/regular-1" class="regular-x register w3-btn-block">REGISTER&nbsp;&nbsp;❯</a>
+        <a href="javascript:void(0)" class="register w3-btn-block"><i class="fa fa-ban"></i> REGISTER</a>
       </div>
     </div>
     <div class="section left w3-half">
@@ -166,7 +166,7 @@ function plusOneDay() {
 		      <hr />
           <p>Limited quantity</p>
         </div>
-        <a href="/register/student" class="register w3-btn-block">REGISTER&nbsp;&nbsp;❯</a>
+        <a href="javascript:void(0)" class="register w3-btn-block"><i class="fa fa-ban"></i> REGISTER</a>
       </div>
     </div>
     <div class="section right w3-half">
@@ -181,8 +181,7 @@ function plusOneDay() {
 		      <hr />
           <p>Limited quantity</p>
         </div>
-        <a href="/register/exhibitor" class="register w3-btn-block">REGISTER&nbsp;&nbsp;❯</a>
-        <!--a href="javascript:openModal()" class="register w3-btn-block">REGISTER&nbsp;&nbsp;❯</a-->
+        <a href="javascript:void(0)" class="register w3-btn-block"><i class="fa fa-ban"></i> REGISTER</a>
       </div>
     </div>
     <!--div class="section full w3-container">
@@ -194,7 +193,7 @@ function plusOneDay() {
     <p>If you need an official invitation letter for the purpose of a visa application to attend the conference, please contact us via email <a href="mailto:income2017@saske.sk">income2017@saske.sk</a>. Please include your full mailing address and, if presenting, the title of your presentation.</p>
   </div>
 
-  <div id="payment" class="w3-row">
+  <!--div id="payment" class="w3-row">
     <div class="section left w3-third">
       <h1><i class="fa fa-credit-card icon"></i> Payment</h1>
       <h3>Bank transfer</h3>
@@ -214,7 +213,6 @@ function plusOneDay() {
     <div class="section middle w3-third">
       <h1 class="empty">&nbsp;</h1>
       <h3>Credit card</h3>
-      <!--p>Credit card payments will be activated on <span class="start">15.02.2017</span> in <span class="days"></span> days <span class="hours"></span> hours <span class="minutes"></span> minutes <span class="seconds"></span> seconds.</p-->
       <p>Credit card payment is provided by <a href="https://www.vub.sk/en/personal-finance/" target="_blank">VUB Banka</a> using <a href="https://www.vub.sk/en/companies-entrepreneurs/accounts-services/payments/ecommerce-merchants/vub-ecard/" target="_blank">VUB eCard</a> service. Following cards are accepted by eCard:</p>
       <h1 class="grey"><i class="fa fa-cc-mastercard" title="MasterCard"></i> <i class="fa fa-cc-visa" title="VISA"></i> <i class="fa fa-cc-diners-club" title="Diners Club"></i></h1>
       <div class="status-message visible">
@@ -237,12 +235,9 @@ function plusOneDay() {
     <div class="section right w3-third">
       <h1 class="empty">&nbsp;</h1>
       <h3>On-site</h3>
-      <!--div>
-        <p class="warning message w3-center">Any fees charged by remitting banks are to be paid by the conference participants.</p>
-      </div-->
       <p>It is possible to pay the conference fee on-site at the registration desk.</p>
     </div>
-  </div>
+  </div-->
 
 </div>
 
