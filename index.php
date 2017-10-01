@@ -215,6 +215,7 @@
         <li>M. Hegedüš</li>
         <li>K. Mrážiková</li>
         <li>K. Stuchlá</li>
+        <li>K. Stuchlá ml.</li>
         <li>M. Tešinský</li>
         <li>P. Tóth</li>
         <li>K. Žaková</li>
