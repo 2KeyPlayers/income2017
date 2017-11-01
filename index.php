@@ -70,7 +70,7 @@
     </div>
     <div class="hero-big"><span class="in">I</span><span class="in">N</span><span class="co">C</span><span class="co">O</span><span class="me">M</span><span class="me">E</span><div class="sep"></div><span class="year">2</span><span class="year">0</span><span class="year">1</span><span class="year">7</span></div>
 	<div class="hero-normal">9<sup>th</sup> International Conference on Mechanochemistry and Mechanical Alloying</div>
-	<!--div class="hero-button"><a href="registration.html" class="button">Register</a></div-->
+	<div class="hero-button"><a href="/photos" class="button">Photos</a></div>
   </div>
   <div class="hero-scroller"><div class="animated bounce"><a href="javascript:scrollDown()"><i class="fa fa-chevron-down"></i></a></div></div>
 </div>

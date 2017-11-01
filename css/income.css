@@ -146,6 +146,9 @@ textarea {
 #hero .hero-button {
   margin-top: 50px;
 }
+#hero .hero-button a.button:hover {
+  text-decoration: none !important;
+}
 #hero .hero-scroller {
   position: absolute;
   width: 100%;
@@ -210,7 +213,7 @@ textarea {
   border: 1px solid #404040;
   margin-top: 16px;
   padding: 16px 32px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 #hero .button:hover {
   border: 1px solid #0070c0;
@@ -835,6 +838,40 @@ form .buttons {
 
 /* Photos */
 
+.photo {
+  padding: 0 !important;
+  text-align: center;
+}
+.photo .w3-image {
+  overflow: hidden;
+  padding: 0 !important;
+  margin: 4px !important;
+}
+.photo img {
+  display: inline-block;
+  width: 100%;
+  padding: 0 !important;
+  margin: 0 0 -10px 0 !important;
+  -moz-transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+}
+.photo a:hover img {
+  -moz-transform: scale(1.08);
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+.photo.portrait img {
+  width: 43%;
+}
+
+.photo:nth-child(3n+1) {
+  clear: left !important;
+}
+.photo:nth-child(2n+1) {
+  clear: none !important;
+}
+
 .gallery {
   display: none;
   position: fixed;
@@ -1090,6 +1127,13 @@ ul.w3-ul.banking, ul.w3-ul.personal, ul.w3-ul.affiliation {
 .top {
   right: 16px;
 }
+
+.photo:nth-child(3n+1) {
+  clear: none !important;
+}
+.photo:nth-child(2n+1) {
+  clear: left !important;
+}
 }
 
 @media only screen and (max-width:600px) {
@@ -1168,6 +1212,10 @@ h1.empty, h3.empty { /*, i.icon {*/
 
 .transportation .location:nth-child(n+2) {
   margin-top: 32px !important;
+}
+
+.photo {
+  clear: none !important;
 }
 }
 

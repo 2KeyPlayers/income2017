@@ -62,6 +62,10 @@
 
 <body>
 
+<?php
+error_reporting (E_ALL ^ E_NOTICE);
+?>
+
 <div id="navigation" class="fixed w3-container">
   <ul class="navigation-toggler w3-navbar w3-large">
     <li style="text-align:center"><a href="/" style="display:inline-block; float:left"><span class="in">I</span><span class="in">N</span><span class="co">C</span><span class="co">O</span><span class="me">M</span><span class="me">E</span><span class="year">2</span><span class="year">0</span><span class="year">1</span><span class="year">7</span></a><a href="javascript:toggleNavigation()" style="display:inline-block; float:right"><i class="fa fa-bars"></i><i class="fa fa-close" style="display:none; margin-right:1px"></i></a></li>
@@ -82,64 +86,35 @@
 
   <div class="section full w3-container">
     <h1><i class="fa fa-photo icon"></i> Photos</h1>
+
+<?php
+$result = stripslashes($_POST["result"]);
+?>
+<?php if ($result != "OK") : ?>
+    <div class="status-message"></div>
+    <form id="login-form">
+      <label class="w3-label">Password</label>
+      <input id="pwd" name="pwd" maxlength="12" class="w3-input w3-border" type="password" placeholder="Password" />
+      <p class="w3-center">
+        <button name="view" type="submit" class="login button w3-btn">View&nbsp;&nbsp;❯</button>
+      </p>
+    </form>
+    <form id="photos-form" method="post" action="/photos">
+      <input id="result" name="result" type="hidden" />
+    </form>
+<?php else : ?>
     <div class="w3-row">
-<?php for ($i = 1; $i < 136; $i++) : ?>
-      <div class="w3-col l3 m6 w3-center">
-        <!--a href="javascript:openGallery(<?php echo $i; ?>)"-->
-        <img class="w3-image" src="img/photo/thumb/<?php echo $i; ?>.jpg" alt="Photo <?php echo $i; ?>" />
+<?php for ($i = 1; $i <= 136; $i++) : ?>
+      <div class="photo w3-col l4 m6 <?php if ($i == 16 || $i == 23 || $i == 47 || $i == 75 || $i == 100 || $i == 101 || $i == 104 || $i == 122) { echo 'portrait'; } ?>">
+        <div class="w3-image"><a href="javascript:openGallery(<?php echo $i; ?>)"><img src="img/photo/thumb/<?php echo $i; ?>.jpg" alt="Photo <?php echo $i; ?>" /></a></div>
       </div>
 <?php endfor; ?>
     </div>
+<?php endif; ?>
   </div>
-
-    <!--div id="payment" class="w3-row">
-    <div class="section left w3-third">
-      <h1><i class="fa fa-credit-card icon"></i> Payment</h1>
-      <h3>Bank transfer</h3>
-      <div>
-        <p class="warning message w3-center">Any fees charged by remitting banks are to be paid by the conference participants.</p>
-      </div>
-      <ul class="banking w3-ul">
-        <li><span class="bank w3-left">Bank name</span> <br /> VUB Banka</li>
-        <li><span class="bank w3-left">Bank address</span> <br /> Mlynské nivy 1, 829 90 Bratislava 25, Slovakia</li>
-        <li><span class="bank w3-left">Account name (Beneficiary's name)</span> <br /> Slovensky komitet medzinarodnej mechanochemickej asociacie</li>
-        <li><span class="bank w3-left">Account number (IBAN)</span> <br /> SK34 0200 0000 0000 2043 0542</li>
-        <li><span class="bank w3-left">BIC (SWIFT)</span> <br /> SUBASKBX</li>
-        <li><span class="bank w3-left">Variable symbol (Sort code)</span> <br /> {Payment ID from your registration e-mail}</li>
-        <li><span class="bank w3-left">Payment note (Information for beneficiary)</span> <br /> INCOME2017, {your family name}</li>
-      </ul>
-    </div>
-    <div class="section middle w3-third">
-      <h1 class="empty">&nbsp;</h1>
-      <h3>Credit card</h3>
-      <p>Credit card payment is provided by <a href="https://www.vub.sk/en/personal-finance/" target="_blank">VUB Banka</a> using <a href="https://www.vub.sk/en/companies-entrepreneurs/accounts-services/payments/ecommerce-merchants/vub-ecard/" target="_blank">VUB eCard</a> service. Following cards are accepted by eCard:</p>
-      <h1 class="grey"><i class="fa fa-cc-mastercard" title="MasterCard"></i> <i class="fa fa-cc-visa" title="VISA"></i> <i class="fa fa-cc-diners-club" title="Diners Club"></i></h1>
-      <div class="status-message visible">
-        <p class="warning message w3-center">After clicking the Log in button you will be redirected to a secured connection. Please add and confirm an exception for &apos;income2017.saske.sk&apos; to continue.<br/><span style="color:#ff0000">May not work correctly when using Internet Explorer.</span></p>
-      </div>
-      <form id="login-form">
-        <label class="w3-label">Payment ID</label>
-        <input id="payment-id" name="paymentid" maxlength="10" class="w3-input w3-border" type="text" placeholder="Payment ID" />
-        <label class="w3-label">Password</label>
-        <input id="pwd" name="pwd" maxlength="10" class="w3-input w3-border" type="password" placeholder="Password" />
-        <p class="w3-center">
-          <button name="login" type="submit" class="login button w3-btn">Log in&nbsp;&nbsp;❯</button>
-        </p>
-      </form>
-      <form id="payment-form" method="post" action="https://income2017.saske.sk/payment">
-        <input id="confirmed-payment-id" name="paymentid" type="hidden" />
-        <input id="confirmed-pwd" name="pwd" type="hidden" />
-      </form>
-    </div>
-    <div class="section right w3-third">
-      <h1 class="empty">&nbsp;</h1>
-      <h3>On-site</h3>
-      <p>It is possible to pay the conference fee on-site at the registration desk.</p>
-    </div>
-  </div-->
-
 </div>
 
+<?php if ($result == "OK") : ?>
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 
     <!-- Background of PhotoSwipe.
@@ -205,34 +180,7 @@
     </div>
 
 </div>
-
-<!--div id="gallery" class="gallery">
-  <span class="close cursor" onclick="closeGallery()">&times;</span>
-  <div class="gallery-content">
-
-    <div class="gallery-slide">
-      <div class="numbertext">1 / 2</div>
-      <img src="img/photo/1.jpg" style="width:100%" alt="Photo 1" />
-    </div>
-    <div class="gallery-slide">
-      <div class="numbertext">2 / 2</div>
-      <img src="img/photo/2.jpg" style="width:100%" alt="Photo 2" />
-    </div>
-
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-  </div>
-</div-->
-
-<!--div id="modal" class="w3-modal">
-  <div class="w3-modal-content w3-animate-top">
-    <div class="w3-container w3-center">
-      <p>Registration for exhibitors not open yet.</p>
-      <a href="javascript:closeModal()" class="w3-btn" style="margin-bottom:15px;background:#0070c0">OK</a>
-    </div>
-  </div>
-</div-->
+<?php endif; ?>
 
 <a href="javascript:void(0)" class="top"><i class="fa fa-chevron-circle-up"></i></a>
 
@@ -252,33 +200,8 @@ $(document).ready(function() {
 
 });
 
-var pswpElement = document.querySelectorAll('.pswp')[0];
-
-// build items array
-var items = [
-  <?php for ($i = 1; $i <= 136; $i++) : ?>
-  {
-      src: '/img/photo/<?php echo $i; ?>.jpg',
-      w: 1800,
-      h: 1192
-  },
-  <?php endfor; ?>
-];
-
-function openGallery(index) {
-  // define options (if needed)
-  var options = {
-      // optionName: 'option value'
-      // for example:
-      index: (index - 1) // start at first slide
-  };
-
-  // Initializes and opens PhotoSwipe
-  var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
-  gallery.init();
-}
-
-/*$("#login-form").submit(function() {
+<?php if ($result != "OK") : ?>
+$("#login-form").submit(function() {
 
   // 'this' refers to the current submitted form
   var str = $(this).serialize();
@@ -286,14 +209,12 @@ function openGallery(index) {
 
   $.ajax({
     type: "POST",
-    url: "/login",
+    url: "/view",
     data: str,
     success: function(msg) {
       if (msg.startsWith("OK")) {
-        var values = msg.split("|");
-        $("#confirmed-payment-id").val(values[1]);
-        $("#confirmed-pwd").val(values[2]);
-        $("#payment-form").submit();
+        $("#result").val("OK");
+        $("#photos-form").submit();
       }
       else {
         result = "<p class=\"error message w3-center\">".concat(msg);
@@ -305,20 +226,40 @@ function openGallery(index) {
     }
   });
   return false;
-});*/
+});
+<?php else : ?>
+var pswpElement = document.querySelectorAll('.pswp')[0];
 
-/*var modal = document.getElementById("modal");
-function openModal() {
-  modal.style.display = "block";
-}
-function closeModal() {
-  modal.style.display = "none";
-}
-window.onclick = function(event) {
-  if (event.target == modal) {
-    closeModal();
+// build items array
+var items = [
+  <?php for ($i = 1; $i < 136; $i++) : ?>
+  {
+      src: 'img/photo/<?php echo $i; ?>.jpg',
+      <?php if ($i == 16 || $i == 23 || $i == 47 || $i == 75 || $i == 100 || $i == 101 || $i == 104 || $i == 122) : ?>
+      w: 1192,
+      h: 1800
+      <?php else : ?>
+      w: 1800,
+      h: 1192
+      <?php endif; ?>
+  },
+  <?php endfor; ?>
+  {
+      src: 'img/photo/136.jpg',
+      w: 1800,
+      h: 1192
   }
-}*/
+];
+
+function openGallery(index) {
+  var options = {
+      index: (index - 1)
+  };
+
+  var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
+  gallery.init();
+}
+<?php endif; ?>
 </script>
 
 <div id="footer" class="w3-container">

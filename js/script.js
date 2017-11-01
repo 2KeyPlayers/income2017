@@ -99,7 +99,7 @@ function showDetails(id) {
 function toggleDetails(id) {
   /*$("#transportation .w3-accordion-content").hide();
   $("#transportation a.airport").find("i.toggler").removeClass("fa-minus-square-o").addClass("fa-plus-square-o");*/
-  
+
   var details = $("#" + id);
   details.toggle();
   var button = details.parent().find("i." + id).first();

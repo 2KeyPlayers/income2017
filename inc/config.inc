@@ -4,6 +4,8 @@ define ('USERNAME', '???');
 define ('PASSWORD', '???');
 define ('DBNAME', '???');
 
+define ('PHOTOS_PASSWORD', '???');
+
 define ('VUB_ID', 12345678);
 define ('VUB_KEY', '???');
 
