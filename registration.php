@@ -281,7 +281,7 @@ $("#login-form").submit(function() {
     url: "/login",
     data: str,
     success: function(msg) {
-      if (msg.startsWith("OK")) {
+      if (msg.lastIndexOf("OK") == 0) {
         var values = msg.split("|");
         $("#confirmed-payment-id").val(values[1]);
         $("#confirmed-pwd").val(values[2]);

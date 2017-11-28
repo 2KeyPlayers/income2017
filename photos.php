@@ -212,7 +212,7 @@ $("#login-form").submit(function() {
     url: "/view",
     data: str,
     success: function(msg) {
-      if (msg.startsWith("OK")) {
+      if (msg.lastIndexOf("OK") == 0) {
         $("#result").val("OK");
         $("#photos-form").submit();
       }
