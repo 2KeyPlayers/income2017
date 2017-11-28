@@ -56,6 +56,18 @@ function initializeCounter(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
+function toggleAbstract() {
+  $(".abstract").toggle();
+  var button = $(".abstract-toggler i");
+  if (button.is(".fa-angle-up")) {
+    button.addClass("fa-angle-down");
+    button.removeClass("fa-angle-up");
+  } else {
+    button.removeClass("fa-angle-down");
+    button.addClass("fa-angle-up");
+  }
+}
+
 function toggleNavigation() {
   var nav = $(".navigation");
   nav.slideToggle(400, function() {

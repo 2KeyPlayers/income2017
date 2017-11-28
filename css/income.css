@@ -417,6 +417,10 @@ ul.w3-ul li, ol.w3-ul li {
   clear: left !important;
 }
 
+.abstract {
+  display: none;
+}
+
 /*#topics ul.listing {
   list-style-type: circle;
   list-style-position: outside;
@@ -806,10 +810,10 @@ ol.w3-ul.session-2 li:nth-child(n+10):before {
 .status-message.visible {
   display: block;
 }
-.status-message .w3-closebtn {
+.status-message .w3-closebtn, .message .w3-closebtn {
   font-size: inherit;
 }
-.status-message .w3-closebtn:hover {
+.status-message .w3-closebtn:hover, .message .w3-closebtn:hover {
   color: #d9d9d9;
 }
 form .buttons {
